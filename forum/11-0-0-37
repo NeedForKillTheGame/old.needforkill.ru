@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pff.clan.su - Форум</title>
+		<link>http://needforkill.ru/forum/</link>
+		<description>pff.clan.su - Форум</description>
+
+		<lastBuildDate>Sun, 08 Aug 2010 19:43:43 GMT</lastBuildDate>
+		<generator>uCoz Web-Service</generator>
+		<atom:link href="http://needforkill.ru/forum/rss" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Quake Live</title>
+			<link>http://needforkill.ru/forum/11-498-1</link>
+			<pubDate>Sun, 08 Aug 2010 19:43:43 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/11&quot;&gt;Quake III, IV&lt;/a&gt;&lt;br /&gt;Автор темы: connect&lt;br /&gt;Автор последнего сообщения: connect&lt;br /&gt;Количество ответов: 0</description>
+			<content:encoded>QuakeLive перестала быть бетой. &lt;p&gt; &lt;!--uzquote--&gt;&lt;div class=&quot;bbQuoteBlock&quot;&gt;&lt;div class=&quot;bbQuoteName&quot; style=&quot;padding-left:5px;font-size:7pt&quot;&gt;&lt;b&gt;Quote&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;quoteMessage&quot; style=&quot;border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight&lt;5?this.style.height:scrollHeight&gt;200?&apos;200px&apos;:&apos;&apos;+(this.scrollHeight+5)+&apos;px&apos;);&quot;&gt;&lt;!--uzq--&gt;Welcome to QUAKE LIVE SITE NEWS | Aug 6, 2010 | SyncError &lt;p&gt; In addition to the &apos;Standard&apos; free-to-play version, today we&apos;ve announced our &apos;Premium&apos; and &apos;Pro&apos; subscriptions -- adding new maps, game modes, and plenty more. Details below… &lt;p&gt; The Premium Subscription, which can be purchased for $1.99 per month, billed annually, includes: &lt;p&gt; * Access to 20 QUAKE LIVE Premium only maps at launch with more to come. Premium maps are a combination of brand new maps and frequently requested community favorites from previous QUAKE games such as Aerowalk, Theater of Pain, Japanese Castles, and Realm of Steel Rats; &lt;br /&gt; * An all new &apos;Freeze Tag&apos; game mode; &lt;br /&gt; * Exclusive premium level awards; &lt;br /&gt; * Create your own clan and join up to five separate clans; &lt;br /&gt; * Custom QUAKE LIVE profile wallpaper; and &lt;br /&gt; * Match statistics stored for six months. &lt;p&gt; The Pro Subscription, which can be purchased for $3.99 per month, billed annually, includes all of the premium subscription features as well as: &lt;p&gt; * The ability to start your own game server, specify a server location, determine the game mode and invite who you want to join you; &lt;br /&gt; * With the Pro Subscription, you can invite three friends with Standard level memberships to play with you in any Premium level map; &lt;br /&gt; * Exclusive pro awards; &lt;br /&gt; * Create your own clan and join up to ten separate clans; and &lt;br /&gt; * Match statistics stored for 12 months. &lt;p&gt; The QUAKE LIVE &apos;Standard&apos; version is still free to play and includes friend lists, access to one clan, matchmaking, and stats tracking delivered through a web browser with over 40 arenas and five game modes. &lt;!--/uzq--&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--/uzquote--&gt;</content:encoded>
+			<category>Quake III, IV</category>
+			<dc:creator>connect</dc:creator>
+			<guid>http://needforkill.ru/forum/11-498-1</guid>
+		</item>
+		<item>
+			<title>Quake III</title>
+			<link>http://needforkill.ru/forum/11-29-1</link>
+			<pubDate>Sun, 06 Jun 2010 09:21:36 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/11&quot;&gt;Quake III, IV&lt;/a&gt;&lt;br /&gt;Автор темы: coolant&lt;br /&gt;Автор последнего сообщения: Rh&lt;br /&gt;Количество ответов: 45</description>
+			<content:encoded>Хорошая игра, из-за нее и появился NFK =) &lt;br /&gt; Если кто хочет можем сыграть, а то с ботами уже надоело гонять...</content:encoded>
+			<category>Quake III, IV</category>
+			<dc:creator>coolant</dc:creator>
+			<guid>http://needforkill.ru/forum/11-29-1</guid>
+		</item>
+		<item>
+			<title>Quake@</title>
+			<link>http://needforkill.ru/forum/11-50-1</link>
+			<pubDate>Wed, 02 Jan 2008 13:37:02 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/11&quot;&gt;Quake III, IV&lt;/a&gt;&lt;br /&gt;Автор темы: Mezomaster&lt;br /&gt;Автор последнего сообщения: fireball-777&lt;br /&gt;Количество ответов: 35</description>
+			<content:encoded>Давай те собиремся и поиграем в кваку2... хоть графика не гут, но зато можно вспомнить много чего подзабыли 8-)</content:encoded>
+			<category>Quake III, IV</category>
+			<dc:creator>Mezomaster</dc:creator>
+			<guid>http://needforkill.ru/forum/11-50-1</guid>
+		</item>
+	</channel>
+</rss>

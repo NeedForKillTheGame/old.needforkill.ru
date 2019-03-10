@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>клантрен - pff.clan.su - Форум</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../.s/src/base.css" />
+	<link rel="stylesheet" href="../.s/src/layer1.css" />
+
+	<script src="../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.924775641627818"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+	function Insert(qmid, user, text ) {
+		user = user.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+		if (!!text ) {
+			qmid = qmid.replace(/[^0-9]/g, "");
+			paste("[quote="+user+";"+qmid+"]"+text+"[/quote]\n", 0);
+		} else {
+			_uWnd.alert('Выделите текст для цитирования', '', {w:230, h:80, tm:3000});
+		}
+	}
+
+	function paste(text, flag ) {
+		if (document.selection && flag ) {
+			document.addform.message.focus();
+			document.addform.document.selection.createRange().text = text;
+		} else {
+			document.addform.message.value += text;
+		}
+	}
+
+	function get_selection() {
+		if (window.getSelection ) {
+			selection = window.getSelection().toString();
+		} else if (document.getSelection ) {
+			selection = document.getSelection();
+		} else {
+			selection = document.selection.createRange().text;
+		}
+	}
+
+	function pdel(id, n ) {
+		if (confirm('Вы подтверждаете удаление?') ) {
+			(window.pDelBut = document.getElementById('dbo' + id))
+				&& (pDelBut.width = pDelBut.height = 13) && (pDelBut.src = '/.s/img/ma/m/i2.gif');
+			_uPostForm('', {url:'/forum/28-527-' + id + '-8-0-542145435021213047507', 't_pid': n});
+		}
+	}
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../.s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="28-0-0-37" class="rss-lnk">RSS</a> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../index.html" ><span>Главная</span></a></li>
+<li><a  href="../news.html" ><span>Новости</span></a></li>
+<li><a  href="../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../photo.html" ><span>Фото альбом</span></a></li>
+<li><a class=" uMenuItemA" href="../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../video.html" ><span>Видео</span></a></li>
+<li><a  href="../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ <div class="forum-box">
+ <div class="forumContent"><table border="0" cellpadding="0" height="30" cellspacing="0" width="100%">
+<tr>
+<td align="right">[
+<a class="fNavLink" href="0-0-1-34.html" rel="nofollow"><!--<s5209>-->Новые сообщения<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-1-35.html" rel="nofollow"><!--<s5216>-->Участники<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-36.html" rel="nofollow"><!--<s5166>-->Правила форума<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-6.html" rel="nofollow"><!--<s3163>-->Поиск<!--</s>--></a> &middot; 
+<a class="fNavLink" href="28-0-0-37" rel="nofollow">RSS</a> ]</td>
+</tr>
+</table>
+
+
+
+<table class="ThrTopButtonsTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrTopButtonsRow1">
+		<td width="50%" class="ThrTopButtonsCl11"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">1</span></li>
+	 <li class="switchActive">1</li> 
+</ul></td>
+		<td align="right" class="frmBtns ThrTopButtonsCl12"><div id="frmButns83"><a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Ответить" src="../.s/img/fr/bt/36/t_reply.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новая тема" src="../.s/img/fr/bt/36/t_new.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новый опрос" src="../.s/img/fr/bt/36/t_poll.gif" /></a></div></td></tr>
+	<tr class="ThrTopButtonsRow2">
+	<td class="forumModerBlock ThrTopButtonsCl21"><span class="moders-wrapper">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-ScorPION', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">ScorPION</a></span></td>
+	<td class="ThrTopButtonsCl22">&nbsp;</td></tr>
+</table>
+<table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="28.html">Клан RA</a> &raquo; <a class="forumBarA" href="28-527-0-17-1.html">клантрен</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/28-527" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table>
+
+<div class="gDivLeft">
+	<div class="gDivRight">
+		<table class="gTable" border="0" width="100%" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="gTableTop">
+				<div style="float:right" class="gTopCornerRight"></div>
+				клантрен
+				</td></tr><tr id="post10497"><td class="postFirst"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]lRke[/b],');return false;">lRke</a></td><td class="postTdTop">Дата: Пн, 2010-12-20, 12:25 | Сообщение # <a rel="nofollow" name="10497" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10497-16-1292837126'); return false;">1</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<div class="postRankName">Молчун</div>
+
+<div class="postRankIco"><img alt="" style="margin:0;padding:0;border:0;" name="groupIcon" src="http://s1.ucoz.net/img/fr/friends.png" title="Друзья" /></div>
+<div class="postUserGroup">Группа: Друзья</div>
+
+<div class="numposts">Сообщений: <span="unp">5</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1601'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10497" edit-url="">будет состоять из обсуждений и отработки действий в tdm, сtf и дуэлей. <br /> кто когда может отпишитесь</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1601', 'up1601', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10498"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]ScorPION[/b],');return false;">ScorPION</a></td><td class="postTdTop">Дата: Пн, 2010-12-20, 13:53 | Сообщение # <a rel="nofollow" name="10498" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10498-16-1292842410'); return false;">2</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="ScorPION" class="userAvatar" border="0" src="../avatar/03/5027-924863.gif"><div class="postRankName">Активист</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank7.gif" title="Ранг 7" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">274</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-116'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10498" edit-url="">т.е тренировка клана это мероприятие, которое будет направлено на отработку действий? <br /> Или же тут, на всеобщее обозрение, мы должны с вами это обсудить? <p> Если мероприятие, то я c 20 до 23 по МСК смогу (сегодня). Буду в ICQ.</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Бобрый день.</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-116', 'up116', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 351894404" onclick="prompt('ICQ number','351894404');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10500"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]DeadHead[/b],');return false;">DeadHead</a></td><td class="postTdTop">Дата: Пн, 2010-12-20, 22:25 | Сообщение # <a rel="nofollow" name="10500" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10500-16-1292873118'); return false;">3</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="DeadHead" class="userAvatar" border="0" src="../avatar/28/9691-117162.jpg"><div class="postRankName">Постоялец</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank4.gif" title="Ранг 4" /></div>
+<div class="postUserGroup">Группа: Пользователи</div>
+
+<div class="numposts">Сообщений: <span="unp">52</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-10'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10500" edit-url="">сообщил всем над сговорится че кто когда</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-10', 'up10', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>  <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'tak'+'emyha'+'nd@yandex.ru';return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_email.gif" title="E-mail адрес" /></a>  </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10503"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]E}I{uK-B-TyM@HE[/b],');return false;">E}I{uK-B-TyM@HE</a></td><td class="postTdTop">Дата: Вт, 2010-12-21, 20:18 | Сообщение # <a rel="nofollow" name="10503" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10503-16-1292951938'); return false;">4</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="E}I{uK-B-TyM@HE" class="userAvatar" border="0" src="../avatar/63/7452-128805.gif"><div class="postRankName">Постоялец</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank4.gif" title="Ранг 4" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">53</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1617'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10503" edit-url="">Я могу тоже с 20 до 23....</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Мы не можем похвастаться мудростью глаз и умелыми жестами рук - нам не нужно всё это чтобы друг-друга понять...</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>  <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'zhe'+'ni4k@'+'mail.ru';return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_email.gif" title="E-mail адрес" /></a>  </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10505"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]bumek[/b],');return false;">bumek</a></td><td class="postTdTop">Дата: Ср, 2010-12-22, 13:29 | Сообщение # <a rel="nofollow" name="10505" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10505-16-1293013766'); return false;">5</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<div class="postRankName">Новичок</div>
+
+<div class="postRankIco"><img alt="" style="margin:0;padding:0;border:0;" name="groupIcon" src="http://s1.ucoz.net/img/fr/friends.png" title="Друзья" /></div>
+<div class="postUserGroup">Группа: Друзья</div>
+
+<div class="numposts">Сообщений: <span="unp">15</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1473'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10505" edit-url="">мм..время с 20 до 23 меня устраивает, нужно только оговорить день =)</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">bIbI))</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1473', 'up1473', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 448650318" onclick="prompt('ICQ number','448650318');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10506"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]E}I{uK-B-TyM@HE[/b],');return false;">E}I{uK-B-TyM@HE</a></td><td class="postTdTop">Дата: Чт, 2011-03-03, 01:17 | Сообщение # <a rel="nofollow" name="10506" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10506-16-1299104227'); return false;">6</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="E}I{uK-B-TyM@HE" class="userAvatar" border="0" src="../avatar/63/7452-128805.gif"><div class="postRankName">Постоялец</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank4.gif" title="Ранг 4" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">53</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1617'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10506" edit-url="">Так давайте же просыпайтесь - АКТИВНЕЙ, АКТИВНЕЙ! <img src="http://s1.ucoz.net/sm/23/cool.gif" border="0" align="absmiddle" alt="cool"> <p> <b>Добавлено</b> (2011-03-03, 01:17) <br /> --------------------------------------------- <br /> И вот нас уже шестеро, а это значит можно организовать какую-нить игру 3х3! <img src="http://s1.ucoz.net/sm/23/wink.gif" border="0" align="absmiddle" alt="wink"> <br /> Я предлагаю сообща выделить хотябы 1 день в неделю, чтобы регулярно проводить игры ктф, тдм, а так же тренировки. <br /> Думаю стоит пробовать разные составы РА. <br /> Ну, если всех не сможем собрать, то хотябы играть 2х2 каждую неделю. <br /> Отпишитесь!!!</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Мы не можем похвастаться мудростью глаз и умелыми жестами рук - нам не нужно всё это чтобы друг-друга понять...</span>
+<br><br><div class="edited">Сообщение отредактировал <span class="editedBy">E}I{uK-B-TyM@HE</span> - <span class="editedTime">Чт, 2011-03-03, 01:19</span></div></td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>  <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'zhe'+'ni4k@'+'mail.ru';return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_email.gif" title="E-mail адрес" /></a>  </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10676"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]ScorPION[/b],');return false;">ScorPION</a></td><td class="postTdTop">Дата: Чт, 2011-03-03, 15:14 | Сообщение # <a rel="nofollow" name="10676" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10676-16-1299154490'); return false;">7</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="ScorPION" class="userAvatar" border="0" src="../avatar/03/5027-924863.gif"><div class="postRankName">Активист</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank7.gif" title="Ранг 7" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">274</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-116'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10676" edit-url="">Молодееец, мдея гуд. <br /> Для меня по сути не важен день, важно время. С 21-22 МСК я могу играть.</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Бобрый день.</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-116', 'up116', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 351894404" onclick="prompt('ICQ number','351894404');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post10677"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]E}I{uK-B-TyM@HE[/b],');return false;">E}I{uK-B-TyM@HE</a></td><td class="postTdTop">Дата: Чт, 2011-03-03, 16:55 | Сообщение # <a rel="nofollow" name="10677" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/28-527-10677-16-1299160519'); return false;">8</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="E}I{uK-B-TyM@HE" class="userAvatar" border="0" src="../avatar/63/7452-128805.gif"><div class="postRankName">Постоялец</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank4.gif" title="Ранг 4" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">53</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1617'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-10677" edit-url="">Да, думаю вечером как раз можно и собираться.. Кроме выходных и отдельных случаев время 21-22 МСК меня тоже устраивает.</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Мы не можем похвастаться мудростью глаз и умелыми жестами рук - нам не нужно всё это чтобы друг-друга понять...</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>  <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'zhe'+'ni4k@'+'mail.ru';return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_email.gif" title="E-mail адрес" /></a>  </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div>
+<table class="ThrBotTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrBotRow1"><td colspan="2" class="bottomPathBar ThrBotCl11" style="padding-top:2px;"><table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="28.html">Клан RA</a> &raquo; <a class="forumBarA" href="28-527-0-17-1.html">клантрен</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/28-527" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table></td></tr>
+	<tr class="ThrBotRow2"><td class="ThrBotCl21" width="50%"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">1</span></li>
+	 <li class="switchActive">1</li> 
+</ul></td><td class="ThrBotCl22" align="right" nowrap="nowrap"><form name="navigation" style="margin:0px"><table class="navigationTbl" border="0" cellspacing="0" cellpadding="0"><tr class="navigationRow1"><td class="fFastNavTd navigationCl11" style="padding-top:5px;padding-bottom:5px;"><select class="fastNav" name="fastnav"><option class="fastNavMain" value="0">Главная страница форума</option><option class="fastNavCat"   value="1">Игра NFK</option><option class="fastNavForum" value="2">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение игры</option><option class="fastNavForum" value="3">&nbsp;&nbsp;&nbsp;&nbsp; Вступить в клан</option><option class="fastNavForum" value="7">&nbsp;&nbsp;&nbsp;&nbsp; Клан PFF</option><option class="fastNavForumA" value="28" selected>&nbsp;&nbsp;&nbsp;&nbsp; Клан RA</option><option class="fastNavForum" value="20">&nbsp;&nbsp;&nbsp;&nbsp; Tribes-X</option><option class="fastNavForum" value="25">&nbsp;&nbsp;&nbsp;&nbsp; Зона разработок</option><option class="fastNavForum" value="26">&nbsp;&nbsp;&nbsp;&nbsp; NFK [R2]</option><option class="fastNavCat"   value="4">Сайт</option><option class="fastNavForum" value="5">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение сайта</option><option class="fastNavForum" value="6">&nbsp;&nbsp;&nbsp;&nbsp; Флуд</option><option class="fastNavCat"   value="8">Другие игры</option><option class="fastNavForum" value="9">&nbsp;&nbsp;&nbsp;&nbsp; WarCraft III</option><option class="fastNavForum" value="10">&nbsp;&nbsp;&nbsp;&nbsp; Half-Life</option><option class="fastNavForum" value="11">&nbsp;&nbsp;&nbsp;&nbsp; Quake III, IV</option><option class="fastNavForum" value="16">&nbsp;&nbsp;&nbsp;&nbsp; StarCraft</option><option class="fastNavForum" value="17">&nbsp;&nbsp;&nbsp;&nbsp; Другие игры</option><option class="fastNavForum" value="18">&nbsp;&nbsp;&nbsp;&nbsp; MMORPG</option><option class="fastNavCat"   value="12">Другие темы</option><option class="fastNavForum" value="13">&nbsp;&nbsp;&nbsp;&nbsp; Музыка</option><option class="fastNavForum" value="14">&nbsp;&nbsp;&nbsp;&nbsp; Кино</option><option class="fastNavForum" value="15">&nbsp;&nbsp;&nbsp;&nbsp; Юмор</option><option class="fastNavForum" value="19">&nbsp;&nbsp;&nbsp;&nbsp; Жизнь</option></select><input class="fastNav" type="button" value="Ok" onclick="top.location.href='/forum/'+(document.navigation.fastnav.value!='0'?document.navigation.fastnav.value:'');" /></td></tr></table></form></td></tr>
+	<tr class="ThrBotRow3"><td class="ThrBotCl31"><div class="fFastLogin" style="padding-top:5px;padding-bottom:5px;"><input class="fastLogBt" type="button" value="Быстрый вход" onclick="new _uWnd('LF',' ',-250,-110,{autosize:1,closeonesc:1,resize:1},{url:'/index/40'});" /></div></td><td class="ThrBotCl32" align="right" nowrap="nowrap"><form method="post" action="../forum.html" style="margin:0px"><table class="FastSearchTbl" border="0" cellspacing="0" cellpadding="0"><tr class="FastSearchRow1"><td class="fFastSearchTd FastSearchCl11" style="padding-top:5px;padding-bottom:5px;">Поиск: <input class="fastSearch" type="text" style="width:150px" name="kw" placeholder="keyword" size="20" maxlength="60" /><input class="fastSearch" type="submit" value="Ok" /></td></tr></table><input type="hidden" name="a" value="6" /></form></td></tr>
+</table>
+</div><br />
+ <div class="clr"></div>
+ </div>
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbzM1Tur">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.05250 (s1) -->

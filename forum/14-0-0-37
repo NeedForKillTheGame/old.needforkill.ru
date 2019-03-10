@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pff.clan.su - Форум</title>
+		<link>http://needforkill.ru/forum/</link>
+		<description>pff.clan.su - Форум</description>
+
+		<lastBuildDate>Sat, 27 Feb 2010 20:13:30 GMT</lastBuildDate>
+		<generator>uCoz Web-Service</generator>
+		<atom:link href="http://needforkill.ru/forum/rss" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>(О Филмах)</title>
+			<link>http://needforkill.ru/forum/14-191-1</link>
+			<pubDate>Sat, 27 Feb 2010 20:13:30 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/14&quot;&gt;Кино&lt;/a&gt;&lt;br /&gt;Описание темы: У кого какой вкус:&lt;br /&gt;Автор темы: DeCeL&lt;br /&gt;Автор последнего сообщения: Law&lt;br /&gt;Количество ответов: 18</description>
+			<content:encoded>&lt;img src=&quot;http://src.ucoz.ru/sm/23/biggrin.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;biggrin&quot;&gt; &lt;i&gt;Хороший опрос не так ли?&lt;/i&gt;</content:encoded>
+			<category>Кино</category>
+			<dc:creator>DeCeL</dc:creator>
+			<guid>http://needforkill.ru/forum/14-191-1</guid>
+		</item>
+		<item>
+			<title>}{oTт@Ь)Ч</title>
+			<link>http://needforkill.ru/forum/14-18-1</link>
+			<pubDate>Wed, 14 Jan 2009 09:22:40 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/14&quot;&gt;Кино&lt;/a&gt;&lt;br /&gt;Автор темы: nurupo&lt;br /&gt;Автор последнего сообщения: sort&lt;br /&gt;Количество ответов: 23</description>
+			<content:encoded>Классное кино</content:encoded>
+			<category>Кино</category>
+			<dc:creator>nurupo</dc:creator>
+			<guid>http://needforkill.ru/forum/14-18-1</guid>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<HTML><HEAD></HEAD><BODY>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//BITNIK's SCRIPT - RANDOM STRING VIEW...
+
+quotes = new Array(7);
+
+quotes[0] = "1: У меня пинг большой, играть не мог";
+quotes[1] = "2: Карта совсем неиграбельна";
+quotes[2] = "3: Мышку глючило";
+quotes[3] = "4: Мне тут мешали, играть не мог";
+quotes[4] = "5: У меня интернет прервался";
+quotes[5] = "6: Карта неинтересная ";
+quotes[6] = "7: Оружия почти небыло ";
+
+//подсчёт случайного сообщения
+index = Math.floor(Math.random() * quotes.length);
+
+//вывод сообщения
+document.write("<DL>\n");
+document.write("<DT><b>Отмазка N" + quotes[index] + "</b>\n");
+
+document.write("</DL>\n");
+
+//конец
+//-->
+</SCRIPT>  
+
+
+</BODY></HTML>

@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>[D.o.$]Kain's Blog #3 - zef3 - 14 Ноября 2011 - Need For Kill (Quake III in 2D)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../../.s/src/base.css" />
+	<link rel="stylesheet" href="../../.s/src/layer1.css" />
+
+	<script src="../../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.777762291351216"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../../.s/src/social.css" /><script type="text/javascript">var advideo_playlist_id=999;</script><script type="text/javascript" src="http://js.advideo.ru/aro.js" async></script>
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="../rss/index.html" class="rss-lnk">RSS</a> | <span>Вс, 2019-03-10</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../../index.html" ><span>Главная</span></a></li>
+<li><a class=" uMenuItemA" href="../../news.html" ><span>Новости</span></a></li>
+<li><a  href="../../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../../photo.html" ><span>Фото альбом</span></a></li>
+<li><a  href="../../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../../video.html" ><span>Видео</span></a></li>
+<li><a  href="../../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ 
+ <!-- <middle> -->
+ 
+ <div id="content">
+ <div class="part-i">
+ <section>
+ <!-- <body> --><a href="../../index.html"><!--<s5176>-->Главная<!--</s>--></a> &raquo; <a class="dateBar" href="../2011-00.html">2011</a> &raquo; <a class="dateBar" href="../2011-11.html">Ноябрь</a> &raquo; <a class="dateBar" href="../2011-11-14.html">14</a> &raquo; [D.o.$]Kain's Blog #3 - zef3
+<hr />
+
+<table border="0" width="100%" cellspacing="1" cellpadding="2" class="eBlock">
+<tr><td width="90%"><div class="eTitle"><div style="float:right;font-size:9px;">18:24 </div>[D.o.$]Kain's Blog #3 - zef3</div></td></tr>
+<tr><td class="eMessage"><font size="3" style="font-size: 12pt; ">Всем привет!</font><div><font size="3" style="font-size: 12pt; ">Да, да, это снова я и снова со своим блогом. Но на этот раз темой блога будет карта zef3, сделаная Алексеем, совместно с Бозоном. Карта расчитана на игры 2х2 в режиме смертельного ктф. У кого до сих пор нет этой карты, качайте быстрее по этой ссылке:&nbsp;<a href="../../load/zef3/27-1-0-563.html" target="_blank" title="тык">http://needforkill.ru/load/zef3/27-1-0-563</a></font></div><a href="http://u.to/XctNAQ" title="http://fotohosting.org/share.php?id=E514_4EC11367"><img src="http://fotohosting.org/image.php?id=E514_4EC11367&amp;jpg" alt="" align="right" style="border-top-color: rgb(50, 205, 50); border-top-width: 2px; border-top-style: solid; border-bottom-color: rgb(50, 205, 50); border-bottom-width: 2px; border-bottom-style: solid; border-left-color: rgb(50, 205, 50); border-left-width: 2px; border-left-style: solid; border-right-color: rgb(50, 205, 50); border-right-width: 2px; border-right-style: solid; " width="250pxpx" height="250pxpx"></a><div><font size="3" style="font-size: 12pt; "><br></font></div><div><font size="3" style="font-size: 12pt; ">Также добавлю, что я создал свой стрим канал именно для стрима игр нфк, чтобы как-то оживить наш народ. Ссылка очень простая:&nbsp;<a href="http://u.to/XMtNAQ" title="http://ru.twitch.tv/need_for_kill" target="_blank">http://ru.twitch.tv/need_for_kill</a>. Стримы будут носить более фановый характер, так как для серьёзных игр стримы будет вести Мэдс, и проводится не очень часто, чтобы не надоедало. Можно сидеть жрать за компом и смотреть, как месится народ.</font></div><div><font size="3" style="font-size: 12pt; "><br></font></div><div><span style="font-size: 16px; ">Уже прошёл один тестовый стрим по дуэли. Он показал, что всё работает нормально, и проблем со следующими не будет.</span></div><div><span style="font-size: 16px; "><br></span></div><div><span style="font-size: 16px; ">Следующий же стрим, который тоже можно назвать тестовым, пройдёт в ближайшую субботу в 20:00 по Москве по ктф играм. Подробности будут ближе к дате. (19.11.11).&nbsp;</span></div><div><span style="font-size: 16px;"><br></span></div><div><span style="font-size: 16px; "><br></span></div><div><span style="font-size: 16px; ">Ну а теперь вернёмся к блогу. Приятного просмотра!</span></div><div><span style="font-size: 16px;"><br></span></div><p><span style="font-size: 12pt;"><embed src="http://www.youtube.com/v/Frm6__d32-o?fs=1&amp;hl=ru_RU&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="510" width="640">&nbsp;<br></span></p><p><span style="font-size: 12pt; ">Скачать в хорошем качестве видео-файл можно по этой ссылке&nbsp;</span><a href="http://u.to/WstNAQ" title="http://ge.tt/8yfNVu9?c"><font size="3" style="font-size: 12pt; ">http://ge.tt/8X0VGq8/v/0</font></a></p><p><font size="3" style="font-size: 12pt; ">Посмотреть по этой&nbsp;<a href="http://u.to/rsM_AQ" title="http://www.youtube.com/watch?v=Frm6__d32-o">http://www.youtube.com/watch?v=2etoSzYdegc</a></font></p> </td></tr>
+<tr><td colspan="2" class="eDetails">
+<div style="float:right">
+		<style type="text/css">
+			.u-star-rating-15 { list-style:none;margin:0px;padding:0px;width:75px;height:15px;position:relative;background: url('../../.s/t/1101/rating.png') top left repeat-x }
+			.u-star-rating-15 li{ padding:0px;margin:0px;float:left }
+			.u-star-rating-15 li a { display:block;width:15px;height: 15px;line-height:15px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding: 0px;overflow:hidden }
+			.u-star-rating-15 li a:hover { background: url('../../.s/t/1101/rating.png') left center;z-index:2;left:0px;border:none }
+			.u-star-rating-15 a.u-one-star { left:0px }
+			.u-star-rating-15 a.u-one-star:hover { width:15px }
+			.u-star-rating-15 a.u-two-stars { left:15px }
+			.u-star-rating-15 a.u-two-stars:hover { width:30px }
+			.u-star-rating-15 a.u-three-stars { left:30px }
+			.u-star-rating-15 a.u-three-stars:hover { width:45px }
+			.u-star-rating-15 a.u-four-stars { left:45px }
+			.u-star-rating-15 a.u-four-stars:hover { width:60px }
+			.u-star-rating-15 a.u-five-stars { left:60px }
+			.u-star-rating-15 a.u-five-stars:hover { width:75px }
+			.u-star-rating-15 li.u-current-rating { top:0 !important; left:0 !important;margin:0 !important;padding:0 !important;outline:none;background: url('../../.s/t/1101/rating.png') left bottom;position: absolute;height:15px !important;line-height:15px !important;display:block;text-indent:-9000px;z-index:1 }
+		</style><script type="text/javascript">
+var usrarids = {};
+function ustarrating(id, mark) {
+	if (!usrarids[id]) {
+		usrarids[id] = 1;
+		$(".u-star-li-"+id).hide();
+		_uPostForm('', {type:'POST', url:'/news/', data:{'a':'65','id':id,'mark':mark,'mod':'news','ajax':'2'}});
+	}
+}
+</script><ul id="uStarRating181" class="uStarRating181 u-star-rating-15" title="Рейтинг: 5.0/4">
+<li class="u-current-rating uCurStarRating181" id="uCurStarRating181" style="width:100%;"></li>
+<li class="u-star-li-181"><a href="2011-11-14-181.html#" onclick="ustarrating('181',1);return false;" class="u-one-star">1</a></li>
+<li class="u-star-li-181"><a href="2011-11-14-181.html#" onclick="ustarrating('181',2);return false;" class="u-two-stars">2</a></li>
+<li class="u-star-li-181"><a href="2011-11-14-181.html#" onclick="ustarrating('181',3);return false;" class="u-three-stars">3</a></li>
+<li class="u-star-li-181"><a href="2011-11-14-181.html#" onclick="ustarrating('181',4);return false;" class="u-four-stars">4</a></li>
+<li class="u-star-li-181"><a href="2011-11-14-181.html#" onclick="ustarrating('181',5);return false;" class="u-five-stars">5</a></li></ul></div>
+<span class="e-category"><span class="ed-title"><!--<s3179>-->Категория<!--</s>-->:</span> <span class="ed-value"><a href="../videoblogi/1-0-3.html">Видеоблоги</a></span></span><span class="ed-sep"> | </span>
+<span class="e-reads"><span class="ed-title"><!--<s3177>-->Просмотров<!--</s>-->:</span> <span class="ed-value">1119</span></span><span class="ed-sep"> | </span>
+<span class="e-author"><span class="ed-title"><!--<s3178>-->Добавил<!--</s>-->:</span> <span class="ed-value"><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1603', 'up1603', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Kain</a></span></span>
+<span class="ed-sep"> | </span><span class="e-tags"><span class="ed-title"><!--<s5308>-->Теги<!--</s>-->:</span> <span class="ed-value"><noindex><a href="http://needforkill.ru/search/ctf/" rel="nofollow" class="eTag">ctf</a>, <a href="http://needforkill.ru/search/video/" rel="nofollow" class="eTag">video</a>, <a href="http://needforkill.ru/search/nfk/" rel="nofollow" class="eTag">nfk</a>, <a href="http://needforkill.ru/search/Stream/" rel="nofollow" class="eTag">Stream</a>, <a href="http://needforkill.ru/search/zef3/" rel="nofollow" class="eTag">zef3</a>, <a href="http://needforkill.ru/search/blog/" rel="nofollow" class="eTag">blog</a>, <a href="http://needforkill.ru/search/Kain/" rel="nofollow" class="eTag">Kain</a>, <a href="http://needforkill.ru/search/Kain%27s%20Blog/" rel="nofollow" class="eTag">Kain's Blog</a>, <a href="http://needforkill.ru/search/need%20for%20kill/" rel="nofollow" class="eTag">need for kill</a></noindex></span></span>
+<span class="ed-sep"> | </span><span class="e-rating"><span class="ed-title"><!--<s3119>-->Рейтинг<!--</s>-->:</span> <span class="ed-value"><span id="entRating181">5.0</span>/<span id="entRated181">4</span></span></span></td></tr>
+</table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="60%" height="25"><!--<s5183>-->Всего комментариев<!--</s>-->: <b>11</b></td><td align="right" height="25"><span class="pagesBlock1"><b class="swchItemA"><span>1</span></b> <a class="swchItem" href="javascript://" rel="nofollow" onclick="spages('2','L25ld3MvZF9vX2thaW5fc19ibG9nXzNfemVmMy8yMDExLTExLTE0LTE4MS0wLTI=');return false;"><span>2</span></a>  <a class="swchItem" href="javascript://" rel="nofollow" onclick="spages('2','L25ld3MvZF9vX2thaW5fc19ibG9nXzNfemVmMy8yMDExLTExLTE0LTE4MS0wLTI=');return false;"><span>&raquo;</span></a></span></td></tr>
+<tr><td colspan="2">
+			<div class="com-order-block">
+				<label class="com-order-wrap">
+					<span class="com-order-title">Порядок вывода комментариев:</span>
+					<select class="com-order-select">
+						<option value="" selected="selected">По умолчанию</option>
+						<option value="desc" >Сначала новые</option>
+						<option value="asc" >Сначала старые</option>
+					</select>
+				</label>
+			</div>
+			<script type="text/javascript">
+				setTimeout(function() {
+					$('.com-order-select').change(function() {
+						var elem = $(this);
+						var oldValue = ( /6pffcomOrder=(asc|desc)/.exec(document.cookie) || {} )[1] || '';
+						var newValue = elem.val();
+						console.log(oldValue, newValue);
+						if( newValue == oldValue ) {
+							return;
+						};
+						document.cookie = '6pffcomOrder=' + encodeURIComponent(newValue) + '; path=/; expires=' + (new Date((new Date).getTime() + 1000*60*60*24*365)).toGMTString();
+						window.console && console.info && console.info('comment order changed: "' + oldValue + '" >> "' + newValue + '"');
+						// elem.parents('.com-order-wrap').eq(0).find('.com-order-apply').fadeIn().removeClass('com-order-apply-hidden').addClass('com-order-apply-visible');
+						newValue = newValue || 'default';
+						location.search = location.search
+							? /[?&]comments_order=([^&]*)/.test(location.search)
+								? location.search.replace(/comments_order=([^&]*)/, 'comments_order=' + newValue)
+								: location.search + '&comments_order=' + newValue
+							: '?comments_order=' + newValue;
+					});
+				}, 100);
+			</script>
+		
+			<div id="myGrid" style="display:none;"><img alt="" src="../../.s/img/ma/m/i3.gif" /></div>
+			<script type="text/javascript">
+				function spages(p,link) {
+					
+					try {document.getElementById('myGrid').style.cssText = ''; } catch(e) {};
+					_uPostForm('',{url:''+atob('L25ld3MvZF9vX2thaW5fc19ibG9nXzNfemVmMy8yMDEx')+'-11-14-181-987-'+p+'-'+Math.floor(Math.random()*1e8),type:'POST'});
+				
+				}
+			</script>
+			<a name="comments"></a>
+			<div id="newEntryT"></div>
+			<div id="allEntries"><div class="comEnt report-spam-target " id="comEnt5504" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-12-06T17:59:07Z",
+							"dateModified": "2011-12-06T17:59:07Z",
+							"author": {
+								"@type": "Person",
+								"name": "3power"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "3power"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5504" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5504" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5504" onclick="if (document.getElementById('comEnt5504')){$('body').scrollTo( { top:$('#comEnt5504').offset().top-22, left:0}, 500 );return false;}" name="ent5504"><b>11</b></a>
+			
+			<span><b>3power</b></span>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-12-06 17:59" style="font-size:7pt;unicode-bidi:embed;">(2011-12-06 17:59)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			Кайн как всегда порадовал своим блогом.
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5504"><b></b></div><div class="comEnt report-spam-target " id="comEnt5413" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-15T20:38:52Z",
+							"dateModified": "2011-11-15T20:38:52Z",
+							"author": {
+								"@type": "Person",
+								"name": "nyncuk"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "nyncuk"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5413" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5413" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5413" onclick="if (document.getElementById('comEnt5413')){$('body').scrollTo( { top:$('#comEnt5413').offset().top-22, left:0}, 500 );return false;}" name="ent5413"><b>10</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1580', 'up1580', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">nyncuk</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-15 20:38" style="font-size:7pt;unicode-bidi:embed;">(2011-11-15 20:38)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1580', 'up1580', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="nyncuk" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/56/3550-497739.gif" width="30" border="0" /></span>
+			</a>
+			
+			Отличный Блог.Каин Респект=)очень понравилась палитра мапы,просто не разу не играл пока.
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5413"><b></b></div><div class="comEnt report-spam-target " id="comEnt5412" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-15T11:57:56Z",
+							"dateModified": "2011-11-15T11:57:56Z",
+							"author": {
+								"@type": "Person",
+								"name": "Rh"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "Rh"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5412" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5412" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5412" onclick="if (document.getElementById('comEnt5412')){$('body').scrollTo( { top:$('#comEnt5412').offset().top-22, left:0}, 500 );return false;}" name="ent5412"><b>9</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-309', 'up309', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Rh</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-15 11:57" style="font-size:7pt;unicode-bidi:embed;">(2011-11-15 11:57)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-309', 'up309', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Rh" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/79/0369-887673.jpg" width="30" border="0" /></span>
+			</a>
+			
+			Добротный мувик. Спасибо Каину. <br /><br /> А на стримы поглазеть много заходит потустороннего народу? <br /> Можно в перерывах между играми мувики показывать )) <br /><br /> Каин, в чем мувики собираешь?
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5412"><b></b></div><div class="comEnt report-spam-target " id="comEnt5411" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-15T09:24:17Z",
+							"dateModified": "2011-11-15T09:24:17Z",
+							"author": {
+								"@type": "Person",
+								"name": "Bozon"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "Bozon"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5411" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5411" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5411" onclick="if (document.getElementById('comEnt5411')){$('body').scrollTo( { top:$('#comEnt5411').offset().top-22, left:0}, 500 );return false;}" name="ent5411"><b>8</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1631', 'up1631', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Bozon</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-15 09:24" style="font-size:7pt;unicode-bidi:embed;">(2011-11-15 09:24)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1631', 'up1631', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Bozon" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/63/6485-686623.gif" width="30" border="0" /></span>
+			</a>
+			
+			Мастер, в конце это не я. Моделька моя, но скорее всего это сам Каин. Я за собой такого не помню. <br /> ну в целом цель блога достигнута. небольшой обзор карты зеф3. но есть у меня к каину замечание, которое он услышит уже в пятый раз. надпись 3дПовер надо бы уже закрасить. А так. рубайте зеф3 и будет вам счастье. ДОС
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5411"><b></b></div><div class="comEnt report-spam-target " id="comEnt5410" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-15T02:59:29Z",
+							"dateModified": "2011-11-15T02:59:29Z",
+							"author": {
+								"@type": "Person",
+								"name": "bumek"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "bumek"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5410" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5410" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5410" onclick="if (document.getElementById('comEnt5410')){$('body').scrollTo( { top:$('#comEnt5410').offset().top-22, left:0}, 500 );return false;}" name="ent5410"><b>7</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1473', 'up1473', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">bumek</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-15 02:59" style="font-size:7pt;unicode-bidi:embed;">(2011-11-15 02:59)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			Кайн как всегда порадовал своим блогом! <br /> Всё на высоком уровне, легко смотрится. Интересные моменты, как и сама карта) Эпизоды с мясом в тему. Даёшь блог с кв!
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5410"><b></b></div><div class="comEnt report-spam-target " id="comEnt5409" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-14T22:56:48Z",
+							"dateModified": "2011-11-14T22:56:48Z",
+							"author": {
+								"@type": "Person",
+								"name": "DrevoReZ"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "DrevoReZ"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5409" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5409" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5409" onclick="if (document.getElementById('comEnt5409')){$('body').scrollTo( { top:$('#comEnt5409').offset().top-22, left:0}, 500 );return false;}" name="ent5409"><b>6</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-342', 'up342', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">DrevoReZ</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-14 22:56" style="font-size:7pt;unicode-bidi:embed;">(2011-11-14 22:56)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-342', 'up342', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="DrevoReZ" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/54/0215-478068.jpg" width="30" border="0" /></span>
+			</a>
+			
+			Видео прикольное, молодец!
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5409"><b></b></div><div class="comEnt report-spam-target " id="comEnt5408" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-14T22:29:13Z",
+							"dateModified": "2011-11-14T22:29:13Z",
+							"author": {
+								"@type": "Person",
+								"name": "Enforcer"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "Enforcer"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5408" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5408" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5408" onclick="if (document.getElementById('comEnt5408')){$('body').scrollTo( { top:$('#comEnt5408').offset().top-22, left:0}, 500 );return false;}" name="ent5408"><b>5</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Enforcer</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-14 22:29" style="font-size:7pt;unicode-bidi:embed;">(2011-11-14 22:29)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Enforcer" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/92/8190-387875.png" width="30" border="0" /></span>
+			</a>
+			
+			<img src="http://cs5161.vkontakte.ru/u138664839/-14/m_54d1b6cc.jpg" border="0" alt=""/> <br /><br /> Кайн как всегда порадовал своим блогом
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5408"><b></b></div><div class="comEnt report-spam-target " id="comEnt5407" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-14T22:06:50Z",
+							"dateModified": "2011-11-14T22:06:50Z",
+							"author": {
+								"@type": "Person",
+								"name": "ScorPION"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "ScorPION"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5407" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5407" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5407" onclick="if (document.getElementById('comEnt5407')){$('body').scrollTo( { top:$('#comEnt5407').offset().top-22, left:0}, 500 );return false;}" name="ent5407"><b>4</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-116', 'up116', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">ScorPION</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-14 22:06" style="font-size:7pt;unicode-bidi:embed;">(2011-11-14 22:06)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-116', 'up116', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="ScorPION" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/03/5027-924863.gif" width="30" border="0" /></span>
+			</a>
+			
+			Кайн как всегда порадовал своим блогом! <br /> И выпуск праздничный. С Днём Рож тебя, мужик. <img src="http://s1.ucoz.net/sm/23/smile.gif" border="0" align="absmiddle" alt="smile" />
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5407"><b></b></div><div class="comEnt report-spam-target " id="comEnt5406" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-14T20:34:03Z",
+							"dateModified": "2011-11-14T20:34:03Z",
+							"author": {
+								"@type": "Person",
+								"name": "E}I{uK-B-TyM@HE"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "E}I{uK-B-TyM@HE"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5406" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5406" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5406" onclick="if (document.getElementById('comEnt5406')){$('body').scrollTo( { top:$('#comEnt5406').offset().top-22, left:0}, 500 );return false;}" name="ent5406"><b>3</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">E}I{uK-B-TyM@HE</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-14 20:34" style="font-size:7pt;unicode-bidi:embed;">(2011-11-14 20:34)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="E}I{uK-B-TyM@HE" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/63/7452-128805.gif" width="30" border="0" /></span>
+			</a>
+			
+			Кайн как всегда порадовал своим блогом <img src="http://s1.ucoz.net/sm/23/smile.gif" border="0" align="absmiddle" alt="smile" /> <br /> Молоток, так держать!!!
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5406"><b></b></div><div class="comEnt report-spam-target " id="comEnt5405" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							"datePublished": "2011-11-14T19:04:29Z",
+							"dateModified": "2011-11-14T19:04:29Z",
+							"author": {
+								"@type": "Person",
+								"name": "Apue"
+							},
+							"description": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Kain",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/news/d_o_kain_s_blog_3_zef3/2011-11-14-181"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "4"
+						}
+						},
+						"name": "[D.o.$]Kain&#39;s Blog #3 - zef3",
+						"author": {
+							"@type": "Person",
+							"name": "Apue"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-5405" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="5405" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="2011-11-14-181.html#ent5405" onclick="if (document.getElementById('comEnt5405')){$('body').scrollTo( { top:$('#comEnt5405').offset().top-22, left:0}, 500 );return false;}" name="ent5405"><b>2</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-18', 'up18', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Apue</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2011-11-14 19:04" style="font-size:7pt;unicode-bidi:embed;">(2011-11-14 19:04)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-18', 'up18', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Apue" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../avatar/65/3051-969954.png" width="30" border="0" /></span>
+			</a>
+			
+			Кайн как всегда порадовал своим блогом. Отлично подобранные моменты, подогнанные под замечательное музыкальное сопровождение). Породовала приколюха с рейлом на дм0.
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry5405"><b></b></div></div>
+			<div id="newEntryB"></div><script type="text/javascript">
+			
+		if( !window.uCoz ) window.uCoz = {};
+		if( !uCoz.spam ) uCoz.spam = {};
+		if( !uCoz.spam.sign ) uCoz.spam.sign = {};
+
+		if( !uCoz.spam.config ) uCoz.spam.config = {};
+
+		uCoz.spam.config.scopeID  = 0;
+		uCoz.spam.config.idPrefix = 'comEnt';
+
+		uCoz.spam.sign.spam            = 'Спам';
+		uCoz.spam.sign.notSpam         = 'Не спам';
+		uCoz.spam.sign.hidden          = 'Спам-сообщение скрыто.';
+		uCoz.spam.sign.shown           = 'Спам-сообщение показано.';
+		uCoz.spam.sign.show            = 'Показать';
+		uCoz.spam.sign.hide            = 'Скрыть';
+		uCoz.spam.sign.admSpam         = 'Разрешить жалобы';
+		uCoz.spam.sign.admSpamTitle    = 'Разрешить пользователям сайта помечать это сообщение как спам';
+		uCoz.spam.sign.admNotSpam      = 'Это не спам';
+		uCoz.spam.sign.admNotSpamTitle = 'Пометить как не-спам, запретить пользователям жаловаться на это сообщение';
+
+		
+
+		uCoz.spam.moderPanelNotSpamClick = function(elem) {
+			var waitImg = $('<img align="absmiddle" src="../../.s/img/fr/EmnAjax.gif">');
+			var elem = $(elem);
+			elem.find('img').hide();
+			elem.append(waitImg);
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam') ? 0 : 1; // invert - 'data-not-spam' should contain CURRENT 'notspam' status!
+			$.post('/index/', {
+				a          : 101,
+				scope_id   : uCoz.spam.config.scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				waitImg.remove();
+				elem.find('img').show();
+				if( response.error ) {
+					alert(response.error);
+					return;
+				};
+				if( response.status == 'admin_message_not_spam' ) {
+					elem.attr('data-not-spam', true).find('img').attr('src', '/.s/img/spamfilter/notspam-active.gif');
+					$('#del-as-spam-' + messageID).hide();
+				} else {
+					elem.removeAttr('data-not-spam').find('img').attr('src', '/.s/img/spamfilter/notspam.gif');
+					$('#del-as-spam-' + messageID).show();
+				};
+				//console.log(response);
+			});
+			return false;
+		};
+
+
+		uCoz.spam.report = function(scopeID, messageID, notSpam, callback, context) {
+			return $.post('/index/', {
+				a: 101,
+				scope_id   : scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				if( callback ) {
+					callback.call(context || window, response, context);
+				} else {
+					window.console && console.log && console.log('uCoz.spam.report: message #' + messageID, response);
+				};
+			});
+		};
+
+		uCoz.spam.reportDOM = function(event) {
+			if( event.preventDefault ) event.preventDefault();
+			var elem      = $(this);
+			if( elem.hasClass('spam-report-working') ) return false;
+			var scopeID   = uCoz.spam.config.scopeID;
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam');
+			var target    = elem.parents('.report-spam-target').eq(0);
+			var height    = target.outerHeight(true);
+			var margin    = target.css('margin-left');
+			elem.html('<img src="../../.s/img/wd/1/ajaxs.gif">').addClass('report-spam-working');
+			uCoz.spam.report(scopeID, messageID, notSpam, function(response, context) {
+				context.elem.text('').removeClass('report-spam-working');
+				window.console && console.log && console.log(response); // DEBUG
+				response.warning && window.console && console.warn && console.warn( 'uCoz.spam.report: warning: ' + response.warning, response );
+				if( response.warning && !response.status ) {
+					// non-critical warnings, may occur if user reloads cached page:
+					if( response.warning == 'already_reported' ) response.status = 'message_spam';
+					if( response.warning == 'not_reported'     ) response.status = 'message_not_spam';
+				};
+				if( response.error ) {
+					context.target.html('<div style="height: ' + context.height + 'px; line-height: ' + context.height + 'px; color: red; font-weight: bold; text-align: center;">' + response.error + '</div>');
+				} else if( response.status ) {
+					if( response.status == 'message_spam' ) {
+						context.elem.text(uCoz.spam.sign.notSpam).attr('data-not-spam', '1');
+						var toggle = $('#report-spam-toggle-wrapper-' + response.message_id);
+						if( toggle.length ) {
+							toggle.find('.report-spam-toggle-text').text(uCoz.spam.sign.hidden);
+							toggle.find('.report-spam-toggle-button').text(uCoz.spam.sign.show);
+						} else {
+							toggle = $('<div id="report-spam-toggle-wrapper-' + response.message_id + '" class="report-spam-toggle-wrapper" style="' + (context.margin ? 'margin-left: ' + context.margin : '') + '"><span class="report-spam-toggle-text">' + uCoz.spam.sign.hidden + '</span> <a class="report-spam-toggle-button" data-target="#' + uCoz.spam.config.idPrefix + response.message_id + '" href="javascript://">' + uCoz.spam.sign.show + '</a></div>').hide().insertBefore(context.target);
+							uCoz.spam.handleDOM(toggle);
+						};
+						context.target.addClass('report-spam-hidden').fadeOut('fast', function() {
+							toggle.fadeIn('fast');
+						});
+					} else if( response.status == 'message_not_spam' ) {
+						context.elem.text(uCoz.spam.sign.spam).attr('data-not-spam', '0');
+						$('#report-spam-toggle-wrapper-' + response.message_id).fadeOut('fast');
+						$('#' + uCoz.spam.config.idPrefix + response.message_id).removeClass('report-spam-hidden').show();
+					} else if( response.status == 'admin_message_not_spam' ) {
+						elem.text(uCoz.spam.sign.admSpam).attr('title', uCoz.spam.sign.admSpamTitle).attr('data-not-spam', '0');
+					} else if( response.status == 'admin_message_spam' ) {
+						elem.text(uCoz.spam.sign.admNotSpam).attr('title', uCoz.spam.sign.admNotSpamTitle).attr('data-not-spam', '1');
+					} else {
+						alert('uCoz.spam.report: unknown status: ' + response.status);
+					};
+				} else {
+					context.target.remove(); // no status returned by the server - remove message (from DOM).
+				};
+			}, { elem: elem, target: target, height: height, margin: margin });
+			return false;
+		};
+
+		uCoz.spam.handleDOM = function(within) {
+			within = $(within || 'body');
+			within.find('.report-spam-wrap').each(function() {
+				var elem = $(this);
+				elem.parent().prepend(elem);
+			});
+			within.find('.report-spam-toggle-button').not('.report-spam-handled').click(function(event) {
+				if( event.preventDefault ) event.preventDefault();
+				var elem    = $(this);
+				var wrapper = elem.parents('.report-spam-toggle-wrapper');
+				var text    = wrapper.find('.report-spam-toggle-text');
+				var target  = elem.attr('data-target');
+				target      = $(target);
+				target.slideToggle('fast', function() {
+					if( target.is(':visible') ) {
+						wrapper.addClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.shown);
+						elem.text(uCoz.spam.sign.hide);
+					} else {
+						wrapper.removeClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.hidden);
+						elem.text(uCoz.spam.sign.show);
+					};
+				});
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-remove').not('.report-spam-handled').click(function(event) {
+				if( event.preventDefault ) event.preventDefault();
+				var messageID = $(this).attr('data-message-id');
+				del_item(messageID, 1);
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-btn').not('.report-spam-handled').click(uCoz.spam.reportDOM).addClass('report-spam-handled');
+			window.console && console.log && console.log('uCoz.spam.handleDOM: done.');
+            try { if (uCoz.manageCommentControls) { uCoz.manageCommentControls() } } catch(e) { window.console && console.log && console.log('manageCommentControls: fail.'); }
+			return this;
+		};
+	
+			uCoz.spam.handleDOM();
+		</script></td></tr>
+<tr><td colspan="2" align="center"><span class="pagesBlock2"><b class="swchItemA1"><span>1-10</span></b> <a class="swchItem1" rel="nofollow" href="javascript://" onclick="spages('2','L25ld3MvZF9vX2thaW5fc19ibG9nXzNfemVmMy8yMDExLTExLTE0LTE4MS0wLTI=');return false;"><span>11-11</span></a> </span></td></tr>
+<tr><td colspan="2" height="10"></td></tr>
+</table>
+
+
+
+<div align="center" class="commReg"><!--<s5237>-->Добавлять комментарии могут только зарегистрированные пользователи.<!--</s>--><br />[ <a href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> | <a href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a> ]</div>
+
+<!-- </body> -->
+ </section>
+ </div>
+ </div>
+ </div>
+ 
+ <!-- </middle> -->
+ <div class="clr"></div>
+ 
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbXdz4Xm">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.06928 (s1) -->

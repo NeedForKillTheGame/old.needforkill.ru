@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pff.clan.su - Форум</title>
+		<link>http://needforkill.ru/forum/</link>
+		<description>pff.clan.su - Форум</description>
+
+		<lastBuildDate>Tue, 06 Mar 2012 13:26:35 GMT</lastBuildDate>
+		<generator>uCoz Web-Service</generator>
+		<atom:link href="http://needforkill.ru/forum/rss" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>StarCraft2</title>
+			<link>http://needforkill.ru/forum/16-10-1</link>
+			<pubDate>Tue, 06 Mar 2012 13:26:35 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/16&quot;&gt;StarCraft&lt;/a&gt;&lt;br /&gt;Автор темы: coolant&lt;br /&gt;Автор последнего сообщения: swirly&lt;br /&gt;Количество ответов: 38</description>
+			<content:encoded>Близзарды обещают анонс игры StarCraft2 к концу 2007 года, интересно что там будет... Может раскрученая еще сильнее рпг часть как в варкрафте =) &lt;br /&gt; Но до конца 2007 еще долго &lt;img src=&quot;http://src.ucoz.ru/sm/1/cry.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;cry&quot;&gt;</content:encoded>
+			<category>StarCraft</category>
+			<dc:creator>coolant</dc:creator>
+			<guid>http://needforkill.ru/forum/16-10-1</guid>
+		</item>
+		<item>
+			<title>Патчи...</title>
+			<link>http://needforkill.ru/forum/16-47-1</link>
+			<pubDate>Wed, 15 Apr 2009 08:53:00 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/16&quot;&gt;StarCraft&lt;/a&gt;&lt;br /&gt;Автор темы: Mezomaster&lt;br /&gt;Автор последнего сообщения: MezoMaster&lt;br /&gt;Количество ответов: 7</description>
+			<content:encoded>я тут себе старик пропачил до 14 а хочется 20 или 21 не помню, дайте ссылку на пропачивание =)</content:encoded>
+			<category>StarCraft</category>
+			<dc:creator>Mezomaster</dc:creator>
+			<guid>http://needforkill.ru/forum/16-47-1</guid>
+		</item>
+		<item>
+			<title>Starcraft Download</title>
+			<link>http://needforkill.ru/forum/16-132-1</link>
+			<pubDate>Wed, 22 Oct 2008 20:48:12 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/16&quot;&gt;StarCraft&lt;/a&gt;&lt;br /&gt;Автор темы: NichtVobla&lt;br /&gt;Автор последнего сообщения: Гость&lt;br /&gt;Количество ответов: 31</description>
+			<content:encoded>Залить? &lt;img src=&quot;http://s1.ucoz.net/sm/23/happy.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;happy&quot;&gt;</content:encoded>
+			<category>StarCraft</category>
+			<dc:creator>NichtVobla</dc:creator>
+			<guid>http://needforkill.ru/forum/16-132-1</guid>
+		</item>
+	</channel>
+</rss>

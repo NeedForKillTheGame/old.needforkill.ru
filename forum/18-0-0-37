@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pff.clan.su - Форум</title>
+		<link>http://needforkill.ru/forum/</link>
+		<description>pff.clan.su - Форум</description>
+
+		<lastBuildDate>Mon, 11 Oct 2010 18:58:12 GMT</lastBuildDate>
+		<generator>uCoz Web-Service</generator>
+		<atom:link href="http://needforkill.ru/forum/rss" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Перевод riBot&apos;а</title>
+			<link>http://needforkill.ru/forum/18-517-1</link>
+			<pubDate>Mon, 11 Oct 2010 18:58:12 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Описание темы: SilkroadOnline&lt;br /&gt;Автор темы: nurupo&lt;br /&gt;Автор последнего сообщения: Makc&lt;br /&gt;Количество ответов: 2</description>
+			<content:encoded>Надумал я перевести GUI riBot&apos;a, но столкнулся с одной проблемой - я не могу взломать exe&apos;шку ResHack&apos;ом. &lt;p&gt; Есть какие-нибудь идеи как перевести все надписи GUI? &lt;p&gt; Так же столкнулся с проблемой, что если один из четырех файлов в папке Data отсутствует - GUI программы загружается не полностью и выскакивает ошибка. &lt;br /&gt; Я заменил все четыре файла на совершенно пустые с такими же именами, просто чтобы поглядеть что случиться. &lt;br /&gt; Программа не выдаёт ошибку и полностью загружается, следовательно программа просто проверяет наличие этих файлов, она не загружает GUI из них. &lt;p&gt; (rar&apos;ик в подарок &lt;img src=&quot;http://s1.ucoz.net/sm/23/happy.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;happy&quot;&gt; )</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>nurupo</dc:creator>
+			<guid>http://needforkill.ru/forum/18-517-1</guid>
+		</item>
+		<item>
+			<title>SilkRoad Online</title>
+			<link>http://needforkill.ru/forum/18-30-1</link>
+			<pubDate>Sat, 16 Feb 2008 20:06:51 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Описание темы: MMORPG&lt;br /&gt;Автор темы: coolant&lt;br /&gt;Автор последнего сообщения: ShADoW&lt;br /&gt;Количество ответов: 59</description>
+			<content:encoded>Хорошая игра, лучшая MMORPG года по версии НИМ, конечно это не WorldOfWarcraft и нелишена недостатков, но если есть безлимит, то попробовать стОит! &lt;br /&gt; Хорошая графика и баланс, но после 30лвл становиться немного однообразна... разбавляет фарминг мобов немногочисленные квесты и возможность работать за вора, торговца или охотника. &lt;br /&gt; Вобщем игра может затянуть надолго. &lt;br /&gt; Сайты: &lt;br /&gt; &lt;a class=&quot;link&quot; target=&quot;_blank&quot; href=&quot;http://silkroad.ru/&quot;&gt;http://silkroad.ru/&lt;/a&gt; &lt;br /&gt; &lt;a class=&quot;link&quot; target=&quot;_blank&quot; href=&quot;http://www.silkroadonline.net/&quot;&gt;http://www.silkroadonline.net/&lt;/a&gt;</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>coolant</dc:creator>
+			<guid>http://needforkill.ru/forum/18-30-1</guid>
+		</item>
+		<item>
+			<title>GTA San Andreas</title>
+			<link>http://needforkill.ru/forum/18-295-1</link>
+			<pubDate>Wed, 26 Dec 2007 19:51:55 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Описание темы: MMORPG&lt;br /&gt;Автор темы: ПЕС&lt;br /&gt;Автор последнего сообщения: ПЕС&lt;br /&gt;Количество ответов: 5</description>
+			<content:encoded>Есть фаны ?</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>ПЕС</dc:creator>
+			<guid>http://needforkill.ru/forum/18-295-1</guid>
+		</item>
+		<item>
+			<title>World of Warcraft</title>
+			<link>http://needforkill.ru/forum/18-71-1</link>
+			<pubDate>Sat, 29 Sep 2007 19:13:44 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Описание темы: где скачать?&lt;br /&gt;Автор темы: coolant&lt;br /&gt;Автор последнего сообщения: ShADoW&lt;br /&gt;Количество ответов: 25</description>
+			<content:encoded>DR@G[]N : кто знает, где скачать World of Warcraft??? &lt;p&gt; Mezomaster : Blizzard.com посмотри, может там и есть что то! &lt;p&gt; DR@G[]N : на BLIZZARDE нету &lt;p&gt; CooLAnT : или на буран.ру &lt;p&gt; DR@G[]N : там ваще чето не то &lt;p&gt; Mezomaster : WoW дермо, играй в NFK =) &lt;p&gt; DR@G[]N : я играю тока wc3 ft,counter strike source,1.6,nfk,но варыч 3 надоел &lt;p&gt; CooLAnT : го сомной в вар 1х1 =) &lt;p&gt; DR@G[]N : у меня ошибка выскакивает,ког да захожу в battlenet &lt;p&gt; CooLAnT : у тебя это пиратка?</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>coolant</dc:creator>
+			<guid>http://needforkill.ru/forum/18-71-1</guid>
+		</item>
+		<item>
+			<title>LineAge II</title>
+			<link>http://needforkill.ru/forum/18-172-1</link>
+			<pubDate>Wed, 18 Jul 2007 21:13:34 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Автор темы: ПЕС&lt;br /&gt;Автор последнего сообщения: CALGON&lt;br /&gt;Количество ответов: 28</description>
+			<content:encoded>Есть люди играющие в Л2 ? Скорее всего, что да =) &lt;br /&gt; Напишите какой у вас персонаж (лвл, шмот, профа и т.п.). &lt;br /&gt; И на каком сервере.</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>ПЕС</dc:creator>
+			<guid>http://needforkill.ru/forum/18-172-1</guid>
+		</item>
+		<item>
+			<title>RFOnline</title>
+			<link>http://needforkill.ru/forum/18-155-1</link>
+			<pubDate>Wed, 04 Jul 2007 07:08:20 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/18&quot;&gt;MMORPG&lt;/a&gt;&lt;br /&gt;Автор темы: NONAME&lt;br /&gt;Автор последнего сообщения: NONAME&lt;br /&gt;Количество ответов: 9</description>
+			<content:encoded>Есть увлекающиеся данной игрой ?</content:encoded>
+			<category>MMORPG</category>
+			<dc:creator>NONAME</dc:creator>
+			<guid>http://needforkill.ru/forum/18-155-1</guid>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,7 @@
+(function () {
+	var pars = [0,'table1'];
+	jQuery(document).ready(function () {
+		jQuery('#' + pars[1]).addClass('sortable');
+		includeJSfile('/.s/wid/4/sorttable.js', 'dfds4');
+	});
+})();

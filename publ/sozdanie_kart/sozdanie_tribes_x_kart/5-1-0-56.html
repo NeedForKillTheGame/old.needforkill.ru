@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Создание Tribes-X карт - Создание карт, физика NFK  - Каталог статей - Need For Kill (Quake III in 2D)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../../../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../../../.s/src/base.css" />
+	<link rel="stylesheet" href="../../../.s/src/layer1.css" />
+
+	<script src="../../../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../../../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.634695700470381"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../../../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../../../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../../../.s/src/social.css" /><script type="text/javascript">var advideo_playlist_id=999;</script><script type="text/javascript" src="http://js.advideo.ru/aro.js" async></script>
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="../../rss/index.html" class="rss-lnk">RSS</a> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../../../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../../../index.html" ><span>Главная</span></a></li>
+<li><a  href="../../../news.html" ><span>Новости</span></a></li>
+<li><a  href="../../../load.html" ><span>Файлы</span></a></li>
+<li><a class=" uMenuItemA" href="../../../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../../../photo.html" ><span>Фото альбом</span></a></li>
+<li><a  href="../../../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../../../video.html" ><span>Видео</span></a></li>
+<li><a  href="../../../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../../../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ 
+ <!-- <middle> -->
+ 
+ <div id="content">
+ <div class="part-i">
+ <section>
+ <!-- <body> --><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="80%"><a href="../../../index.html"><!--<s5176>-->Главная<!--</s>--></a> &raquo; <a href="../../../publ.html"><!--<s5208>-->Статьи<!--</s>--></a>  &raquo; <a href="../5.html">Создание карт, физика NFK</a></td>
+<td align="right" style="white-space: nowrap;"></td>
+</tr>
+</table>
+<hr />
+<div class="eTitle" style="padding-bottom:3px;">Создание Tribes-X карт</div>
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="eBlock">
+<tr><td class="eText" colspan="2"><p>Вобщем как и общел пишу статью о создании карты с &quot;наворотами и феничками&quot;<br />
+в статье рассмотрю создание обычной карты (с конфигами) с использованием<br />
+спрайтов, бак, фронт бриков, движущимеся спрайтами,<br />
+анимированными спрайтами и анимированными бриками, для начала создам<br />
+небольшю карту (не играбельную, а просто для показухи возможностей и описания),<br />
+c применением какойнить палитры и назову её Trx-Demo (рис.1),<br />
+теперь открою блокнот (у кого не установлен блокнот, используем notepad;),<br />
+создам конфиг к нашей карте в папке Tribes-X&#92;BOTS&#92;ultra_mode<br />
+и назову его аналогично карте Trx-Demo.cfg.<br />
+Конфиг к карте может содержать в себе любые консольные команды<br />
+(подробнее читаем хэлп DOCS&#92;Tribes-X.mht).<br />
+И начну с того, что добавлю в него следующие простые команды:</p>
+
+<p>back_brick 173<br />
+back_brick 181<br />
+back_brick 178&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+back_brick 179</p>
+
+<p>Другими словами установлю фоновые брики. Параметры команды: back_brick [brick ID]<br />
+это всё элементарно смотся в редакторе карт (рис.2), аналогичным способом добавлю на карту<br />
+фронт бриков:</p>
+
+<p>front_brick 58<br />
+front_brick 163<br />
+front_brick 171</p>
+
+<p>С бриками закончили, теперь самое время найти пару небольших картинок (спрайтов)<br />
+для нашей хитровыдуманной карты. Размеры нашего спрайта должны быть не больше<br />
+и не меньше 256х256 и иметь формат bmp (paint) либо TGA (photoshop) - если мы хотим<br />
+сделать прозрачне спрайты. Ну пока прозрачный спрайт я делать не буду, а ограничусь<br />
+простым пайнтом и какойнить простенькой картинкой с белым фоном (рис.3) (назову его GIRLS.bmp).<br />
+Теперь создам свой новый файл графики (images.d) либо добавлю в готовый (tribes.d).<br />
+Располагаться всё это добро должно в папке Tribes-X&#92;BASENFK&#92;system&#92;.<br />
+Чистый файл графики можно скачать отсюда (файл.1).<br />
+Далее открываем его (images.d) програмкой vtd_tool (файл.2) и пихаем в него наш спрайт (рис.4).<br />
+Незабыли кинуть наш images.d в папку Tribes-X&#92;BASENFK&#92;system&#92;<br />
+Вернёмся к нашему конфигу и далее напишем ещё пару строк:</p>
+
+<p>sp_load 502 images.d GIRLS<br />
+sp_bg 502 6 44</p>
+
+<p>Команда sp_load [любое число от 500 до 949] [наш файл графики] [наш спрайт] - подгрузит наш спрайт...<br />
+Теперь чтобы его расположить на карте мы воспользовались командой sp_bg [число которое мы указали в sp_load] [X] [Y] - соответсвенно координаты расположения на карте. Смотрим (рис.5). (p.s: sp_bg - бак спрайт, sp_fr - фронт спрайт). Ну вот кое-что мы уже сделали (ух скока букв то получается). Теперь такимже (выше описанным) способом я создам спрайт ящика и сделаю его движущимся (эффект конвеера;) (IASHIK.bmp), далее как обычно для начала подгрузим его, однако укажим другое число (например 503) и установим на карту (куданибудь за трубы):</p>
+
+<p>sp_load 503 images.d IASHIK<br />
+sp_bg 503 13 26</p>
+
+<p>Также сюдаже добавим строку:</p>
+
+<p>exec_script Trx-Demo-anm.cfg</p>
+
+<p>Теперь самое время создать скрипт и сделать так чтоб он двигался (падал вниз), для этого мы воспользовались командой exec_script Trx-Demo-anm.cfg (Trx-Demo-anm.cfg - этот файл также создаем блокнотом в тойже папке ultra_mode) Команда запускает скрипт на выполнение, причем название скрипта может быть любым, однако я взял такое. Теперь откроем этот файл и добавим в него сдедующие строки:</p>
+
+<p>execonce 0<br />
+sp_coords 503 13 26<br />
+wait 6000<br />
+sp_move 503 13 42 3</p>
+
+<p>Напоминю, что скрипт не должен содержать пропущенных строк, лишних пробелов и ошибочных команд, иначе ничего у вас не получится, либо скрипт будет глючить. Тут execonce 0 означает проматывать скрипт покругу, постоянно т.е. зациклить (1 - означает использовать только один раз). Далее команда sp_coords 503 X Y моментально переставит спрайт на нужное место, команда wait - подождет необходимое кол-во времени перед запуском следующей команды (1000мс = 1сек думаю это вам пригодитцо ;), далее следует команда sp_move 503 X Y 3. sp_move&nbsp; - плавно передвигает спрайт (3 это скорость передвижения, всего их 1-8, 1 - самое медленное передвижение). Сохраним всё это, ну вот добавили бриков, добавили спрайт, сделали движущийся спрайт, можем сохранить всё запустить и проверить чё получилось :)</p>
+
+<p>Самое вермя добавить в наш скрипт анимированный спрайт (есть много вариантов решения данной задачи), можно каждый раз загружать новый спрайт в одно и тоже число (командой sp_load), можно каждый раз добавлять и удалять спрайт командами sp_load &amp; sp_bg &amp; sp_remove (эффективно для создания анимаций с большими спрайтами), однако я воспользуюсь оптиальным вариантом (командой sp_frame) и анимирую светильник из дума 2D. Для начала подготоил вот такой вот спрайт (FAKEL.bmp) ширина его (кадра) 30 пикселей, и как мы видим тут 4 кадра, добавим наш спрайт в images.d ВОТ ТАКИМ образом (рис.6).</p>
+
+<p>Откроем наш конфиг (Trx-Demo.cfg) добавим в конец ещё один спрайт и ещё один скрипт<br />
+(напомню, что скрипт может также содержать любые консольные команды):</p>
+
+<p>sp_load 504 images.d FAKEL<br />
+sp_bg 504 5 37<br />
+exec_script Trx-Demo-anm2.cfg</p>
+
+<p>Разумеется создадим сам файл скрипта (Trx-Demo-anm2.cfg) и добавим в него следующие строки:</p>
+
+<p>execonce 0<br />
+wait 120<br />
+sp_frame 504 0<br />
+wait 120<br />
+sp_frame 504 1<br />
+wait 120<br />
+sp_frame 504 2<br />
+wait 120<br />
+sp_frame 504 3</p>
+
+<div>Обратим внимание на команду sp_frame [номер спрайта] [кадр] - у нас всего 4 кадра, первый кадр всегда нулевой.</div>
+
+<div>Таким довольно простым способом наш скрипт анимирует светильник :)</div>
+
+<div>&nbsp;</div>
+
+<div>Теперь на карту (через мап эдитор) я добавлю кнопочку (самую обычную кнопку) и задам ей targetname 32 (к примеру),</div>
+
+<div>в наш конфиг (Trx-Demo.cfg) допишу запуск ещё одного скрипта:</div>
+
+<p>exec_script Trx-Demo-button.cfg</p>
+
+<p>Создам файл этого скрипта (Trx-Demo-button.cfg) и в него добавлю следующие строки:</p>
+
+<p>execonce 1<br />
+waittarget 32<br />
+sp_load 505 images.d TRIBES-X2<br />
+sp_static 505 310 300 0<br />
+playsound 101.wav<br />
+wait 8000<br />
+sp_remove 505</p>
+
+<p>Тут вобщем команда waittarget [targetname] дождется активации кнопочки и после этого продолжит выполнение скрипта. sp_static отобразит &quot;статический/фиксированный&quot; фронт спрайт (его кстате тоже можно анимировать и т.д) (0 в конце, это кадр, однако вам это ненужно), playsound проиграет звук из папки BOTS&#92;sound&#92;, sp_remove удалит наш спрайт (таким образом получился эффект лого), также для пущего эффекта после sp_static можем добавить комманду xcolor $FF000000 (что сделает весь экран черным).</p>
+
+<p>Теперь всё это можем сохранить и запустить нашу карту, проверить че получилось :) На этом я закругляюсь со статьей, уж больно сложно всё это описывать, хотя основное я вроде уже описал (остальное читаем в файле помощи DOCS&#92;Tribes-X.mht, в разделе консольных комманд). Также можете посмотреть конфиги к уже готовым картам которые есть в папке ultra_mode и разобраться с остальным самостоятельно, если возникнут вопросы стучите в асю или обращайтесь в чате.</p>
+
+<p><strong><span style="COLOR: #4682b4">Приложения:</span></strong></p>
+
+<p>Рис.1: <a href="http://nfk.pro2d.ru/files/demo/pic01.PNG">http://nfk.pro2d.ru/files/demo/pic01.PNG</a><br />
+Рис.2: <a href="http://nfk.pro2d.ru/files/demo/pic02.PNG">http://nfk.pro2d.ru/files/demo/pic02.PNG</a><br />
+Рис.4: <a href="http://nfk.pro2d.ru/files/demo/pic04.PNG">http://nfk.pro2d.ru/files/demo/pic04.PNG</a><br />
+Рис.5: <a href="http://nfk.pro2d.ru/files/demo/pic05.PNG">http://nfk.pro2d.ru/files/demo/pic05.PNG</a><br />
+Рис.6: <a href="http://nfk.pro2d.ru/files/demo/pic06.PNG">http://nfk.pro2d.ru/files/demo/pic06.PNG</a></p>
+
+<div>ФАЙЛ.1 images.d: <a href="http://nfk.pro2d.ru/files/demo/images.d">http://nfk.pro2d.ru/files/demo/images.d</a></div>
+
+<div>GIRLS.bmp: <a href="http://nfk.pro2d.ru/files/demo/GIRLS.bmp">http://nfk.pro2d.ru/files/demo/GIRLS.bmp</a><br />
+IASHIK.bmp: <a href="http://nfk.pro2d.ru/files/demo/IASHIK.bmp">http://nfk.pro2d.ru/files/demo/IASHIK.bmp</a><br />
+FAKEL.bmp: <a href="http://nfk.pro2d.ru/files/demo/FAKEL.bmp">http://nfk.pro2d.ru/files/demo/FAKEL.bmp</a></div>
+
+<div>&nbsp;</div>
+
+<div>Готовая карта с файлами: <a href="http://nfk.pro2d.ru/files/demo/mapa.rar">http://nfk.pro2d.ru/files/demo/mapa.rar</a><br />
+VTD_Tool: <a href="http://www.pff.clan.su/load/0-0-0-184-20">http://www.pff.clan.su/load/0-0-0-184-20</a></div>
+
+<p>Автор статьи&nbsp;&nbsp; Bitnik он же Enforcer&nbsp;&nbsp; ICQ:293237003</p> </td></tr>
+<tr><td class="eDetails1" colspan="2"><div style="float:right">
+		<style type="text/css">
+			.u-star-rating-15 { list-style:none;margin:0px;padding:0px;width:75px;height:15px;position:relative;background: url('../../../.s/t/1101/rating.png') top left repeat-x }
+			.u-star-rating-15 li{ padding:0px;margin:0px;float:left }
+			.u-star-rating-15 li a { display:block;width:15px;height: 15px;line-height:15px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding: 0px;overflow:hidden }
+			.u-star-rating-15 li a:hover { background: url('../../../.s/t/1101/rating.png') left center;z-index:2;left:0px;border:none }
+			.u-star-rating-15 a.u-one-star { left:0px }
+			.u-star-rating-15 a.u-one-star:hover { width:15px }
+			.u-star-rating-15 a.u-two-stars { left:15px }
+			.u-star-rating-15 a.u-two-stars:hover { width:30px }
+			.u-star-rating-15 a.u-three-stars { left:30px }
+			.u-star-rating-15 a.u-three-stars:hover { width:45px }
+			.u-star-rating-15 a.u-four-stars { left:45px }
+			.u-star-rating-15 a.u-four-stars:hover { width:60px }
+			.u-star-rating-15 a.u-five-stars { left:60px }
+			.u-star-rating-15 a.u-five-stars:hover { width:75px }
+			.u-star-rating-15 li.u-current-rating { top:0 !important; left:0 !important;margin:0 !important;padding:0 !important;outline:none;background: url('../../../.s/t/1101/rating.png') left bottom;position: absolute;height:15px !important;line-height:15px !important;display:block;text-indent:-9000px;z-index:1 }
+		</style><script type="text/javascript">
+var usrarids = {};
+function ustarrating(id, mark) {
+	if (!usrarids[id]) {
+		usrarids[id] = 1;
+		$(".u-star-li-"+id).hide();
+		_uPostForm('', {type:'POST', url:'/publ/', data:{'a':'65','id':id,'mark':mark,'mod':'publ','ajax':'2'}});
+	}
+}
+</script><ul id="uStarRating56" class="uStarRating56 u-star-rating-15" title="Рейтинг: 5.0/7">
+<li class="u-current-rating uCurStarRating56" id="uCurStarRating56" style="width:100%;"></li>
+<li class="u-star-li-56"><a href="5-1-0-56.html#" onclick="ustarrating('56',1);return false;" class="u-one-star">1</a></li>
+<li class="u-star-li-56"><a href="5-1-0-56.html#" onclick="ustarrating('56',2);return false;" class="u-two-stars">2</a></li>
+<li class="u-star-li-56"><a href="5-1-0-56.html#" onclick="ustarrating('56',3);return false;" class="u-three-stars">3</a></li>
+<li class="u-star-li-56"><a href="5-1-0-56.html#" onclick="ustarrating('56',4);return false;" class="u-four-stars">4</a></li>
+<li class="u-star-li-56"><a href="5-1-0-56.html#" onclick="ustarrating('56',5);return false;" class="u-five-stars">5</a></li></ul></div><span class="e-category"><span class="ed-title"><!--<s3179>-->Категория<!--</s>-->:</span> <span class="ed-value"><a href="../5.html">Создание карт, физика NFK</a></span></span><span class="ed-sep"> | </span><span class="e-add"><span class="ed-title"><!--<s3178>-->Добавил<!--</s>-->:</span> <span class="ed-value"><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Enforcer</a> (2009-09-20) </span></span>
+<span class="ed-sep"> | </span><span class="e-author"><span class="ed-title"><!--<s5173>-->Автор<!--</s>-->:</span> <span class="ed-value"><u>Enforcer</u>  </span></span>
+</td></tr>
+<tr><td class="eDetails2" colspan="2"><span class="e-reads"><span class="ed-title"><!--<s3177>-->Просмотров<!--</s>-->:</span> <span class="ed-value">1956</span></span> <span class="ed-sep"> | </span><span class="e-comments"><span class="ed-title"><!--<s3039>-->Комментарии<!--</s>-->:</span> <span class="ed-value">10</span></span>
+
+<span class="ed-sep"> | </span><span class="e-rating"><span class="ed-title"><!--<s3119>-->Рейтинг<!--</s>-->:</span> <span class="ed-value"><span id="entRating56">5.0</span>/<span id="entRated56">7</span></span></span></td></tr>
+</table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="60%" height="25"><!--<s5183>-->Всего комментариев<!--</s>-->: <b>8</b></td><td align="right" height="25"></td></tr>
+<tr><td colspan="2">
+			<div class="com-order-block">
+				<label class="com-order-wrap">
+					<span class="com-order-title">Порядок вывода комментариев:</span>
+					<select class="com-order-select">
+						<option value="" selected="selected">По умолчанию</option>
+						<option value="desc" >Сначала новые</option>
+						<option value="asc" >Сначала старые</option>
+					</select>
+				</label>
+			</div>
+			<script type="text/javascript">
+				setTimeout(function() {
+					$('.com-order-select').change(function() {
+						var elem = $(this);
+						var oldValue = ( /6pffcomOrder=(asc|desc)/.exec(document.cookie) || {} )[1] || '';
+						var newValue = elem.val();
+						console.log(oldValue, newValue);
+						if( newValue == oldValue ) {
+							return;
+						};
+						document.cookie = '6pffcomOrder=' + encodeURIComponent(newValue) + '; path=/; expires=' + (new Date((new Date).getTime() + 1000*60*60*24*365)).toGMTString();
+						window.console && console.info && console.info('comment order changed: "' + oldValue + '" >> "' + newValue + '"');
+						// elem.parents('.com-order-wrap').eq(0).find('.com-order-apply').fadeIn().removeClass('com-order-apply-hidden').addClass('com-order-apply-visible');
+						newValue = newValue || 'default';
+						location.search = location.search
+							? /[?&]comments_order=([^&]*)/.test(location.search)
+								? location.search.replace(/comments_order=([^&]*)/, 'comments_order=' + newValue)
+								: location.search + '&comments_order=' + newValue
+							: '?comments_order=' + newValue;
+					});
+				}, 100);
+			</script>
+		
+			<div id="myGrid" style="display:none;"><img alt="" src="../../../.s/img/ma/m/i3.gif" /></div>
+			<script type="text/javascript">
+				function spages(p,link) {
+					
+					try {document.getElementById('myGrid').style.cssText = ''; } catch(e) {};
+					_uPostForm('',{url:''+atob('L3B1Ymwvc296ZGFuaWVfdHJpYmVzX3hfa2FydC81')+'-'+p+'-0-56-987-'+Math.floor(Math.random()*1e8),type:'POST'});
+				
+				}
+			</script>
+			<a name="comments"></a>
+			<div id="newEntryT"></div>
+			<div id="allEntries"><div class="comEnt report-spam-target " id="comEnt1508" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-28T12:02:20Z",
+							"dateModified": "2009-09-28T12:02:20Z",
+							"author": {
+								"@type": "Person",
+								"name": "Enforcer"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Enforcer"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1508" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1508" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1508" onclick="if (document.getElementById('comEnt1508')){$('body').scrollTo( { top:$('#comEnt1508').offset().top-22, left:0}, 500 );return false;}" name="ent1508"><b>8</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Enforcer</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-28 12:02" style="font-size:7pt;unicode-bidi:embed;">(2009-09-28 12:02)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Enforcer" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/92/8190-387875.png" width="30" border="0" /></span>
+			</a>
+			
+			ЗАкончить плагин не получается т к не получается отследить циферки координат и брик ид в редакторе карт... Как только узнаю как это сделать, доделаю Плагин...
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1508"><b></b></div><div class="comEnt report-spam-target " id="comEnt1490" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T19:52:13Z",
+							"dateModified": "2009-09-20T19:52:13Z",
+							"author": {
+								"@type": "Person",
+								"name": "nurupo"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "nurupo"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1490" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1490" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1490" onclick="if (document.getElementById('comEnt1490')){$('body').scrollTo( { top:$('#comEnt1490').offset().top-22, left:0}, 500 );return false;}" name="ent1490"><b>7</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">nurupo</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 19:52" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 19:52)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="nurupo" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/86/037464.gif" width="30" border="0" /></span>
+			</a>
+			
+			#5, да, битник собирается писать какую-то примочку, он уже не раз об этом говорил <p> #6, там бесит то, что можно разворачиваться когда убегаешь и куча других вещей, плюс там код - гавно, абракотабра какая-то... Тем более там другие команды, функции и т.д., придётся долго разбираться в том коде, да и никому это не надо, дополнение TFK))
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1490"><b></b></div><div class="comEnt report-spam-target " id="comEnt1488" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T16:03:30Z",
+							"dateModified": "2009-09-20T16:03:30Z",
+							"author": {
+								"@type": "Person",
+								"name": "Barlog"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Barlog"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1488" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1488" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1488" onclick="if (document.getElementById('comEnt1488')){$('body').scrollTo( { top:$('#comEnt1488').offset().top-22, left:0}, 500 );return false;}" name="ent1488"><b>6</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Barlog</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 16:03" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 16:03)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Barlog" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/98/2149-761845.jpg" width="30" border="0" /></span>
+			</a>
+			
+			Вот я не понял почему не могут сдела дополнение к TFK там редактор норм просто поменять графигу оружия(ну как в TribesX),и исправить ЛАГИ и недочеты с сетью.А редактор-то все есть и париться ненадо .С командами в кансолях и вообще со всем прочем... <br /> И к стати тут я больше половины непонял!!!
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1488"><b></b></div><div class="comEnt report-spam-target " id="comEnt1487" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T15:50:02Z",
+							"dateModified": "2009-09-20T15:50:02Z",
+							"author": {
+								"@type": "Person",
+								"name": "Barlog"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Barlog"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1487" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1487" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1487" onclick="if (document.getElementById('comEnt1487')){$('body').scrollTo( { top:$('#comEnt1487').offset().top-22, left:0}, 500 );return false;}" name="ent1487"><b>5</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Barlog</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 15:50" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 15:50)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Barlog" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/98/2149-761845.jpg" width="30" border="0" /></span>
+			</a>
+			
+			А редактор новый сделают,чтоб полехче было
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1487"><b></b></div><div class="comEnt report-spam-target " id="comEnt1486" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T15:48:56Z",
+							"dateModified": "2009-09-20T15:48:56Z",
+							"author": {
+								"@type": "Person",
+								"name": "Enforcer"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Enforcer"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1486" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1486" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1486" onclick="if (document.getElementById('comEnt1486')){$('body').scrollTo( { top:$('#comEnt1486').offset().top-22, left:0}, 500 );return false;}" name="ent1486"><b>4</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Enforcer</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 15:48" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 15:48)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Enforcer" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/92/8190-387875.png" width="30" border="0" /></span>
+			</a>
+			
+			Обычние брики просто так двигать нельзя к сожалению, другимо словами лифты реализовать не получится...
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1486"><b></b></div><div class="comEnt report-spam-target " id="comEnt1485" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T15:46:51Z",
+							"dateModified": "2009-09-20T15:46:51Z",
+							"author": {
+								"@type": "Person",
+								"name": "Barlog"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Barlog"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1485" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1485" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1485" onclick="if (document.getElementById('comEnt1485')){$('body').scrollTo( { top:$('#comEnt1485').offset().top-22, left:0}, 500 );return false;}" name="ent1485"><b>3</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Barlog</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 15:46" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 15:46)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Barlog" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/98/2149-761845.jpg" width="30" border="0" /></span>
+			</a>
+			
+			А как делать чтобы БЛОКИ ДВИГАЛИСЬ!!! <img src="http://s1.ucoz.net/sm/23/happy.gif" border="0" align="absmiddle" alt="happy">
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1485"><b></b></div><div class="comEnt report-spam-target " id="comEnt1484" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock1">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T15:46:47Z",
+							"dateModified": "2009-09-20T15:46:47Z",
+							"author": {
+								"@type": "Person",
+								"name": "Enforcer"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Enforcer"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1484" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1484" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1484" onclick="if (document.getElementById('comEnt1484')){$('body').scrollTo( { top:$('#comEnt1484').offset().top-22, left:0}, 500 );return false;}" name="ent1484"><b>2</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Enforcer</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 15:46" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 15:46)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Enforcer" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/92/8190-387875.png" width="30" border="0" /></span>
+			</a>
+			
+			Во, поправил
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1484"><b></b></div><div class="comEnt report-spam-target " id="comEnt1483" style=" "><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cBlock2">
+<tr>
+	<td style="padding:3px;">
+		<script type="application/ld+json">
+					{	"@context": "http://schema.org",
+						"@type": "Review",
+						"itemReviewed": {
+							"@context": "http://schema.org",
+							"@type": "Article",
+							"headline": "Создание Tribes-X карт",
+							"datePublished": "2009-09-20T15:41:43Z",
+							"dateModified": "2009-09-20T15:41:43Z",
+							"author": {
+								"@type": "Person",
+								"name": "Barlog"
+							},
+							"description": "Создание Tribes-X карт",
+							
+							"publisher": {
+								"@type": "Organization",
+								"name": "Enforcer",
+								"logo": {
+									"@type": "ImageObject",
+									"url": "http://needforkill.ru/.s/img/micromark_logo.png",
+									"width": 600,
+									"height": 60
+								}
+							},
+							"mainEntityOfPage": "http://needforkill.ru/publ/sozdanie_kart/sozdanie_tribes_x_kart/5-1-0-56"
+						,"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5.0",
+							"reviewCount": "7"
+						}
+						},
+						"name": "Создание Tribes-X карт",
+						"author": {
+							"@type": "Person",
+							"name": "Barlog"
+						}
+					}
+					</script><div style="float:right;font-size:11px;font-family:Arial,sans-serif;">
+			
+				<img alt="" src="../../../.s/img/icon/thumbu2_.png" title="Хороший пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+				
+				0
+				
+				<img alt="" src="../../../.s/img/icon/thumbd2_.png" title="Плохой пост" style="margin: 0 4px;vertical-align: middle;opacity: .5;">
+			
+
+			<span id="report-spam-wrap-1483" class="report-spam-wrap"><a class="report-spam-btn" data-message-id="1483" data-not-spam="0" href="javascript://">Спам</a></span>
+		</div><div class="cTop" style="text-align:left;">
+			
+				
+			
+
+			<a href="5-1-0-56.html#ent1483" onclick="if (document.getElementById('comEnt1483')){$('body').scrollTo( { top:$('#comEnt1483').offset().top-22, left:0}, 500 );return false;}" name="ent1483"><b>1</b></a>
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><b itemprop="name">Barlog</b></a>
+			
+			&nbsp;
+			<span itemprop="datePublished" content="2009-09-20 15:41" style="font-size:7pt;unicode-bidi:embed;">(2009-09-20 15:41)</span>
+			
+		</div>
+
+		<div itemprop="reviewBody" class="cMessage" style="text-align:left;clear:both;padding:2px 0;">
+			
+			<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-303', 'up303', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="Barlog" style="padding-right:4px;">
+				<span class="user_avatar"><img alt="" align="left" src="../../../avatar/98/2149-761845.jpg" width="30" border="0" /></span>
+			</a>
+			
+			Где (файл.1) ???
+		</div>
+
+		
+
+		</td>
+</tr>
+</table>
+<br />
+
+</div><div style="width:auto;*width:100%;margin-left:20px;" id="appEntry1483"><b></b></div></div>
+			<div id="newEntryB"></div><script type="text/javascript">
+			
+		if( !window.uCoz ) window.uCoz = {};
+		if( !uCoz.spam ) uCoz.spam = {};
+		if( !uCoz.spam.sign ) uCoz.spam.sign = {};
+
+		if( !uCoz.spam.config ) uCoz.spam.config = {};
+
+		uCoz.spam.config.scopeID  = 0;
+		uCoz.spam.config.idPrefix = 'comEnt';
+
+		uCoz.spam.sign.spam            = 'Спам';
+		uCoz.spam.sign.notSpam         = 'Не спам';
+		uCoz.spam.sign.hidden          = 'Спам-сообщение скрыто.';
+		uCoz.spam.sign.shown           = 'Спам-сообщение показано.';
+		uCoz.spam.sign.show            = 'Показать';
+		uCoz.spam.sign.hide            = 'Скрыть';
+		uCoz.spam.sign.admSpam         = 'Разрешить жалобы';
+		uCoz.spam.sign.admSpamTitle    = 'Разрешить пользователям сайта помечать это сообщение как спам';
+		uCoz.spam.sign.admNotSpam      = 'Это не спам';
+		uCoz.spam.sign.admNotSpamTitle = 'Пометить как не-спам, запретить пользователям жаловаться на это сообщение';
+
+		
+
+		uCoz.spam.moderPanelNotSpamClick = function(elem) {
+			var waitImg = $('<img align="absmiddle" src="../../../.s/img/fr/EmnAjax.gif">');
+			var elem = $(elem);
+			elem.find('img').hide();
+			elem.append(waitImg);
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam') ? 0 : 1; // invert - 'data-not-spam' should contain CURRENT 'notspam' status!
+			$.post('/index/', {
+				a          : 101,
+				scope_id   : uCoz.spam.config.scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				waitImg.remove();
+				elem.find('img').show();
+				if( response.error ) {
+					alert(response.error);
+					return;
+				};
+				if( response.status == 'admin_message_not_spam' ) {
+					elem.attr('data-not-spam', true).find('img').attr('src', '/.s/img/spamfilter/notspam-active.gif');
+					$('#del-as-spam-' + messageID).hide();
+				} else {
+					elem.removeAttr('data-not-spam').find('img').attr('src', '/.s/img/spamfilter/notspam.gif');
+					$('#del-as-spam-' + messageID).show();
+				};
+				//console.log(response);
+			});
+			return false;
+		};
+
+
+		uCoz.spam.report = function(scopeID, messageID, notSpam, callback, context) {
+			return $.post('/index/', {
+				a: 101,
+				scope_id   : scopeID,
+				message_id : messageID,
+				not_spam   : notSpam
+			}).then(function(response) {
+				if( callback ) {
+					callback.call(context || window, response, context);
+				} else {
+					window.console && console.log && console.log('uCoz.spam.report: message #' + messageID, response);
+				};
+			});
+		};
+
+		uCoz.spam.reportDOM = function(event) {
+			if( event.preventDefault ) event.preventDefault();
+			var elem      = $(this);
+			if( elem.hasClass('spam-report-working') ) return false;
+			var scopeID   = uCoz.spam.config.scopeID;
+			var messageID = elem.attr('data-message-id');
+			var notSpam   = elem.attr('data-not-spam');
+			var target    = elem.parents('.report-spam-target').eq(0);
+			var height    = target.outerHeight(true);
+			var margin    = target.css('margin-left');
+			elem.html('<img src="../../../.s/img/wd/1/ajaxs.gif">').addClass('report-spam-working');
+			uCoz.spam.report(scopeID, messageID, notSpam, function(response, context) {
+				context.elem.text('').removeClass('report-spam-working');
+				window.console && console.log && console.log(response); // DEBUG
+				response.warning && window.console && console.warn && console.warn( 'uCoz.spam.report: warning: ' + response.warning, response );
+				if( response.warning && !response.status ) {
+					// non-critical warnings, may occur if user reloads cached page:
+					if( response.warning == 'already_reported' ) response.status = 'message_spam';
+					if( response.warning == 'not_reported'     ) response.status = 'message_not_spam';
+				};
+				if( response.error ) {
+					context.target.html('<div style="height: ' + context.height + 'px; line-height: ' + context.height + 'px; color: red; font-weight: bold; text-align: center;">' + response.error + '</div>');
+				} else if( response.status ) {
+					if( response.status == 'message_spam' ) {
+						context.elem.text(uCoz.spam.sign.notSpam).attr('data-not-spam', '1');
+						var toggle = $('#report-spam-toggle-wrapper-' + response.message_id);
+						if( toggle.length ) {
+							toggle.find('.report-spam-toggle-text').text(uCoz.spam.sign.hidden);
+							toggle.find('.report-spam-toggle-button').text(uCoz.spam.sign.show);
+						} else {
+							toggle = $('<div id="report-spam-toggle-wrapper-' + response.message_id + '" class="report-spam-toggle-wrapper" style="' + (context.margin ? 'margin-left: ' + context.margin : '') + '"><span class="report-spam-toggle-text">' + uCoz.spam.sign.hidden + '</span> <a class="report-spam-toggle-button" data-target="#' + uCoz.spam.config.idPrefix + response.message_id + '" href="javascript://">' + uCoz.spam.sign.show + '</a></div>').hide().insertBefore(context.target);
+							uCoz.spam.handleDOM(toggle);
+						};
+						context.target.addClass('report-spam-hidden').fadeOut('fast', function() {
+							toggle.fadeIn('fast');
+						});
+					} else if( response.status == 'message_not_spam' ) {
+						context.elem.text(uCoz.spam.sign.spam).attr('data-not-spam', '0');
+						$('#report-spam-toggle-wrapper-' + response.message_id).fadeOut('fast');
+						$('#' + uCoz.spam.config.idPrefix + response.message_id).removeClass('report-spam-hidden').show();
+					} else if( response.status == 'admin_message_not_spam' ) {
+						elem.text(uCoz.spam.sign.admSpam).attr('title', uCoz.spam.sign.admSpamTitle).attr('data-not-spam', '0');
+					} else if( response.status == 'admin_message_spam' ) {
+						elem.text(uCoz.spam.sign.admNotSpam).attr('title', uCoz.spam.sign.admNotSpamTitle).attr('data-not-spam', '1');
+					} else {
+						alert('uCoz.spam.report: unknown status: ' + response.status);
+					};
+				} else {
+					context.target.remove(); // no status returned by the server - remove message (from DOM).
+				};
+			}, { elem: elem, target: target, height: height, margin: margin });
+			return false;
+		};
+
+		uCoz.spam.handleDOM = function(within) {
+			within = $(within || 'body');
+			within.find('.report-spam-wrap').each(function() {
+				var elem = $(this);
+				elem.parent().prepend(elem);
+			});
+			within.find('.report-spam-toggle-button').not('.report-spam-handled').click(function(event) {
+				if( event.preventDefault ) event.preventDefault();
+				var elem    = $(this);
+				var wrapper = elem.parents('.report-spam-toggle-wrapper');
+				var text    = wrapper.find('.report-spam-toggle-text');
+				var target  = elem.attr('data-target');
+				target      = $(target);
+				target.slideToggle('fast', function() {
+					if( target.is(':visible') ) {
+						wrapper.addClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.shown);
+						elem.text(uCoz.spam.sign.hide);
+					} else {
+						wrapper.removeClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.hidden);
+						elem.text(uCoz.spam.sign.show);
+					};
+				});
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-remove').not('.report-spam-handled').click(function(event) {
+				if( event.preventDefault ) event.preventDefault();
+				var messageID = $(this).attr('data-message-id');
+				del_item(messageID, 1);
+				return false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-btn').not('.report-spam-handled').click(uCoz.spam.reportDOM).addClass('report-spam-handled');
+			window.console && console.log && console.log('uCoz.spam.handleDOM: done.');
+            try { if (uCoz.manageCommentControls) { uCoz.manageCommentControls() } } catch(e) { window.console && console.log && console.log('manageCommentControls: fail.'); }
+			return this;
+		};
+	
+			uCoz.spam.handleDOM();
+		</script></td></tr>
+<tr><td colspan="2" align="center"></td></tr>
+<tr><td colspan="2" height="10"></td></tr>
+</table>
+
+
+
+<div align="center" class="commReg"><!--<s5237>-->Добавлять комментарии могут только зарегистрированные пользователи.<!--</s>--><br />[ <a href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> | <a href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a> ]</div>
+
+<!-- </body> -->
+ </section>
+ </div>
+ </div>
+ </div>
+ 
+ <!-- </middle> -->
+ <div class="clr"></div>
+ 
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbUnfbFv">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../../../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.06477 (s1) -->

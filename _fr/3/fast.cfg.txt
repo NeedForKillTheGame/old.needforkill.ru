@@ -1,0 +1,29 @@
+// Server Optimization CFG
+allowmapschangebg 0
+drawbackground 0
+fill_bgr $000000
+sv_wateralpha 255
+r_alphaitemsrespawn 0
+r_animatedarmors 0
+r_animatedmega 0
+r_bgmotion 0
+r_drawbubbles 0
+r_flashingitems 0
+r_fx_explo 0
+r_fx_plasma 0
+r_fx_quad 0
+r_fx_rail 0
+r_fx_rlbfg 0
+r_fx_shaft 0
+r_fx_smoke 0
+r_fx_shotgun 0
+r_massacre 0
+r_transparentbulletmarks 0
+r_transparentexplosions 0
+messagetime 0
+transparentstats 0
+corpsetime 0
+meatlevel 0
+gibblood 0
+crosstype 0
+clear

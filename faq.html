@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Вопросник - Need For Kill (Quake III in 2D)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href=".s/src/base.css" />
+	<link rel="stylesheet" href=".s/src/layer1.css" />
+
+	<script src=".s/src/jquery-1.7.2.js"></script>
+	
+	<script src=".s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.267008632716106"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href=".s/src/ulightbox/ulightbox.min.css" />
+	<script src=".s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+	function spages(p, s ) {
+	if (0 ) {document.location.href = '/faq/'+s+'-'+p; return; }
+	try {document.getElementById('myGrid').style.display = ''; } catch(e) {}
+	_uPostForm('', {url:'/faq/' + s + '-' + p + '-0-0-' + Date.now() } );
+}
+function scategs(p ) {
+	if (0 ) {document.location.href = '/faq/'+p+'-1'; return; }
+	try {document.getElementById('myGrid').style.display = ''; } catch(e) {}
+	_uPostForm('', {url:'/faq/' + p + '-1-0-0-' + Date.now() + '-1' } );
+}
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href=".s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="index.html" ><span>Главная</span></a></li>
+<li><a  href="news.html" ><span>Новости</span></a></li>
+<li><a  href="load.html" ><span>Файлы</span></a></li>
+<li><a  href="publ.html" ><span>Статьи</span></a></li>
+<li><a  href="photo.html" ><span>Фото альбом</span></a></li>
+<li><a  href="forum.html" ><span>Форум</span></a></li>
+<li><a  href="video.html" ><span>Видео</span></a></li>
+<li><a class=" uMenuItemA" href="faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ 
+ <!-- <middle> -->
+ <div class="part-l">
+ <div id="content">
+ <div class="part-i">
+ <section>
+ <!-- <body> --><table border="0" cellpadding="1" cellspacing="1" width="100%">
+<tr><td width="80%"><a href="index.html"><!--<s5176>-->Главная<!--</s>--></a> &raquo; FAQ</td>
+<td align="right" style="white-space: nowrap;">[ <a href="faq/0-0-0-1.html"><!--<s5201>-->Добавить вопрос<!--</s>--></a> ]</td></tr>
+</table>
+
+<hr />
+<div id="myGrid" style="display:none;"><img alt="" src=".s/img/ma/m/i3.gif" /></div>
+			<div id="allEntries"><div class="fastLinks"><ul class="uz"><li class="fastLink"><a href="faq.html#1">Как писать цветными буквами?</a></li><li class="fastLink"><a href="faq.html#2">Как изменить модель игрока?</a></li><li class="fastLink"><a href="faq.html#3">Как быстро менять оружие?</a></li><li class="fastLink"><a href="faq.html#4">Где мне узнать параметры оружия в NFK</a></li><li class="fastLink"><a href="faq.html#5">Что такое sv_allowspectators?</a></li><li class="fastLink"><a href="faq.html#6">Как использовать файлы .cfg?</a></li><li class="fastLink"><a href="faq.html#7">Как записывать, а потом проигрывать записанные реплеи?</a></li><li class="fastLink"><a href="faq.html#9">как прилепить к клавише ну например какой-нибудь смайлик =)</a></li><li class="fastLink"><a href="faq.html#14">Отчего зависит пинг?</a></li><li class="fastLink"><a href="faq.html#12">как кикнуть игрока с сервера?</a></li><li class="fastLink"><a href="faq.html#13">Блин, нафиг вообще спрашивать, если есть HELP да еще и на РУССКОМ?</a></li><li class="fastLink"><a href="faq.html#18">можно ли загрузить карту прямо из игры, у которой имя с пробелами. например "xard trix by dragon.mapa"?</a></li><li class="fastLink"><a href="faq.html#17">че такое invite sent?</a></li><li class="fastLink"><a href="faq.html#19">Как сделать так, что бы на сервере был разрешён r_mode 3 ???</a></li><li class="fastLink"><a href="faq.html#26">Почему не подключается к NFK Planet? пишет connection failed</a></li><li class="fastLink"><a href="faq.html#20">а можно прилепить к клавише карту, например "1" нажимаеш и появляется карта "dm0" ???</a></li><li class="fastLink"><a href="faq.html#21">а где мне достать pqr мод, и нормальный конфи к ниму?</a></li><li class="fastLink"><a href="faq.html#22">Правда ли, что CALGON - бог нфк? О_О</a></li><li class="fastLink"><a href="faq.html#24">Почему на некоторые серверы нельзя подключиться?</a></li><li class="fastLink"><a href="faq.html#25">Можно ли изменять тип отображения панели фрагов, допустим чтобы на больших картах он выглядел как на малых? Какая комманда делает это?</a></li><li class="fastLink"><a href="faq.html#27">почему не могут подсоединиться серваку, который я создаю?</a></li><li class="fastLink"><a href="faq.html#28">люды обясните дебилу как бота в yar создать умоляю!!!!!!!!!!!!!</a></li><li class="fastLink"><a href="faq.html#30">как сделать, чтобы были видны все невидимые брики и death-brick&#39;и?</a></li><li class="fastLink"><a href="faq.html#33">можете подсказать как анимированные ники делать????</a></li><li class="fastLink"><a href="faq.html#32">люди такой вапрос...а скока nfk трафика ест???</a></li><li class="fastLink"><a href="faq.html#36">Как чатиться при игре на сервере NFK planet? enter не печатает. ОС-Win Vista</a></li><li class="fastLink"><a href="faq.html#35">можете подсказать как файлы выкладывать на сайт...если можно пошагово</a></li><li class="fastLink"><a href="faq.html#37">Как писать чёрными буквами?</a></li><li class="fastLink"><a href="faq.html#38">Можно ли отключать отображение медалей в нфк (которые показываются при убийстве перчаткой и т д) ?</a></li><li class="fastLink"><a href="faq.html#39">Почему я не могу присоединиться к NFK Planet?</a></li><li class="fastLink"><a href="faq.html#40">Как отключить панель отображения флагов и capturescore поскоку на АСТ это не нужно</a></li><li class="fastLink"><a href="faq.html#41">Спектатор... Как создать и не играть?</a></li><li class="fastLink"><a href="faq.html#42">Иногда я создаю сервер а к нему не могут подключится?</a></li><li class="fastLink"><a href="faq.html#44">Почему каогда я печатаю в консоле сообщение другие его не видят??</a></li><li class="fastLink"><a href="faq.html#45">Как расшифровывается название клана PFF?</a></li><li class="fastLink"><a href="faq.html#48">Какая консольная команда сохраняет текущие настройки трибеса?</a></li><li class="fastLink"><a href="faq.html#50">можно сделать в нфк поиск карт написал хоп те карта</a></li><li class="fastLink"><a href="faq.html#53">как сделать вот я беру в трибес икс bind xuse e и не работат</a></li><li class="fastLink"><a href="faq.html#52">У меня не сохраняется ЛОГ в дедике, хотя я написал в конфиге log 1 . Что надо сделать чтоб лог сохранялся?</a></li><li class="fastLink"><a href="faq.html#54">почему я файл updater в трибес включаю нажимаю го но не конектится</a></li><li class="fastLink"><a href="faq.html#55">&quot;railarenainstagib [0-1] - режим instagib в railarena&quot; - чё такое instagib?</a></li><li class="fastLink"><a href="faq.html#56">Есть ли коммадна, которая отображает IP всех игроков зашедших на мой серв?</a></li><li class="fastLink"><a href="faq.html#57">почему у меня фпс увеличевается быстро бегать неудобно</a></li><li class="fastLink"><a href="faq.html#59">Что нужно сделать, чтобы взяли в клан pff?</a></li><li class="fastLink"><a href="faq.html#60">Можно ли узнать свой рейтинг , а не только топ-лучших?</a></li><li class="fastLink"><a href="faq.html#61">Подскажите, как сделать чёрный и серый фон?</a></li><li class="fastLink"><a href="faq.html#62">Статистика на сайте сохраняется автоматически или надо записывать NFK-meter?</a></li><li class="fastLink"><a href="faq.html#63">Как началь голосование за смену карты/продление/начало поединка и т.д.?</a></li><li class="fastLink"><a href="faq.html#65">Как сделать чтобы кубик двигался в самой карте, как в jungle2ua, или экскаватор, или еще какая нибудь модель.</a></li><li class="fastLink"><a href="faq.html#66">Как сделать? После окончание раунда, компьютер сам выбрал ту карту которую я захочу. Я знаю что можно сделать через maplist, но есть другие командные строки.</a></li><li class="fastLink"><a href="faq.html#67">Можно играть в двоем на разделенных экранах, как в TFK?</a></li><li class="fastLink"><a href="faq.html#69">Будет ли новое обновление NFK? Если будет, то когда.</a></li><li class="fastLink"><a href="faq.html#73">Как включить бота? (вместо второго игрока)</a></li><li class="fastLink"><a href="faq.html#8">Какие настройки нужны для DM и TDM?</a></li></ul><hr class="fastLinksHr" /></div><div id="entryID1"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="1" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-1'); return false;">Как писать цветными буквами?</a></div>
+
+<div class="eAnswer">Цветные буквы: <br /> NFK поддерживает цветные имена (не только по мультиплееру). Форма записи имен такая же как в Quake3. То есть нужно в имени написать тэг, который означает цвет. Доступны следующие цвета: <font color="#860000">1</font><font color="#00B32A">2</font><font color="#C1C802">3</font><font color="#04178E">4</font><font color="#00BABC">5</font><font color="#9600A8">6</font><font color=white>7</font>. Перед номером нужно ставить символ "^". Примеры:<br> <br /> ^1pla^3y^1er - <font color="#860000">pla</font><font color="#C1C802">y</font><font color="#860000">er</font>.<br> <br /> Еще есть тэг "^b", он делает текст мигающим, а тэг "^n" останавливает мигание.<br> <br /> //note: максимальная длина имени это 30 символов.</div></td></tr></table><br /></div><div id="entryID2"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="2" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-2'); return false;">Как изменить модель игрока?</a></div>
+
+<div class="eAnswer">В NFK можно играть разными моделями. Модели NFK - это внешний вид игрока. Установка модели: все модели хранятся в каталоге с игрой в папке basenfk&#92;models&#92; . К примеру, Вы скачали модель klesk. Папку klesk из архива klesk.zip переписываете в каталог с игрой в папку basenfk&#92;models&#92; . После чего модель станет доступной в списках моделей. <br> Дополнительные модели можно скачать <a href="http://pff.clan.su/load/18">отсюда</a> <br> Выбирать модель можно через окно player properties или через консольную команду "model klesk+blue","p2model klesk+blue". Теоретически вы можете создавать свои модели. Создаются они с помощью программы NMDL</div></td></tr></table><br /></div><div id="entryID3"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="3" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-3'); return false;">Как быстро менять оружие?</a></div>
+
+<div class="eAnswer">Для этого нужно предворительно в консольной строке набрать команду <br /> bind {key} {action} <br /> Ниже описано каким может быть параметр {key} <br /> A,B,C,D....Z <br /> 1,2,3..0 <br /> shift, ctrl, alt, tab, space, capslock, num0, num1, num2, num3, num4, num5, num6, num7, num8, num9, num0, num/, num*, num-, num+, num., enter, insert, home, pgup, pgdown, delete, end, backspace, leftarrow, rightarrow, uparrow, downarrow, <br /> mbutton1,mbutton2,mbutton3 - кнопки мыши. <br /> Ниже описано каким может быть параметр {action}: <br /> moveleft, moveright, moveup, movedown, nextweapon, prevweapon, lookup, lookdown, fire, center, weapon0, weapon1, weapon2, weapon3, weapon4, weapon5, weapon6, weapon7, weapon8, p2moveleft, p2moveright, p2moveup, p2fire, p2nextweapon, p2prevweapon, p2lookup, p2lookdown, p2center, p2weapon0, p2weapon1, p2weapon2, p2weapon3, p2weapon4, p2weapon5, p2weapon6, p2weapon7, p2weapon8, scoreboard. <p> Пример как биндить: <br /> bind leftarrow moveleft <br /> bind a p2moveleft <br /> приставка p2 значит для второго игрока. Ниже приложен пример набиндивания управления для игрока 2: <br /> bind 1 p2weapon2 <br /> bind e p2weapon3 <br /> bind r p2weapon4 <br /> bind alt p2weapon5 <br /> bind 4 p2weapon6 <br /> bind capslock p2weapon7 <br /> bind tab p2weapon1 <br /> bind k p2lookup <br /> bind h p2lookdown <br /> bind j p2fire <br /> bind w p2moveup <br /> bind s p2moveup <br /> bind a p2moveleft <br /> bind d p2moveright <br /> NOTE: Чтобы забинденные значения lookup, lookdown работали то надо на консоли набрать "mouselook 0", и тогда смотрение игрока 1 будет на забинденных кнопках со значениями lookup, lookdown. <p> Чтобы биндить мышь надо "bind mbutton1 fire" "bind mbutton2 weapon6" и тд. <br /> Бинд "Center" центрует оружие. <br /> Чтобы записать бинды в отдельный конфиг перенесите команды в отдельный cfg файл. И потом вызывайте его в главном меню (на консоли набрать "exec yourfilename". Yourfilename.cfg должен лежать в каталоге BaseNFK). <br /> Если вас ломает каждый раз писать EXEC, то в каталоге basenfk создайте конфиг autoexec.cfg, а в нем напишите exec Yourfilename. И ваш конфиг будет грузиться автоматом. <p> Консольные, команды относящиеся к биндам: unbindkeys <br /> p2unbindkeys <br /> p1defaultcontrols <br /> p2defaultcontrols</div></td></tr></table><br /></div><div id="entryID4"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="4" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-4'); return false;">Где мне узнать параметры оружия в NFK</a></div>
+
+<div class="eAnswer">Чтобы лучше разобраться в игре вам необходимо прочитать Help-файл. <br /> Он находится в папке с игрой HELP&#92;nfk_help070.html <br /> И все вопросы отпадут сами собой.</div></td></tr></table><br /></div><div id="entryID5"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="5" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-5'); return false;">Что такое sv_allowspectators?</a></div>
+
+<div class="eAnswer">sv_maxspectators [1-4]: Максимальное кол-во наблюдателей на сервере. <br /> sv_allowspectators [0-1]: Разрешает&#92;запрещает наблюдателей на сервере. <br /> Чтобы стать наблюдателем нужно перед входом на сервер прописать в консоле spectator 1, <br /> если на сервере будет прописано sv_allowspectators 0 к нему нельзя будет присоединиться.</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">GarryBolt</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1', 'up1', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">pff</a>)</span></td></tr></table><br /></div><div id="entryID6"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="6" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-6'); return false;">Как использовать файлы .cfg?</a></div>
+
+<div class="eAnswer">в папке basenfk можно делать конфиги самому, например можно отредактировать файл default.сfg <br /> Вот несколько консольных команд: <br /> writeconfig <имя> - сохраняет текужий конфиг в файл в папке basenfk. <br /> exec <имя> - загружает указанный конфиг. <p> Например можно создать конфиг 1х1.cfg с содержанием: <br /> name ^1player <br /> warmup 180 <br /> warmup_armor 100 <br /> timelimit 10 <br /> fraglimit 0 <br /> forcerespawn 10 <br /> echo ^21v1 mode activated <p> и загрузить его из консоли командой exec 1x1 <p> Также можно "забиндить" на клавиши - bind num1 exec 1x1 <br /> теперь при нажатии num1 будет выполняться конфиг 1x1.cfg</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">GarryBolt</a> </td></tr></table><br /></div><div id="entryID7"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="7" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-7'); return false;">Как записывать, а потом проигрывать записанные реплеи?</a></div>
+
+<div class="eAnswer">Чтобы записать реплей нужно прписать в консоле: record <имя> <br /> Чтобы посмотреть записанный реплей нужно в главном меню выбрать DEMOS <br /> и там загрузить нужный реплей.</div></td></tr></table><br /></div><div id="entryID9"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="9" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-9'); return false;">как прилепить к клавише ну например какой-нибудь смайлик =)</a></div>
+
+<div class="eAnswer">Для этого нужно открыть консоль и ввести команду. <br /> Например: bind 1 say =) <br /> Теперь при нажатии на кнопку "1" будет выводиться сообщение "=)"</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'ELE'+'NAS@M'+'AIL.RU';return false;">ИВАН</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-24', 'up24', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">DR@G[]N</a>)</span></td></tr></table><br /></div><div id="entryID14"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="14" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-14'); return false;">Отчего зависит пинг?</a></div>
+
+<div class="eAnswer">Пингом называется время, затраченное на передачу пакета информации в компьютерных сетях от клиента к серверу и обратно от сервера к клиенту, измеряется в миллисекундах. Время пинга связано со скоростью соединения и загруженностью каналов на всём протяжении от клиента к серверу. <br /> Пинг зависит от расстояния клиента и сервера, чем дальше они друг от друга, тем больше пинг. Также на пинг влияют внешние факторы и качество провода от пользователя до провайдера.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'rok'+'sard@'+'gmail.com';return false;">Roxar</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-29', 'up29', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Roxar</a>)</span></td></tr></table><br /></div><div id="entryID12"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="12" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-12'); return false;">как кикнуть игрока с сервера?</a></div>
+
+<div class="eAnswer">Командой kickplayer <br /> При вводе этой команды выводится имена игроков и номер по которому его можно кикнуть. <br /> Пример: <br /> kickplayer [ENTER] <br /> выводится список - <br /> Host - 0 <br /> player - 1 <br /> n00b - 2 <br /> для того чтобы кикнуть игрока n00b нужно ввести команду kickplayer 2</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'dra'+'gon42'+'5@rambler.ru';return false;">ИВАН</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-24', 'up24', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">DR@G[]N</a>)</span></td></tr></table><br /></div><div id="entryID13"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="13" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-13'); return false;">Блин, нафиг вообще спрашивать, если есть HELP да еще и на РУССКОМ?</a></div>
+
+<div class="eAnswer">Некоторым просто лень туда заглянуть )</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'rok'+'sard@'+'gmail.com';return false;">Roxar</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-29', 'up29', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Roxar</a>)</span></td></tr></table><br /></div><div id="entryID18"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="18" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-18'); return false;">можно ли загрузить карту прямо из игры, у которой имя с пробелами. например "xard trix by dragon.mapa"?</a></div>
+
+<div class="eAnswer">Нет это невозможно название карты не должно содержать пробелы.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'rok'+'sard@'+'gmail.com';return false;">Roxar</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-29', 'up29', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Roxar</a>)</span></td></tr></table><br /></div><div id="entryID17"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="17" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-17'); return false;">че такое invite sent?</a></div>
+
+<div class="eAnswer">Эта надпись появляется, когда какой-нибудь игрок пытается присоединиться к вашему серверу.<br>Также, если игрок не может присоединиться к вашему серверу, вам нужно прописать команду<br>ipinvite x ,&nbsp;где x это ip игрока, который не может присоединиться.<br></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'rok'+'sard@'+'gmail.com';return false;">Roxar</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-29', 'up29', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Roxar</a>)</span></td></tr></table><br /></div><div id="entryID19"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="19" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-19'); return false;">Как сделать так, что бы на сервере был разрешён r_mode 3 ???</a></div>
+
+<div class="eAnswer">Команда sv_allow_r_mode 1 разрешает игрокам на сервере применять команды r_mode 2, r_mode 3<BR>В TribesX 1.9c в любом случае нельзя использовать эти команды. <BR></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'37-'+'Max@m'+'ail.ru';return false;">Максим</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">nurupo</a>)</span></td></tr></table><br /></div><div id="entryID26"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="26" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-26'); return false;">Почему не подключается к NFK Planet? пишет connection failed</a></div>
+
+<div class="eAnswer">Возможно у вас слишком медленный интернет или вы не поменяли настройки NFK Planet.<br>Т.к. недавно NFK Planet переехала на новый адрес, всем кто хочет&nbsp;там играть придется в конец файла basenfk&#92;nfksetup.ini дописать:<br><br>[nfkplanet]&nbsp;<br>address=nfkplanet.pro2d.ru&nbsp;<br>port=10003<br></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'z51'+'4@yan'+'dex.ru';return false;">Terance</a> </td></tr></table><br /></div><div id="entryID20"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="20" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-20'); return false;">а можно прилепить к клавише карту, например "1" нажимаеш и появляется карта "dm0" ???</a></div>
+
+<div class="eAnswer">Можно, <br /> bind 1 map dm0 <br /> или bind num1 map dm0</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'dra'+'gon42'+'5@rambler.ru';return false;">ИВАН</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-24', 'up24', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">DR@G[]N</a>)</span></td></tr></table><br /></div><div id="entryID21"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="21" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-21'); return false;">а где мне достать pqr мод, и нормальный конфи к ниму?</a></div>
+
+<div class="eAnswer">Скачать можно <a href="http://nfk.pqr.ru/?action=files&fn=1&PHPSESSID=8392ebdeac89a8ee01e9204bc6d855d2" target="_blank">здесь</a>. <br /> конфиги там уже настроины, но можно изменить под себя. <br /> Для загрузни конфига команда exec pqrcfg</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">Владимир Владимирович</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-9', 'up9', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Mezomaster</a>)</span></td></tr></table><br /></div><div id="entryID22"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="22" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-22'); return false;">Правда ли, что CALGON - бог нфк? О_О</a></div>
+
+<div class="eAnswer"><P>CALGON - чистищее средство, а никакой не бог нфк !</P></div></td></tr></table><br /></div><div id="entryID24"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="24" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-24'); return false;">Почему на некоторые серверы нельзя подключиться?</a></div>
+
+<div class="eAnswer">Проблема может быть в IP-адресе сервера, настройках модема или сетевой экран сервера блокирует входящие подключения, может быть у него большая задержка (ping).<BR>Если раньше все было нормально, то возможно это баг NFK Planet и серверу нужно пересоздать игру или выполнить комманду ipinvite xxx.xxx.xxx.xxx<BR> где xxx.xxx.xxx.xxx IP-адрес клиента, клиент должен находиться на NFK Planet.<BR></div></td></tr></table><br /></div><div id="entryID25"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="25" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-25'); return false;">Можно ли изменять тип отображения панели фрагов, допустим чтобы на больших картах он выглядел как на малых? Какая комманда делает это?</a></div>
+
+<div class="eAnswer">ch_hudVisible [0-2]: показывать ли hud панель. 1-только на больших картах. 2-всегда.</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">Enforcer</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Enforcer</a>)</span></td></tr></table><br /></div><div id="entryID27"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="27" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-27'); return false;">почему не могут подсоединиться серваку, который я создаю?</a></div>
+
+<div class="eAnswer">Возможно у вас стоит фаервол блокирующий порт 10003 или у вас не стабиьный интернет (например GPRS)</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'shm'+'idt6@'+'yandex.ru';return false;">Wmid</a> </td></tr></table><br /></div><div id="entryID28"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="28" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-28'); return false;">люды обясните дебилу как бота в yar создать умоляю!!!!!!!!!!!!!</a></div>
+
+<div class="eAnswer">Нужно скачать бота <A href="http://pff.clan.su/load/19-1-0-138">тут</A><BR>устанвить все файлы в папку c NFK, запустить NapBot.bat в коносле прописать команду addbot.<BR><A href="http://pff.clan.su/load/19-1-0-138"><BR></A></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'din'+'o-mad'+'-94@mail.ru';return false;">Константин</a> </td></tr></table><br /></div><div id="entryID30"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="30" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-30'); return false;">как сделать, чтобы были видны все невидимые брики и death-brick&#39;и?</a></div>
+
+<div class="eAnswer">Для отображения этих бриков нужно ввести в консоле команду r_markemptydeath 1, для отключения r_markemptydeath 0</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'spi'+'ke4gg'+'@mail.ru';return false;">keK$s</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-149', 'up149', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">kEkC</a>)</span></td></tr></table><br /></div><div id="entryID33"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="33" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-33'); return false;">можете подсказать как анимированные ники делать????</a></div>
+
+<div class="eAnswer">Внимательней читайте http://pff.clan.su/faq/0-0-1<BR>Тег ^b делает мигающий текст<BR></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'e.e'+'nd@ma'+'il.ru';return false;">.:DeniS:.</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-164', 'up164', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">-=MaZa_HaKa=-</a>)</span></td></tr></table><br /></div><div id="entryID32"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="32" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-32'); return false;">люди такой вапрос...а скока nfk трафика ест???</a></div>
+
+<div class="eAnswer">Зависит от количества игроков на сервере, если игра 1х1 то 400-500кб за партию (10 мин), если 2х2 то около 3 Мб за 15 мин.<BR><BR></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'e.e'+'nd@ma'+'il.ru';return false;">Денис</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-164', 'up164', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">-=MaZa_HaKa=-</a>)</span></td></tr></table><br /></div><div id="entryID36"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="36" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-36'); return false;">Как чатиться при игре на сервере NFK planet? enter не печатает. ОС-Win Vista</a></div>
+
+<div class="eAnswer">Есть два способа использовать чат в игре:<BR>1) Открыть консоль клавишей ~ и выполнить команду say &lt;ваше сообщение&gt;<BR>2) В консоле выполнить команду bind enter messagemode<BR>теперь при нажатии на Enter появится чат.<BR></div></td></tr></table><br /></div><div id="entryID35"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="35" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-35'); return false;">можете подсказать как файлы выкладывать на сайт...если можно пошагово</a></div>
+
+<div class="eAnswer">Чтобы добавить файл на сайт пройдите по ссылке <A href="http://pff.clan.su/load/0-0-0-0-1">http://pff.clan.su/load/0-0-0-0-1</A><BR>Заполните необходимые поля и после проверки файла он будет доступен на сайте.<BR><BR></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'e.e'+'nd@ma'+'il.ru';return false;">.:DeniS:.</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-164', 'up164', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">-=MaZa_HaKa=-</a>)</span></td></tr></table><br /></div><div id="entryID37"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="37" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-37'); return false;">Как писать чёрными буквами?</a></div>
+
+<div class="eAnswer">тег для черного цвета ^0</div></td></tr></table><br /></div><div id="entryID38"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="38" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-38'); return false;">Можно ли отключать отображение медалей в нфк (которые показываются при убийстве перчаткой и т д) ?</a></div>
+
+<div class="eAnswer">Стандартными способами - нет.</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">Enforcer</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Enforcer</a>)</span></td></tr></table><br /></div><div id="entryID39"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="39" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-39'); return false;">Почему я не могу присоединиться к NFK Planet?</a></div>
+
+<div class="eAnswer">1) У вас не прописан новый адрес NFK Planet в файле basenfk&#92;nfksetup.ini<BR>2) У вас слишком медленный интернет<BR>3) Брандмауер или фаерволл блокирует порт, который использует NFK<BR>4) Вы используете старую версию NFK, последняя версия 0.75</div></td></tr></table><br /></div><div id="entryID40"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="40" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-40'); return false;">Как отключить панель отображения флагов и capturescore поскоку на АСТ это не нужно</a></div>
+
+<div class="eAnswer">Стандартными способами этого сделать нельзя.</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">Enforcer</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Enforcer</a>)</span></td></tr></table><br /></div><div id="entryID41"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="41" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-41'); return false;">Спектатор... Как создать и не играть?</a></div>
+
+<div class="eAnswer"><P>Это называется веделенный (dedicated) сервер, чтобы его создать в меню создания серера надо изменить параметр Dedicated: Yes<BR>Не рекомендуется создавать выделенный сервер если у вас плохой интернет.</P></div></td></tr></table><br /></div><div id="entryID42"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="42" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-42'); return false;">Иногда я создаю сервер а к нему не могут подключится?</a></div>
+
+<div class="eAnswer">Если у вас "серый" IP адрес, то к вам подключится могут только игроки с "белым" IP адресом. Но к "белому" IP адресу могут подключатся как игроки с "белым" так и "серым" IP.<br><br><span style="font-size: 8pt;"><font face="Arial"><span style="font-size: 8pt; font-family: Comic Sans MS;">Для справки:<br>Для того что-бы подключится к интернету каждый компьютер должен иметь
+уникальный ip-адрес, их выдают pегиональные интернет-регистраторы
+(Regional Internet Registry, RIR) провайдерам. Эти адреса часто
+называют белыми. Но в последнее время адресов на всех не хватает да и
+проблематично это поэтому провайдеры часто используют NAT.
+Маршрутизатор подменяет ip адрес клиента на свой, а клиента запоминает
+по порту источника. При этом клиенту выдаётся адрес из адресов для
+изолированных сетей <a href="http://192.168.0.0/16">192.168.0.0/16</a>, <a href="http://172.16.0.0/12">172.16.0.0/12</a> или <a href="http://10.0.0.0/8">10.0.0.0/8</a>.
+&nbsp;А потом возвращаемые пакеты преобразует обратно. Проблема в том, что
+из интернета достучаться до клиента невозможно, видно только
+маршрутизатор. Такие адреса обычно называются серыми.</span></font><br></span></div></td></tr></table><br /></div><div id="entryID44"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="44" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/pochemu_kaogda_ja_pechataju_v_konsole_soobshhenie_drugie_ego_ne_vidjat/0-0-44'); return false;">Почему каогда я печатаю в консоле сообщение другие его не видят??</a></div>
+
+<div class="eAnswer">Чтобы было видно ваши сообщения используйте в консоле команду say.<br>Например: say hi<br>Или можно использовать messagemode. Чтобы его вызвать используйте команду: bind enter messagemode<br>Теперь при нажатии на enter появится окно чата. Если после перезапуска в нфк этот "бинд" исчезает, то нужно добавить команду<br>bind enter messagemode<br>в файл autoexec.cfg в папке basenfk.<br></div></td></tr></table><br /></div><div id="entryID45"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="45" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_rasshifrovyvaetsja_nazvanie_klana_pff/0-0-45'); return false;">Как расшифровывается название клана PFF?</a></div>
+
+<div class="eAnswer">Play For Fun<br></div></td></tr></table><br /></div><div id="entryID48"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="48" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kakaja_konsolnaja_komanda_sokhranjaet_tekushhie_nastrojki_tribesa/0-0-48'); return false;">Какая консольная команда сохраняет текущие настройки трибеса?</a></div>
+
+<div class="eAnswer">writeconfig &lt;configname&gt;<br>Если ваши настройки сбиваются после перезапуска игры нужно в папках BASENFK и BOTS отредактировать файл autoexec.cfg (например, удалить оттуда не нужные бинды)</div></td></tr></table><br /></div><div id="entryID50"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="50" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/mozhno_sdelat_v_nfk_poisk_kart_napisal_khop_te_karta/0-0-50'); return false;">можно сделать в нфк поиск карт написал хоп те карта</a></div>
+
+<div class="eAnswer">Поиск по сайту находится тут <a href="http://pff.clan.su/search/">http://pff.clan.su/search/</a></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'van'+'o5400'+'@mail.ru';return false;">вано</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-412', 'up412', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">77599080456</a>)</span></td></tr></table><br /></div><div id="entryID53"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="53" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_sdelat_vot_ja_beru_v_tribes_iks_bind_xuse_e_i_ne_rabotat/0-0-53'); return false;">как сделать вот я беру в трибес икс bind xuse e и не работат</a></div>
+
+<div class="eAnswer">Нужно писать bind e xuse<br>Чтобы восстановить стандартные настройки, нужно прописать exec tribes (там уже xuse назначено на кнопку E)</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'van'+'o5400'+'@mail.ru';return false;">вано</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-412', 'up412', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">77599080456</a>)</span></td></tr></table><br /></div><div id="entryID52"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="52" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/u_menja_ne_sokhranjaetsja_log_v_dedike_khotja_ja_napisal_v_konfige_log_1_chto_nado_sdelat_chtob_log_sokhranjalsja/0-0-52'); return false;">У меня не сохраняется ЛОГ в дедике, хотя я написал в конфиге log 1 . Что надо сделать чтоб лог сохранялся?</a></div>
+
+<div class="eAnswer">По всем вопросам на счет дедика обращаться к его автору <a href="http://pff.clan.su/index/8-54">Enforcer</a><br></div></td></tr></table><br /></div><div id="entryID54"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="54" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/pochemu_ja_fajl_updater_v_tribes_vkljuchaju_nazhimaju_go_no_ne_konektitsja/0-0-54'); return false;">почему я файл updater в трибес включаю нажимаю го но не конектится</a></div>
+
+<div class="eAnswer">Этот файл больше не нужен, игра теперь обнвляется сама при запуске.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'van'+'o5400'+'@mail.ru';return false;">вано</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-412', 'up412', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">77599080456</a>)</span></td></tr></table><br /></div><div id="entryID55"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="55" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/quotrailarenainstagib_0_1_rezhim_instagib_v_railarenaquot_chjo_takoe_instagib/0-0-55'); return false;">&quot;railarenainstagib [0-1] - режим instagib в railarena&quot; - чё такое instagib?</a></div>
+
+<div class="eAnswer">railarenainstagib 0 - Railgun не убивает с первого раза, а отнимает 75hp</div></td></tr></table><br /></div><div id="entryID56"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="56" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/est_li_kommadna_kotoraja_otobrazhaet_ip_vsekh_igrokov_zashedshikh_na_moj_serv/0-0-56'); return false;">Есть ли коммадна, которая отображает IP всех игроков зашедших на мой серв?</a></div>
+
+<div class="eAnswer">В NFK 0.75 такой комманды нет.</div></td></tr></table><br /></div><div id="entryID57"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="57" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/pochemu_u_menja_fps_uvelichevaetsja_bystro_begat_neudobno/0-0-57'); return false;">почему у меня фпс увеличевается быстро бегать неудобно</a></div>
+
+<div class="eAnswer">Причина увеличения FPS в игре пока не найдена.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'van'+'o5400'+'@mail.ru';return false;">вано</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-412', 'up412', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">77599080456</a>)</span></td></tr></table><br /></div><div id="entryID59"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="59" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/chto_nuzhno_sdelat_chtoby_vzjali_v_klan_pff/0-0-59'); return false;">Что нужно сделать, чтобы взяли в клан pff?</a></div>
+
+<div class="eAnswer">Чтобы мы смогли рассмотреть вашу заявку в клан, вы должны сыграть не менее 10 игр на серверах со статистикой.<br>Игроки с дуэльным рангом D+ и выше принимаются без рассмотрения.<br><br></div></td></tr></table><br /></div><div id="entryID60"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="60" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/mozhno_li_uznat_svoj_rejting_a_ne_tolko_top_luchshikh/0-0-60'); return false;">Можно ли узнать свой рейтинг , а не только топ-лучших?</a></div>
+
+<div class="eAnswer">Чтобы найти свой ник в статистике воспользуйтесь поиском <a href="http://nfk.pro2d.ru/stats/index.php?action=search">http://nfk.pro2d.ru/stats/index.php?action=search</a></div></td></tr></table><br /></div><div id="entryID61"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="61" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/podskazhite_kak_sdelat_chjornyj_i_seryj_fon/0-0-61'); return false;">Подскажите, как сделать чёрный и серый фон?</a></div>
+
+<div class="eAnswer">Чтобы залить фон другим цветом необходимо отключить отображение bg:<br><b>drawbackground 0</b><br>Комманда fill_brg заливает фон любым цветом, например<br><b>fill_bgr 000</b><br></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'Zhe'+'ni4k@'+'mail.ru';return false;">E}I{uK-B-TyM@HE</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">E}I{uK-B-TyM@HE</a>)</span></td></tr></table><br /></div><div id="entryID62"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="62" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/statistika_na_sajte_sokhranjaetsja_avtomaticheski_ili_nado_zapisyvat_nfk_meter/0-0-62'); return false;">Статистика на сайте сохраняется автоматически или надо записывать NFK-meter?</a></div>
+
+<div class="eAnswer">Статистика на сайте nfk.pro2d.ru сохраняется автоматически с серверов Rip #1-4</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'Zhe'+'ni4k@'+'mail.ru';return false;">E}I{uK-B-TyM@HE</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1617', 'up1617', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">E}I{uK-B-TyM@HE</a>)</span></td></tr></table><br /></div><div id="entryID63"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="63" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_nachal_golosovanie_za_smenu_karty_prodlenie_nachalo_poedinka_i_t_d/0-0-63'); return false;">Как началь голосование за смену карты/продление/начало поединка и т.д.?</a></div>
+
+<div class="eAnswer"><p>Командой callvote в консоле.<br>Например callvote map large1, callvote ready, callvote restart<br></p></div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'bas'+'otaLE'+'ON@mail.ru';return false;">LEON</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1634', 'up1634', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">leonj23</a>)</span></td></tr></table><br /></div><div id="entryID65"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="65" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_sdelat_chtoby_kubik_dvigalsja_v_samoj_karte_kak_v_jungle2ua_ili_ehkskavator_ili_eshhe_kakaja_nibud_model/0-0-65'); return false;">Как сделать чтобы кубик двигался в самой карте, как в jungle2ua, или экскаватор, или еще какая нибудь модель.</a></div>
+
+<div class="eAnswer">Этот вопрос нужно задать автору мода Tribes-X Bitnik'у (на сайте ник Enforcer), это он добавил в свой мод возможность двигать предметы.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'bot'+'-55-9'+'8@mail.ru';return false;">prizrak</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1708', 'up1708', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Prizrak</a>)</span></td></tr></table><br /></div><div id="entryID66"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="66" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_sdelat_posle_okonchanie_raunda_kompjuter_sam_vybral_tu_kartu_kotoruju_ja_zakhochu_ja_znaju_chto_mozhno_sdelat_cherez_maplist_no_est_drugie_komandnye_stroki/0-0-66'); return false;">Как сделать? После окончание раунда, компьютер сам выбрал ту карту которую я захочу. Я знаю что можно сделать через maplist, но есть другие командные строки.</a></div>
+
+<div class="eAnswer">Посмотри как это сделано в других модах на прохождение, или спроси у их авторов как это делается (Bitnik, Masterok, Grisly)</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'bot'+'-55-9'+'8@mail.ru';return false;">prizrak</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1708', 'up1708', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Prizrak</a>)</span></td></tr></table><br /></div><div id="entryID67"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="67" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/mozhno_igrat_v_dvoem_na_razdelennykh_ehkranakh_kak_v_tfk/0-0-67'); return false;">Можно играть в двоем на разделенных экранах, как в TFK?</a></div>
+
+<div class="eAnswer">В NFK такой возможности нет.</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'bot'+'-55-9'+'8@mail.ru';return false;">prizrak</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1708', 'up1708', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Prizrak</a>)</span></td></tr></table><br /></div><div id="entryID69"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="69" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/budet_li_novoe_obnovlenie_nfk_esli_budet_to_kogda/0-0-69'); return false;">Будет ли новое обновление NFK? Если будет, то когда.</a></div>
+
+<div class="eAnswer">Да, скоро будет большое обновление. Точной даты нет (через 1-2 недели).</div><span class="faq-name-add">Добавил:</span> <a href="faq.html">prizrak</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1708', 'up1708', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Prizrak</a>)</span></td></tr></table><br /></div><div id="entryID73"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="73" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/kak_vkljuchit_bota_vmesto_vtorogo_igroka/0-0-73'); return false;">Как включить бота? (вместо второго игрока)</a></div>
+
+<div class="eAnswer">При запуске игры в Launcher выбрать в мню Mods -&gt; Nap bot и в игре ввести в консоле addbot</div><span class="faq-name-add">Добавил:</span> <a href="javascript://" rel="nofollow" onclick="window.top.location.href='mai'+'lto:'+'pli'+'sak.i'+'van@mail.ru';return false;">Ваня</a> <span class="faq-usrnm-add">(<a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1727', 'up1727', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">RV415</a>)</span></td></tr></table><br /></div><div id="entryID8"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="eBlock"><tr><td style="padding:3px;">
+
+<div class="eTitle" style="text-align:left;"><a name="8" href="javascript://" rel="nofollow" onclick="prompt('Question direct link:','http://needforkill.ru/faq/0-0-8'); return false;">Какие настройки нужны для DM и TDM?</a></div>
+
+<div class="eAnswer"><P>Рекомендуемые настройки игры на NFK Planet: </P><P><TABLE style="border-collapse:collapse;width:90%;"><TBODY><TR><TD style="border:#000000 1px solid">DM 1x1: <BR>timelimit 10 <BR>forcerespawn 10 <BR>fraglimit 0 <BR>sv_powerup 0 <BR>sv_maxPlayers 2 <BR>sv_maxSpectators 4 <BR>sv_allowjoinmatch 1 <BR>sv_allowspectators 1  <BR>sv_overtime 1 <BR>sync 1 <BR>warmup 180 <BR>warmuparmor 0 <BR>echo ^2DM 1x1 mode activated<BR></TD><TD style="border:#000000 1px solid">CTF, TDM 2x2: <BR>timelimit 15 <BR>forcerespawn 5 <BR>fraglimit 0 <BR>sv_powerup 0 <BR>sv_maxPlayers 4 <BR>sv_maxSpectators 4 <BR>sv_allowjoinmatch 1 <BR>sv_allowspectators 1  <BR>sv_teamdamage 1 <BR>sv_overtime 2 <BR>sv_powerup 1 <BR>sync 1 <BR>warmup 180 <BR>warmuparmor 50 <BR>echo ^2TDM mode activated<BR></TD></TR></TBODY></TABLE></P><P><P><P> Можно сохранить эти настройки в текстовом файле(отдельно для DM и TDM) с расширением .cfg <BR>Например: сохранить настройки TDM в файл, поместить его в папку basenfk. Теперь можно загрузить эти настройки во время игры командой exec TDM</div></td></tr></table><br /></div></div><!-- </body> -->
+ </section>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="part-r">
+ <div class="part-i">
+ <aside>
+ <div id="sidebar">
+ <!--U1CLEFTER1Z-->
+<!-- <block1> -->
+
+<div class="sidebox"><div class="sidetitle"><span><!-- <bt> --><!--<s5158>-->Форма входа<!--</s>--><!-- </bt> --></span></div>
+ <div class="inner">
+ <!-- <bc> --><div id="uidLogForm" align="center"><a href="javascript://" onclick="window.open('https://login.uid.me/?site=6pff&ref='+escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' )))),'uidLoginWnd','width=580,height=450,resizable=yes,titlebar=yes');return false;" class="login-with uid" title="Войти через uID" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('vkontakte');" class="login-with vkontakte" title="Войти через ВКонтакте" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('ok');" class="login-with ok" title="Войти через Одноклассники" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('facebook');" class="login-with facebook" title="Войти через Facebook" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('yandex');" class="login-with yandex" title="Войти через Яндекс" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('google');" class="login-with google" title="Войти через Google" rel="nofollow"><i></i></a><a href="javascript://" onclick="return uSocialLogin('twitter');" class="login-with twitter" title="Войти через Twitter" rel="nofollow"><i></i></a></div><!-- </bc> -->
+ </div>
+ <div class="clr"></div>
+ </div>
+
+<!-- </block1> -->
+
+<!-- <block2> -->
+
+<!-- </block2> -->
+
+<!-- <block13> -->
+
+<div class="sidebox"><div class="sidetitle"><span><!-- <bt> --><!--<s5441>-->Видео<!--</s>--><!-- </bt> --></span></div>
+ <div class="inner">
+ <!-- <bc> --><link type="text/css" rel="StyleSheet" href="_st/video.css" /><div class="v-entry"> <h4 class="ve-title"> <a href="video/vip/17/stream12.html">Stream #12 Dos Party X ...</a></h4> <div class="ve-screen" title="Stream #12 Dos Party X Final" style="background-image: url(http://i.ytimg.com/vi/M5asb3xZULU/hqdefault.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://i.ytimg.com/vi/M5asb3xZULU/hqdefault.jpg',sizingMethod='scale');"><a href="video/vip/17/stream12.html"></a><div class="ve-length">00:34:56</div></div> </div><div class="v-entry"> <h4 class="ve-title"> <a href="video/vip/16/stream11.html">Stream #11 Dos Party X ...</a></h4> <div class="ve-screen" title="Stream #11 Dos Party X 3rd place Match" style="background-image: url(http://i.ytimg.com/vi/u8aj9bS3ae4/hqdefault.jpg);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://i.ytimg.com/vi/u8aj9bS3ae4/hqdefault.jpg',sizingMethod='scale');"><a href="video/vip/16/stream11.html"></a><div class="ve-length">00:12:45</div></div> </div><!-- </bc> -->
+ </div>
+ <div class="clr"></div>
+ </div>
+
+<!-- </block13> -->
+
+<!-- <block4> -->
+
+<!-- </block4> -->
+
+<!-- <block12> -->
+
+<div class="sidebox"><div class="sidetitle"><span><!-- <bt> -->Комментарии<!-- </bt> --></span></div>
+ <div class="inner">
+ <!-- <bc> --><div class="cBlock1">[<b><a href="load/need_for_kill_0_77/22-1-0-494.html">Need For Kill 0.77</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1725', 'up1725', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="HarpyWar" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>HarpyWar</b></a>: Актуальные ссылки на игру <a class="link" target="_blank" href="http://nfk.harpywar.com" rel="nofoll<!-- -->...</div><br><div class="cBlock2">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1796', 'up1796', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="xbitnik" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>xbitnik</b></a>: про статистику вижу. Но она видимо не работает т к не считает даже игроков что были на планете. А да<!-- -->...</div><br><div class="cBlock1">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1839', 'up1839', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="lisakov57" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>lisakov57</b></a>: Да какие тут геймеры, одни прогеры остались.</div><br><div class="cBlock2">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1879', 'up1879', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="rocky@needforkillru" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>rocky@needforkillru</b></a>: Discord сейчас популярен именно среди геймеров (по сути стал де-факто стандартом для игровых коммуни<!-- -->...</div><br><div class="cBlock1">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1839', 'up1839', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="lisakov57" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>lisakov57</b></a>: Голосую за Telegram. И пришлите мне кто-нибудь пароль от S^2_Pozitron, а то капча не работает, ни во<!-- -->...</div><br><div class="cBlock2">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1879', 'up1879', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="rocky@needforkillru" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>rocky@needforkillru</b></a>: Ну мы не сидим в одних местах, оттого и не знаешь. <br /> Статистику после смерти pro2d.ru подняли н<!-- -->...</div><br><div class="cBlock1">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1796', 'up1796', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="xbitnik" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>xbitnik</b></a>: Роки какой новый сайт почему даже я не в курсе ??? )))</div><br><div class="cBlock2">[<b><a href="load/need_for_kill_0_77/22-1-0-494.html">Need For Kill 0.77</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1839', 'up1839', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="lisakov57" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>lisakov57</b></a>: Не очень актуальные, с серверов cleanvoice выбрасывает (custom dll), и адрес планеты прописан старый<!-- -->...</div><br><div class="cBlock1">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1879', 'up1879', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="rocky@needforkillru" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>rocky@needforkillru</b></a>: Судя по всему, статистика на новый сайт не отсылается. Или это значит, что за полгода никто ни разу <!-- -->...</div><br><div class="cBlock2">[<b><a href="news/test/2017-12-22-308.html">Проблемки</a></b>] <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1796', 'up1796', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" title="xbitnik" rel="nofollow"><img alt="" src="http://s1.ucoz.net/img/icon/profile.png" width="13" border="0" style="vertical-align:-2px"/> <b>xbitnik</b></a>: Нужно перерисовать архитектуруу нескольких карт из игры Brain Out, в точности имеется ввиду только а<!-- -->...</div><br><!-- </bc> -->
+ </div>
+ <div class="clr"></div>
+ </div>
+
+<!-- </block12> -->
+
+<!-- <block9> -->
+
+<!-- </block9> -->
+
+<!-- <block8> -->
+
+<!-- </block8> -->
+<!--/U1CLEFTER1Z-->
+ </div>
+ </aside>
+ </div>
+ </div>
+ 
+ <!-- </middle> -->
+ <div class="clr"></div>
+ 
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbgdGTKs">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src=".s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.12517 (s1) -->

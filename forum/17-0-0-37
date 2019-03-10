@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pff.clan.su - Форум</title>
+		<link>http://needforkill.ru/forum/</link>
+		<description>pff.clan.su - Форум</description>
+
+		<lastBuildDate>Mon, 10 Nov 2014 05:21:56 GMT</lastBuildDate>
+		<generator>uCoz Web-Service</generator>
+		<atom:link href="http://needforkill.ru/forum/rss" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Doom 2D: Forever 0.666</title>
+			<link>http://needforkill.ru/forum/17-606-1</link>
+			<pubDate>Mon, 10 Nov 2014 05:21:56 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Описание темы: Теперь с мультиплеером!&lt;br /&gt;Автор темы: Jabberwock&lt;br /&gt;Автор последнего сообщения: Черный_Думер&lt;br /&gt;Количество ответов: 3</description>
+			<content:encoded>&lt;span style=&quot;font-size:15pt;&quot;&gt;Doom 2D: Forever 0.666 — теперь с мультиплеером!&lt;/span&gt; &lt;br /&gt;&lt;br /&gt; &lt;a class=&quot;link&quot; href=&quot;http://u.to/akZnCQ&quot; title=&quot;http://doom2d.org/jab/anons0666/04.png&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://doom2d.org/jab/anons0666/tn_04.png&quot; border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt; &lt;a class=&quot;link&quot; href=&quot;http://u.to/aEZnCQ&quot; title=&quot;http://doom2d.org/jab/anons0666/02.png&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://doom2d.org/jab/anons0666/tn_02.png&quot; border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt; &lt;a class=&quot;link&quot; href=&quot;http://u.to/aUZnCQ&quot; title=&quot;http://doom2d.org/jab/anons0666/01.png&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://doom2d.org/jab/anons0666/tn_01.png&quot; border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt; &lt;a class=&quot;link&quot; href=&quot;http://u.to/Z0ZnCQ&quot; title=&quot;http://doom2d.org/jab/anons0666/03.png&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://doom2d.org/jab/anons0666/tn_03.png&quot; border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt; Это воистину эпохальное событие. Мы шли к этому одиннадцать долгих лет. &lt;br /&gt; За сеть спасибо товарищам PrimuS&apos;у и Чёрному Думеру. &lt;br /&gt;&lt;br /&gt; Скачать можно здесь: &lt;b&gt;&lt;a class=&quot;link&quot; href=&quot;http://u.to/ZkZnCQ&quot; title=&quot;http://doom2d.org/files/df/DFv0666.php&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Doom 2D Forever v0.666 (15Mb)&lt;/a&gt;&lt;/b&gt;. &lt;br /&gt;&lt;br /&gt; Обсудить — у нас на &lt;b&gt;&lt;a class=&quot;link&quot; href=&quot;http://u.to/dUtnCQ&quot; title=&quot;http://doom2d.org/forum/viewtopic.php?f=11&amp;amp;t=1770&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;форуме&lt;/a&gt;&lt;/b&gt; или &lt;b&gt;&lt;a class=&quot;link&quot; href=&quot;http://u.to/ZUZnCQ&quot; title=&quot;http://irc.erft.ru:9092/?channels=%23doom2d&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;на IRC-канале&lt;/a&gt;&lt;/b&gt;. &lt;br /&gt; Присоединиться к разработке — на Github: &lt;b&gt;&lt;a class=&quot;link&quot; href=&quot;http://u.to/a0ZnCQ&quot; title=&quot;https://github.com/pss88/DF&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://github.com/pss88/DF&lt;/a&gt;&lt;/b&gt;. &lt;br /&gt;&lt;br /&gt; &lt;b&gt;Чего у нас нового:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;ПОЛНОЦЕННЫЙ МУЛЬТИПЛЕЕР&lt;/b&gt; на базе библиотеки ENet. &lt;br /&gt; DM, TDM, CTF и COOP. Серверлист. Все как в лучших домах Европы и Филадельфии. &lt;br /&gt; Зайти в сетевую игру - &lt;b&gt;Multiplayer &gt; Join game &gt; Serverlist&lt;/b&gt; или &lt;b&gt;Мультиплеер &gt; Присоединиться &gt; Список серверов.&lt;/b&gt;&lt;li&gt;В стандартный комплект включены новые карты и модели (далеко не все, разумеется). &lt;br /&gt; &lt;li&gt;Игра полностью двуязычна. You can choose between Russian and English. &lt;br /&gt; &lt;li&gt;Исправлены сотни багов, добавлены десятки новых. &lt;br /&gt; &lt;/ul&gt;</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>Jabberwock</dc:creator>
+			<guid>http://needforkill.ru/forum/17-606-1</guid>
+		</item>
+		<item>
+			<title>Project Moon</title>
+			<link>http://needforkill.ru/forum/17-599-1</link>
+			<pubDate>Fri, 24 Oct 2014 09:27:05 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Автор темы: eilx&lt;br /&gt;Автор последнего сообщения: Gentlemen&lt;br /&gt;Количество ответов: 11</description>
+			<content:encoded>Парни, такое дело. Решил вспомнить детство и обмазаться Project Moon&apos;ом. Для тех, кто не в теме - это такая игра/мод для первого квейка от Павера. Но то ли в гугле я забанен, то ли дистрибутив потерян во времени - найти его не смог. Если у кого остался - поделитесь.</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>eilx</dc:creator>
+			<guid>http://needforkill.ru/forum/17-599-1</guid>
+		</item>
+		<item>
+			<title>Doom 2D Multiplayer</title>
+			<link>http://needforkill.ru/forum/17-602-1</link>
+			<pubDate>Sat, 18 Jan 2014 09:20:57 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Автор темы: Jabberwock&lt;br /&gt;Автор последнего сообщения: Черный_Думер&lt;br /&gt;Количество ответов: 2</description>
+			<content:encoded>Думаю, тут не надо объяснять, что это за игра, так что перейду сразу к объявлению: &lt;br /&gt;&lt;br /&gt; &lt;span style=&quot;font-size:15pt;&quot;&gt;Открытый тест новой сети в Doom 2D Multiplayer&lt;/span&gt; &lt;br /&gt;&lt;br /&gt; &lt;span style=&quot;font-size:12pt;&quot;&gt;Дамы и господа! Ladies and Gentlemen! Meine Damen und Herren!&lt;/span&gt; &lt;br /&gt;&lt;br /&gt; У нас тут внезапно случилась радикальная оптимизация сети в Doom 2D Multiplayer. &lt;br /&gt; Много лет мы страдали от жестоких лагов, плакали, кололись, но продолжали жрать кактус. &lt;br /&gt; Все эти жертвы были принесены не зря! &lt;br /&gt; Теперь сеть работает &lt;b&gt;БЫСТРО&lt;/b&gt; и &lt;b&gt;ЭФФЕКТИВНО&lt;/b&gt;. Даже из Владивостока. Даже через 3G. &lt;br /&gt;&lt;br /&gt; Приглашаем всех на открытый нагрузочный тест прямо сейчас! &lt;br /&gt;&lt;br /&gt; &lt;span style=&quot;font-size:12pt;&quot;&gt;&lt;b&gt;&lt;a class=&quot;link&quot; href=&quot;http://u.to/m67RBQ&quot; title=&quot;http://doom2d.org/forum/viewtopic.php?f=30&amp;amp;t=771&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://doom2d.org/forum/viewtopic.php?f=30&amp;t=771&lt;/a&gt;&lt;/b&gt;&lt;/span&gt; - здесь лежит игра со всеми картами. &lt;br /&gt; Сервера определяются автоматически. &lt;br /&gt;&lt;br /&gt; &lt;span style=&quot;font-size:15pt;&quot;&gt;Welcome and enjoy!&lt;/span&gt; &lt;br /&gt;&lt;br /&gt; &lt;b&gt;Добавлено&lt;/b&gt; (2014-01-11, 19:46) &lt;br /&gt; --------------------------------------------- &lt;br /&gt; Тест закончили, спасибо тем, кто пришел. &lt;br /&gt; Отзывы здесь: &lt;a class=&quot;link&quot; target=&quot;_blank&quot; href=&quot;http://u.to/nK7RBQ&quot; title=&quot;http://doom2d.org/forum/viewtopic.php?f=30&amp;t=1400&quot; rel=&quot;nofollow&quot;&gt;http://doom2d.org/forum/viewtopic.php?f=30&amp;t=1400&lt;/a&gt; &lt;br /&gt;&lt;br /&gt; Сервера работают по-прежнему.</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>Jabberwock</dc:creator>
+			<guid>http://needforkill.ru/forum/17-602-1</guid>
+		</item>
+		<item>
+			<title>Другие игры похожие на NFK</title>
+			<link>http://needforkill.ru/forum/17-529-1</link>
+			<pubDate>Sat, 27 Oct 2012 09:24:56 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Описание темы: Предлагаю обсудить другие игры, аля Soldat, ...&lt;br /&gt;Автор темы: PQR&lt;br /&gt;Автор последнего сообщения: Pagyra&lt;br /&gt;Количество ответов: 3</description>
+			<content:encoded>Погуглил и нашел список: &lt;a class=&quot;link&quot; href=&quot;http://u.to/AtKo&quot; title=&quot;http://www.mpogd.com/games/similar.asp?ID=1366&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://www.mpogd.com/games/similar.asp?ID=1366&lt;/a&gt; &lt;br /&gt; Кто-нибудь во что-нибудь из этого играл? Может там есть хорошие экземпляры / opensource / откуда можно взять нарадотки для NFK? &lt;p&gt; Прошерстите список!</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>PQR</dc:creator>
+			<guid>http://needforkill.ru/forum/17-529-1</guid>
+		</item>
+		<item>
+			<title>Во что советуете поиграть?</title>
+			<link>http://needforkill.ru/forum/17-43-1</link>
+			<pubDate>Mon, 26 Sep 2011 20:30:51 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Автор темы: BFG16k&lt;br /&gt;Автор последнего сообщения: bobo&lt;br /&gt;Количество ответов: 63</description>
+			<content:encoded>В этой теме советуем гуд игры &lt;img src=&quot;http://src.ucoz.ru/sm/1/happy.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;happy&quot;&gt;&lt;p&gt;&lt;b&gt;Добавлено&lt;/b&gt; (2007-02-22, 8:02 Pm)&lt;br /&gt;---------------------------------------------&lt;br /&gt;я первый... ну вот то во что стоит поиграть... &lt;br /&gt; Supreme Commander &lt;br /&gt; Neverwinter Nights 2 &lt;br /&gt; Total Annihilation &lt;br /&gt; TES 3: Morrowind &lt;br /&gt; Age of Empires 3 &lt;br /&gt; Earth 2160</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>BFG16k</dc:creator>
+			<guid>http://needforkill.ru/forum/17-43-1</guid>
+		</item>
+		<item>
+			<title>Fallout3</title>
+			<link>http://needforkill.ru/forum/17-205-1</link>
+			<pubDate>Mon, 13 Apr 2009 05:49:17 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Автор темы: NONAME&lt;br /&gt;Автор последнего сообщения: coolant&lt;br /&gt;Количество ответов: 10</description>
+			<content:encoded>Я уже сплю и вижу как я в нее играю... &lt;br /&gt; &lt;a class=&quot;link&quot; href=&quot;http://fallout3.ru/files/ss/1/big/4.jpg&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Скрин - 1&lt;/a&gt; &lt;br /&gt; &lt;a class=&quot;link&quot; href=&quot;http://fallout3.ru/files/ss/1/big/5.jpg&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Скрин - 2&lt;/a&gt; &lt;br /&gt; &lt;a class=&quot;link&quot; href=&quot;http://www.fallout-archives.com/articles/18/1p1.php&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Обзор демоверсии&lt;/a&gt; &lt;p&gt; Вобщем все для любящих и жаждущих...</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>NONAME</dc:creator>
+			<guid>http://needforkill.ru/forum/17-205-1</guid>
+		</item>
+		<item>
+			<title>Grand Theft Auto Vice City</title>
+			<link>http://needforkill.ru/forum/17-251-1</link>
+			<pubDate>Sat, 03 Nov 2007 15:20:59 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Описание темы: Игра и дополнения к ней&lt;br /&gt;Автор темы: nurupo&lt;br /&gt;Автор последнего сообщения: ПЕС&lt;br /&gt;Количество ответов: 22</description>
+			<content:encoded>Очень извесная игра, для которой сделано не мало модов и дополнений и моя самая первая игра =)</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>nurupo</dc:creator>
+			<guid>http://needforkill.ru/forum/17-251-1</guid>
+		</item>
+		<item>
+			<title>T I</title>
+			<link>http://needforkill.ru/forum/17-66-1</link>
+			<pubDate>Sun, 28 Oct 2007 00:01:46 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Автор темы: Mezomaster&lt;br /&gt;Автор последнего сообщения: ПЕС&lt;br /&gt;Количество ответов: 12</description>
+			<content:encoded>ну что опсуждаем тут, а не в других темах =-)</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>Mezomaster</dc:creator>
+			<guid>http://needforkill.ru/forum/17-66-1</guid>
+		</item>
+		<item>
+			<title>ObsCure 2</title>
+			<link>http://needforkill.ru/forum/17-252-1</link>
+			<pubDate>Sat, 22 Sep 2007 15:36:16 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Описание темы: Наконец вышел&lt;br /&gt;Автор темы: ПЕС&lt;br /&gt;Автор последнего сообщения: ПЕС&lt;br /&gt;Количество ответов: 9</description>
+			<content:encoded>Есть кто-т, успевший поиграть в него ? Ато вот не знаю, качать ? или не качать, весит 4.5 гига, а трафика не так уж и много :(((( &lt;p&gt; Для тех кто не знает, игра в жанре Сурвивал Хоррора.</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>ПЕС</dc:creator>
+			<guid>http://needforkill.ru/forum/17-252-1</guid>
+		</item>
+		<item>
+			<title>Super Mario War</title>
+			<link>http://needforkill.ru/forum/17-246-1</link>
+			<pubDate>Sun, 16 Sep 2007 12:09:38 GMT</pubDate>
+			<description>Форум: &lt;a href=&quot;http://needforkill.ru/forum/17&quot;&gt;Другие игры&lt;/a&gt;&lt;br /&gt;Описание темы: !!!&lt;br /&gt;Автор темы: CALGON&lt;br /&gt;Автор последнего сообщения: CALGON&lt;br /&gt;Количество ответов: 2</description>
+			<content:encoded>Читаем описание и скачиваем тут &lt;br /&gt; http://smw.72dpiarmy.com/ &lt;br /&gt; Игра, судя по всему, офигенно веселая. Кто будет?? Давайте забьемся &lt;img src=&quot;http://src.ucoz.ru/sm/23/happy.gif&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; alt=&quot;happy&quot;&gt; В-четвером.</content:encoded>
+			<category>Другие игры</category>
+			<dc:creator>CALGON</dc:creator>
+			<guid>http://needforkill.ru/forum/17-246-1</guid>
+		</item>
+	</channel>
+</rss>

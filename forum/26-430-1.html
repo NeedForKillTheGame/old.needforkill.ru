@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>unlagged netcode - pff.clan.su - Форум</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../.s/src/base.css" />
+	<link rel="stylesheet" href="../.s/src/layer1.css" />
+
+	<script src="../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.471546826038118"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+	function Insert(qmid, user, text ) {
+		user = user.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+		if (!!text ) {
+			qmid = qmid.replace(/[^0-9]/g, "");
+			paste("[quote="+user+";"+qmid+"]"+text+"[/quote]\n", 0);
+		} else {
+			_uWnd.alert('Выделите текст для цитирования', '', {w:230, h:80, tm:3000});
+		}
+	}
+
+	function paste(text, flag ) {
+		if (document.selection && flag ) {
+			document.addform.message.focus();
+			document.addform.document.selection.createRange().text = text;
+		} else {
+			document.addform.message.value += text;
+		}
+	}
+
+	function get_selection() {
+		if (window.getSelection ) {
+			selection = window.getSelection().toString();
+		} else if (document.getSelection ) {
+			selection = document.getSelection();
+		} else {
+			selection = document.selection.createRange().text;
+		}
+	}
+
+	function pdel(id, n ) {
+		if (confirm('Вы подтверждаете удаление?') ) {
+			(window.pDelBut = document.getElementById('dbo' + id))
+				&& (pDelBut.width = pDelBut.height = 13) && (pDelBut.src = '/.s/img/ma/m/i2.gif');
+			_uPostForm('', {url:'/forum/26-430-' + id + '-8-0-623013060141136461671', 't_pid': n});
+		}
+	}
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../.s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="26-0-0-37" class="rss-lnk">RSS</a> | <span>Вс, 2019-03-10</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../index.html" ><span>Главная</span></a></li>
+<li><a  href="../news.html" ><span>Новости</span></a></li>
+<li><a  href="../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../photo.html" ><span>Фото альбом</span></a></li>
+<li><a class=" uMenuItemA" href="../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../video.html" ><span>Видео</span></a></li>
+<li><a  href="../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ <div class="forum-box">
+ <div class="forumContent"><table border="0" cellpadding="0" height="30" cellspacing="0" width="100%">
+<tr>
+<td align="right">[
+<a class="fNavLink" href="0-0-1-34.html" rel="nofollow"><!--<s5209>-->Новые сообщения<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-1-35.html" rel="nofollow"><!--<s5216>-->Участники<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-36.html" rel="nofollow"><!--<s5166>-->Правила форума<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-6.html" rel="nofollow"><!--<s3163>-->Поиск<!--</s>--></a> &middot; 
+<a class="fNavLink" href="26-0-0-37" rel="nofollow">RSS</a> ]</td>
+</tr>
+</table>
+
+
+
+<table class="ThrTopButtonsTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrTopButtonsRow1">
+		<td width="50%" class="ThrTopButtonsCl11"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">2</span></li>
+	 <li class="switchActive">1</li>
+	<li class="switch"><a class="switchDigit" href="26-430-0-17-1.html">2</a></li> <li class="switch switch-next"><a class="switchNext" href="26-430-0-17-1.html" title="Следующая">&raquo;</a></li>
+</ul></td>
+		<td align="right" class="frmBtns ThrTopButtonsCl12"><div id="frmButns83"><a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Ответить" src="../.s/img/fr/bt/36/t_reply.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новая тема" src="../.s/img/fr/bt/36/t_new.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новый опрос" src="../.s/img/fr/bt/36/t_poll.gif" /></a></div></td></tr>
+	<tr class="ThrTopButtonsRow2">
+	<td class="forumModerBlock ThrTopButtonsCl21"><span class="moders-wrapper">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-connect', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">connect</a></span></td>
+	<td class="ThrTopButtonsCl22">&nbsp;</td></tr>
+</table>
+<table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="26.html">NFK [R2]</a> &raquo; <a class="forumBarA" href="26-430-1.html">unlagged netcode</a> <span class="thDescr">(Сетевой код для nfkR2)</span></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/26-430" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table>
+
+<div class="gDivLeft">
+	<div class="gDivRight">
+		<table class="gTable" border="0" width="100%" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="gTableTop">
+				<div style="float:right" class="gTopCornerRight"></div>
+				unlagged netcode
+				</td></tr><tr id="post8635"><td class="postFirst"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]connect[/b],');return false;">connect</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 16:05 | Сообщение # <a rel="nofollow" name="8635" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8635-16-1253621126'); return false;">1</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="connect" class="userAvatar" border="0" src="../avatar/21/5025-472037.png"><div class="postRankName">Активный участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank6.gif" title="Ранг 6" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">204</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-299'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8635" edit-url="">В этой ветке я предполагаю вести обсуждение нового сетевого кода для игры. <p> Изменение протокола запланировано мной на последнюю стадию, предшествующую полному переходу с 075 на R2, либо даже на время после этого события. <p> А пока я буду складывать тут обрывки мыслей и статей по различным моделям сетевого кода в известных играх, найденных в Сети. <p> <span style="font-size:12pt;">Ссылки</span> <br /> * <a class="link" target="_blank" href="http://u.to/ex07" title="http://www.ra.is/unlagged/" rel="nofollow">http://www.ra.is/unlagged/</a> от автора unlagged для Quake III <br /> * <a class="link" target="_blank" href="http://u.to/_2w6" title="http://www.gamedev.ru/code/articles/?id=4254" rel="nofollow">http://www.gamedev.ru/code/articles/?id=4254</a> С&#92;С++ примеры сетевого кода <br /> * <a class="link" target="_blank" href="http://u.to/Yvw6" title="http://www.delphisources.ru/pages/faq/images-indy/indy-in-depth-04.html" rel="nofollow">http://www.delphisources.ru/pages....04.html</a> Введение в сетевое программирование</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-299', 'up299', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://nemchenko.com/nfk/live')" /> </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8636"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]connect[/b],');return false;">connect</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 16:11 | Сообщение # <a rel="nofollow" name="8636" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8636-16-1253621512'); return false;">2</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="connect" class="userAvatar" border="0" src="../avatar/21/5025-472037.png"><div class="postRankName">Активный участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank6.gif" title="Ранг 6" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">204</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-299'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8636" edit-url=""><span style="font-size:12pt;">Серверная история событий</span> <br /> Прием заключается в хранении на сервере происходящих на протяжении некоторого времени событий. Эти данные могут использоваться серверем при обсчете "запоздавших" пакетов от игрока с большим пингом. <p> <span style="font-size:12pt;">Клиентская обработка стрельбы</span> <br /> Есть мод для ку3 с названием zero ping mod (zpm), его особенность заключается в том, что факт попадания в противника обсчитывается на машине игрока и отсылается серверу уже как данность. Пакеты обрабатываются по мере их получения. Т.е. если два человека отправляют пакет, содержащий информацию об их попадании в третьего игрока, фраг будет зачислен тому, чей пакет придет быстрее.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-299', 'up299', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://nemchenko.com/nfk/live')" /> </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8637"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]connect[/b],');return false;">connect</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 16:24 | Сообщение # <a rel="nofollow" name="8637" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8637-16-1253622262'); return false;">3</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="connect" class="userAvatar" border="0" src="../avatar/21/5025-472037.png"><div class="postRankName">Активный участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank6.gif" title="Ранг 6" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">204</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-299'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8637" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->Mads<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->// Сетевой код: <br /> - увеличить максимальное кол-во игроков до 16. не для игры 8на8, а например чемп тдм 4в4: 8 игроков, 2 коача, судья(подробнее в пункте Общее) <br /> - нужны дедики. сделать такую же консольку как в ку3. графика не нужна, значит можно и под никс системы написать и под винду. <br /> - сделать, чтобы можно было запустить сервера на одной машине на разных портах. коннект будет происходить как и в ку3 connect xxx.xxx.xxx.xxx:port <br /> - а для простоты запуска дедика будет бат файл запускающий нфк.екзе дедиком. настройки выведем отдельным конфигом. и тут следует определить некие стандарты игры с соответсвующими конфигами. например: дуель, 2в2, цтф2в2, дом (3в3, нет карт, только дом1, на которой как раз получается 3в3), цтф (3в3, опять же нет карт. на цтф1 возможно играть 3в3, на цтф2 более, чем 2в2 не поиграешь, другие карты откровенно сосут), тдм (4в4, есть тестовые карты: новая тдм1, засада, 4х4, деланная когда-то видимо спайком) <br /> - в нфк нельзя играть за НАТом <br /> - откровенно говоря, сетевой код нфк полное говно. вечные лаги и пакетлоссы мешают нормальной игре по интернету. Нужны оптимизации как в цпма, по-скольку там сетевой код, наверно, лучший в мире на сегодняшний день(можно играть с америкой с пингом 150;)). например попадание инстант вепонов определяются на клиенте и тп. по этому поводу можно поговорить с курилкой или кейном, может подскажут #promode.ru@irc.quakenet.org<!--/uzq--></div></div><!--/uzquote--> <p> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->Enforcer<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Сейчас получается так, что координаты полета снарядов и прочее, сначало отсылаются серверу потом приходят <br /> тебе и только потом вырисовывается сам снаряд... Это есть зло <br /> Вариант фикса: вырисовывать всё нормально на клиентских машинах и на сервере, и только потом отсылать координаты, получается так что лагать ты будешь немного у дргих (если будешь) но в тоже время лаги твоей игре мешать не будут <p> Второе это то что иной раз игроков типает при сильных лагах, он появляется неизвестно, где-то респаунится по несколько раз и прочее, надо бы както с этим бороться начинать потихоньку... <!--/uzq--></div></div><!--/uzquote--> <p> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->Rh<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Бывает так, если на серве 3 игрока (включая серва), то все нормально. Заходит 4-й и всех начинает лагать. Причем бывают т.н. "лагеры", которые лагают на данном серве всегда. А бывает так, что если этот 4-й игрок будет не 4-м, а 3-м (он войдет, а другой выйдет), то все нормально. А когда все 4 на карте, но начинаются лаги. Что происходит? <br /> - повышается пинг; <br /> - не срабатывают двери (клиент не может пройти, т.к. у него дверь закртыта, а на серве (всегда) и у других игроков (иногда) эта дверь отображается как надо, т.е. открытой); <br /> - все происходит с задержкой (через предмет пробежал, а он изчез с карты и появился в параметрах игрока (например армор) через 1-2 сек или больше; стрельба тоже с задержкой; все с задержкой; от рокета не увернуться т.к. у клиента отображается, что рокет еще летит, а на серве - что уже попал; и т.п.); <br /> - предметы иногда берутся игроком, но у него это не отображается (предмет как бы лежит на карте, но его там уже нет); <br /> - порой клиентам не видно, то что кто то или он сам взял квад или другой повэрап (т.е. игрок кваженый, а отображается как обычный); <br /> - баг, который у нас называется "слайдшоу", когда игрок вроде бы не лагает (предметы, двери, пинг - все нормально), но у этого игрока остальные игроки отображаются криво (не постоянно, а время от времени в течение игры) и он сам у других игроков переодически отображается также - появляется из ниоткуда, пробегает через стены, полтолки и т.п. Т.е. НФК его показывает не там, где он есть на самом деле. Этот баг сильно заметен на одной из старых версий НФК (тех что до 075), но и в 075 он иногда появляется и от чего зависит не ясно. Встречается в основном, когда 4 и больше игроков (т.е. что то вроде того, как описано выше - 3 игрока нормально +1 начинается вот эта хрень). Возможно это происходит и при меньшем количестве игроков, но при 4 такое было часто. <br /> - даже по лану (в т.ч. в комп.клубе) встречается баг - "даблкил", когда один игрок умирает за один раз дважды. Т.е. например два игрока стреляют в третьего и он умирает - каждому из стрелявших дают по фрагу (если команда, то ей два фрага), из убитого выпадают два оружия вместо одного (см. демку № 3 - на 3:55 - игра была на лан чемпе в комп.клубе). Также это возможно при игре 1на1, когда игрок себя случайно убивает своим рокетом, а в этот момент в него стреляет противник - то могут отнять за суицид фраг и еще приплюсовать один фраг врагу (тоже было на чемпе в комп.клубе). <br /> Если есть такая возможность, то лучше наверно будет "выдрать" нафиг старый сетевой код и вставить туда новый, хороший на базе того же Ку3, который в основе своей является мультиплеерной, сетевой игрой и по логике с сетевым кодом там должно быть все четко.<!--/uzq--></div></div><!--/uzquote--></span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-299', 'up299', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://nemchenko.com/nfk/live')" /> </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8638"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 16:38 | Сообщение # <a rel="nofollow" name="8638" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8638-16-1253623130'); return false;">4</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8638" edit-url="">Rh оооо вот это он четко сетевой глюк вычислил а я собстно и непонимал отчего он, ОЧЕНЬ хорошо ! <br /> т.к. часто жалуются мол двери в цтф и прочем не открываются... <p> Баги у нас есть сейчас надо хотяб торетически прогнать что как менять реально ли заменить сетевой код либо конкретно залать этот... И всё это подробненько это представить чтоб иметь четкое представление о том что как будет менятся и где в каких местах...</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8639"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]connect[/b],');return false;">connect</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 17:05 | Сообщение # <a rel="nofollow" name="8639" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8639-16-1253624732'); return false;">5</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="connect" class="userAvatar" border="0" src="../avatar/21/5025-472037.png"><div class="postRankName">Активный участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank6.gif" title="Ранг 6" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">204</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-299'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8639" edit-url="">Чем больше сетевых багов нфки, мы сможем собрать, тем мне будет проще понять специфику.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-299', 'up299', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://nemchenko.com/nfk/live')" /> </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8648"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Rh[/b],');return false;">Rh</a></td><td class="postTdTop">Дата: Вт, 2009-09-22, 22:04 | Сообщение # <a rel="nofollow" name="8648" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8648-16-1253642688'); return false;">6</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Rh" class="userAvatar" border="0" src="../avatar/79/0369-887673.jpg"><div class="postRankName">Участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank5.gif" title="Ранг 5" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">148</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-309'});return false;" title="Список наград"><span class="repNums"><b>4</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8648" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->Enforcer<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Однако там сеть имхо настолько связана с игрой что просто караул... <br /> проще наверно взять охрененный нож <br /> вырезать вобще весь мультиплеер <br /> оставить хотсит ну сетап и ещё пару пунктов, <br /> и отмочить новый мультиплеер в отдельном *.PAS файле на БАЗЕ ХОТСИТА какбы так... <br /> Имхо жесткачь нуу я высказал идею, версию. <!--/uzq--></div></div><!--/uzquote--> <p> Я понимаю, что все это ляжет на плечи Коннекта, ну или еще кого, что возьмется помогать. Но никак не на мои. <br /> Но тем не менее придерживаюсь примерно такой же точки зрения. <br /> Другое дело я даже не знаю насклько глубоко надо его ампутировать. По мне так (чисто интуитивно) - чем глубже, тем для здоровья больного - лучше. А потом пришить новый, хороший. <br /> А не пытаться разобраться в том, что есть, пытаясь починить по кусочкам. <br /> Ну это я так. В десятый раз об одном и том же ).</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-309', 'up309', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8656"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]coolant[/b],');return false;">coolant</a></td><td class="postTdTop">Дата: Ср, 2009-09-23, 08:36 | Сообщение # <a rel="nofollow" name="8656" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8656-16-1253680601'); return false;">7</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="coolant" class="userAvatar" border="0" src="../avatar/85/7881-099830.gif"><div class="postRankName">Админ</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Администраторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1109</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-2'});return false;" title="Список наград"><span class="repNums"><b>11</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8656" edit-url="">Еще один баг, который происходит у меня почти в кадой игре - Когда игрока убивают, он не может реснутся по нажатию на выстрел, приходится ждать пока пройдет forcerespawn, что для ctf, dom, ast может обернутся проигрышем... <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->connect<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->"даблкил", когда один игрок умирает за один раз дважды. Т.е. например два игрока стреляют в третьего и он умирает - каждому из стрелявших дают по фрагу<!--/uzq--></div></div><!--/uzquote--> <br /> Не только, при мне было не раз, когда за одно убийство давали два фрага одному игроку. <p> Еще бывает так, что при смене карты серером, у клиента она не меняется (очень редко, но бывает). <br /> При нажатии на выстрел клиентом, на сервере выстрел не происходит. <br /> Когда клиент начинает стрелять из шафта, луча не видно и он не наносит дамаг, но патроны расходуются <p> Не критичные глюки: <br /> При одновременном заходе на сервер двоих человек, одного не пускает. <br /> Когда сервер возвращается после альт-таба, все клиентские выстрелы за время альт-таба происходят одновременно. <p> В общем основная масса клюков из-за пакетлоста, как его удастся решить, то играть станет намного легче.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-2', 'up2', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://coolant.no-ip.org')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 7686469" onclick="prompt('ICQ number','7686469');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8658"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Rh[/b],');return false;">Rh</a></td><td class="postTdTop">Дата: Ср, 2009-09-23, 13:52 | Сообщение # <a rel="nofollow" name="8658" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8658-16-1253699561'); return false;">8</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Rh" class="userAvatar" border="0" src="../avatar/79/0369-887673.jpg"><div class="postRankName">Участник</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank5.gif" title="Ранг 5" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">148</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-309'});return false;" title="Список наград"><span class="repNums"><b>4</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8658" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Когда сервер возвращается после альт-таба, все клиентские выстрелы за время альт-таба происходят одновременно.<!--/uzq--></div></div><!--/uzquote--> <br /> Да. Когда серв уходит в альт-таб, то остальные игроки могут двигаться, стрелять. Но урон в это время не наносится (рокеты, гранаты не взрываются, луч рейла не отображается) сами рокеты, гранаты, плазма и луч шафта отображаются. Двери не срабатываю и т.д. <br /> И только после возвращения серва из альт-таба, как сказал coolant, все выстрелы сделанные за это время наносят урон, и отображается то, что не отображалось во время альт-таба. <br /> Можно сделать так, что бы при уходе серва в альт-таб, остальные игроки могли продолжать нормальную игру? А над сервом был бы просто значок, что он в альт-табе (как сейчас). Но что бы его можно было, например, убить ). <p> И сюда же: <br /> Когда игрок-клиент выходит альт-табом, то его через некоторое время (причем довольно быстро) дропает с серва. <br /> Это не удобно, когда, например собираешь народ и переодически вылазишь в мирку. <br /> Убрать этот дроп.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-309', 'up309', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8660"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Ср, 2009-09-23, 16:51 | Сообщение # <a rel="nofollow" name="8660" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8660-16-1253710301'); return false;">9</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8660" edit-url="">* пометочку для себя сделать в моде встроенный ирк чат чтоб люди не вылазили с игры когда собирают народ ))</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post8666"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Чт, 2009-09-24, 08:38 | Сообщение # <a rel="nofollow" name="8666" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/26-430-8666-16-1253767103'); return false;">10</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-8666" edit-url="">Enforcer, ты уже давно об этом говорил, но так почему-то и не сделал))) <br /> Ну вроде все глюки перечислили, мне добавить нечего)) Кстати насчёт айтимов, которые не исчезают при их получении... Бесит, когда на ctf ты возвращаешься на базу и у тебя там стоит флаг и ты радуешься, что мол не успели забрать, а тут мимо пробегает чел из другой тимы с твоим флагом и убивает тебя xDDD Вот это реально пипец))</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div>
+<table class="ThrBotTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrBotRow1"><td colspan="2" class="bottomPathBar ThrBotCl11" style="padding-top:2px;"><table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="26.html">NFK [R2]</a> &raquo; <a class="forumBarA" href="26-430-1.html">unlagged netcode</a> <span class="thDescr">(Сетевой код для nfkR2)</span></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/26-430" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table></td></tr>
+	<tr class="ThrBotRow2"><td class="ThrBotCl21" width="50%"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">2</span></li>
+	 <li class="switchActive">1</li>
+	<li class="switch"><a class="switchDigit" href="26-430-0-17-1.html">2</a></li> <li class="switch switch-next"><a class="switchNext" href="26-430-0-17-1.html" title="Следующая">&raquo;</a></li>
+</ul></td><td class="ThrBotCl22" align="right" nowrap="nowrap"><form name="navigation" style="margin:0px"><table class="navigationTbl" border="0" cellspacing="0" cellpadding="0"><tr class="navigationRow1"><td class="fFastNavTd navigationCl11" style="padding-top:5px;padding-bottom:5px;"><select class="fastNav" name="fastnav"><option class="fastNavMain" value="0">Главная страница форума</option><option class="fastNavCat"   value="1">Игра NFK</option><option class="fastNavForum" value="2">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение игры</option><option class="fastNavForum" value="3">&nbsp;&nbsp;&nbsp;&nbsp; Вступить в клан</option><option class="fastNavForum" value="7">&nbsp;&nbsp;&nbsp;&nbsp; Клан PFF</option><option class="fastNavForum" value="28">&nbsp;&nbsp;&nbsp;&nbsp; Клан RA</option><option class="fastNavForum" value="20">&nbsp;&nbsp;&nbsp;&nbsp; Tribes-X</option><option class="fastNavForum" value="25">&nbsp;&nbsp;&nbsp;&nbsp; Зона разработок</option><option class="fastNavForumA" value="26" selected>&nbsp;&nbsp;&nbsp;&nbsp; NFK [R2]</option><option class="fastNavCat"   value="4">Сайт</option><option class="fastNavForum" value="5">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение сайта</option><option class="fastNavForum" value="6">&nbsp;&nbsp;&nbsp;&nbsp; Флуд</option><option class="fastNavCat"   value="8">Другие игры</option><option class="fastNavForum" value="9">&nbsp;&nbsp;&nbsp;&nbsp; WarCraft III</option><option class="fastNavForum" value="10">&nbsp;&nbsp;&nbsp;&nbsp; Half-Life</option><option class="fastNavForum" value="11">&nbsp;&nbsp;&nbsp;&nbsp; Quake III, IV</option><option class="fastNavForum" value="16">&nbsp;&nbsp;&nbsp;&nbsp; StarCraft</option><option class="fastNavForum" value="17">&nbsp;&nbsp;&nbsp;&nbsp; Другие игры</option><option class="fastNavForum" value="18">&nbsp;&nbsp;&nbsp;&nbsp; MMORPG</option><option class="fastNavCat"   value="12">Другие темы</option><option class="fastNavForum" value="13">&nbsp;&nbsp;&nbsp;&nbsp; Музыка</option><option class="fastNavForum" value="14">&nbsp;&nbsp;&nbsp;&nbsp; Кино</option><option class="fastNavForum" value="15">&nbsp;&nbsp;&nbsp;&nbsp; Юмор</option><option class="fastNavForum" value="19">&nbsp;&nbsp;&nbsp;&nbsp; Жизнь</option></select><input class="fastNav" type="button" value="Ok" onclick="top.location.href='/forum/'+(document.navigation.fastnav.value!='0'?document.navigation.fastnav.value:'');" /></td></tr></table></form></td></tr>
+	<tr class="ThrBotRow3"><td class="ThrBotCl31"><div class="fFastLogin" style="padding-top:5px;padding-bottom:5px;"><input class="fastLogBt" type="button" value="Быстрый вход" onclick="new _uWnd('LF',' ',-250,-110,{autosize:1,closeonesc:1,resize:1},{url:'/index/40'});" /></div></td><td class="ThrBotCl32" align="right" nowrap="nowrap"><form method="post" action="../forum.html" style="margin:0px"><table class="FastSearchTbl" border="0" cellspacing="0" cellpadding="0"><tr class="FastSearchRow1"><td class="fFastSearchTd FastSearchCl11" style="padding-top:5px;padding-bottom:5px;">Поиск: <input class="fastSearch" type="text" style="width:150px" name="kw" placeholder="keyword" size="20" maxlength="60" /><input class="fastSearch" type="submit" value="Ok" /></td></tr></table><input type="hidden" name="a" value="6" /></form></td></tr>
+</table>
+</div><br />
+ <div class="clr"></div>
+ </div>
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbegJVM5">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.08528 (s1) -->

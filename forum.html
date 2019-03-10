@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>pff.clan.su - Форум</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href=".s/src/base.css" />
+	<link rel="stylesheet" href=".s/src/layer1.css" />
+
+	<script src=".s/src/jquery-1.7.2.js"></script>
+	
+	<script src=".s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.36179331746736"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href=".s/src/ulightbox/ulightbox.min.css" />
+	<script src=".s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href=".s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="forum/0-0-0-37" class="rss-lnk">RSS</a> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="index.html" ><span>Главная</span></a></li>
+<li><a  href="news.html" ><span>Новости</span></a></li>
+<li><a  href="load.html" ><span>Файлы</span></a></li>
+<li><a  href="publ.html" ><span>Статьи</span></a></li>
+<li><a  href="photo.html" ><span>Фото альбом</span></a></li>
+<li><a class=" uMenuItemA" href="forum.html" ><span>Форум</span></a></li>
+<li><a  href="video.html" ><span>Видео</span></a></li>
+<li><a  href="faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ <div class="forum-box">
+ <div class="forumContent"><table border="0" cellpadding="0" height="30" cellspacing="0" width="100%">
+<tr>
+<td align="right">[
+<a class="fNavLink" href="forum/0-0-1-34.html" rel="nofollow"><!--<s5209>-->Новые сообщения<!--</s>--></a> &middot; 
+<a class="fNavLink" href="forum/0-0-1-35.html" rel="nofollow"><!--<s5216>-->Участники<!--</s>--></a> &middot; 
+<a class="fNavLink" href="forum/0-0-0-36.html" rel="nofollow"><!--<s5166>-->Правила форума<!--</s>--></a> &middot; 
+<a class="fNavLink" href="forum/0-0-0-6.html" rel="nofollow"><!--<s3163>-->Поиск<!--</s>--></a> &middot; 
+<a class="fNavLink" href="forum/0-0-0-37" rel="nofollow">RSS</a> ]</td>
+</tr>
+</table>
+<div class="gDivLeft"><div class="gDivRight"><table border="0" width="100%" bgcolor="#FFFFFF" cellspacing="1" cellpadding="0" class="gTable"><tr><td class="gTableTop" colspan="5"><div style="float:right" class="gTopCornerRight"></div><a class="catLink" href="forum/1.html">Игра NFK</a></td></tr><tr><td width="5%" class="gTableSubTop">&nbsp;</td><td class="gTableSubTop">Форум</td><td width="8%" class="gTableSubTop" align="center">Темы</td><td width="8%" class="gTableSubTop" align="center">Ответы</td><td width="30%" class="gTableSubTop">Обновления</td></tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/2-0-1.html">Обсуждение игры</a>
+	
+	
+	<div class="forumDescr">Обсуждение карт, модов, демок и стратегий.</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-DeadHead', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">DeadHead</a></div>
+</td>
+<td class="forumThreadTd" align="center">93</td>
+<td class="forumPostTd" align="center">1760</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/2-590-0-17.html">Вт, 2017-08-29, 10:13</a>
+	<a href="forum/2-590-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/2-590-0-17-1.html">Ссылки на исходники</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-I~Cube0502', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">I-Cube0502</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/3-0-1.html">Вступить в клан</a>
+	
+	
+	<div class="forumDescr">Оставляйте сообщения здесь чтобы вступить в клан</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">28</td>
+<td class="forumPostTd" align="center">532</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/3-577-0-17.html">Чт, 2012-10-11, 17:21</a>
+	<a href="forum/3-577-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/3-577-0-17-1.html">sobaka_zombaka</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-coolant', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">coolant</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/7-0-1.html">Клан PFF</a>
+	
+	
+	<div class="forumDescr">Обсуждение клана</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Makc', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Makc</a></div>
+</td>
+<td class="forumThreadTd" align="center">39</td>
+<td class="forumPostTd" align="center">749</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/7-576-0-17.html">Вс, 2012-09-16, 17:16</a>
+	<a href="forum/7-576-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/7-576-1.html">CW DOSvsPFF part 2</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-coolant', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">coolant</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/28.html">Клан RA</a>
+	
+	
+	<div class="forumDescr">Форум клана RA</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-ScorPION', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">ScorPION</a></div>
+</td>
+<td class="forumThreadTd" align="center">6</td>
+<td class="forumPostTd" align="center">127</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/28-568-0-17.html">Вт, 2012-01-03, 18:05</a>
+	<a href="forum/28-568-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/28-568-1.html">Всеобщая мобилизация</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Kain', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Kain</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/20.html">Tribes-X</a>
+	
+	
+	<div class="forumDescr">Мод для NFK</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-BFG16k', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">BFG16k</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Enforcer', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Enforcer</a></div>
+</td>
+<td class="forumThreadTd" align="center">7</td>
+<td class="forumPostTd" align="center">38</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/20-556-0-17.html">Вт, 2013-09-17, 14:35</a>
+	<a href="forum/20-556-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/20-556-0-17-1.html">Дизайнер карт</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%94%D1%83%D0%BC%D0%B5%D1%80', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Черный_Думер</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/25-0-1.html">Зона разработок</a>
+	
+	
+	<div class="forumDescr">только для разработчиков</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Enforcer', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Enforcer</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-BFG16k', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">BFG16k</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-coolant', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">coolant</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-nurupo', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">nurupo</a></div>
+</td>
+<td class="forumThreadTd" align="center">60</td>
+<td class="forumPostTd" align="center">1475</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/25-595-0-17.html">Чт, 2013-05-30, 23:39</a>
+	<a href="forum/25-595-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/25-595-0-17-1.html">NFK Lobby</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-grisly', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">grisly</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/26.html">NFK [R2]</a>
+	
+	
+	<div class="forumDescr">Продолжение разработки NFK</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-connect', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">connect</a></div>
+</td>
+<td class="forumThreadTd" align="center">10</td>
+<td class="forumPostTd" align="center">652</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/26-424-0-17.html">Ср, 2015-03-04, 14:06</a>
+	<a href="forum/26-424-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/26-424-1.html">NFK R2</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-PQR', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">PQR</a></span>
+
+</td>
+</tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div><br />
+<div class="gDivLeft"><div class="gDivRight"><table border="0" width="100%" bgcolor="#FFFFFF" cellspacing="1" cellpadding="0" class="gTable"><tr><td class="gTableTop" colspan="5"><div style="float:right" class="gTopCornerRight"></div><a class="catLink" href="forum/4.html">Сайт</a></td></tr><tr><td width="5%" class="gTableSubTop">&nbsp;</td><td class="gTableSubTop">Форум</td><td width="8%" class="gTableSubTop" align="center">Темы</td><td width="8%" class="gTableSubTop" align="center">Ответы</td><td width="30%" class="gTableSubTop">Обновления</td></tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/5.html">Обсуждение сайта</a>
+	
+	
+	<div class="forumDescr">Что Вы бы хотели видеть на сайте?</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Makc', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Makc</a></div>
+</td>
+<td class="forumThreadTd" align="center">16</td>
+<td class="forumPostTd" align="center">190</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/5-359-0-17.html">Пн, 2012-04-30, 23:08</a>
+	<a href="forum/5-359-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/5-359-1.html">Выбор дизайна</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-raga', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">raga</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/6-0-1.html">Флуд</a>
+	
+	
+	<div class="forumDescr">Разговор обовсем.</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">107</td>
+<td class="forumPostTd" align="center">1631</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="http://needforkill.ru/forum/6-604-0-17">Вт, 2014-07-01, 17:26</a>
+	<a href="http://needforkill.ru/forum/6-604-0-17-1"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="http://needforkill.ru/forum/6-604-1">Обратите внимание!</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-levarub', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">levarub</a></span>
+
+</td>
+</tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div><br />
+<div class="gDivLeft"><div class="gDivRight"><table border="0" width="100%" bgcolor="#FFFFFF" cellspacing="1" cellpadding="0" class="gTable"><tr><td class="gTableTop" colspan="5"><div style="float:right" class="gTopCornerRight"></div><a class="catLink" href="forum/8.html">Другие игры</a></td></tr><tr><td width="5%" class="gTableSubTop">&nbsp;</td><td class="gTableSubTop">Форум</td><td width="8%" class="gTableSubTop" align="center">Темы</td><td width="8%" class="gTableSubTop" align="center">Ответы</td><td width="30%" class="gTableSubTop">Обновления</td></tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/9.html">WarCraft III</a>
+	
+	
+	<div class="forumDescr">Обсуждение игры, стратегий, карт и т.д.</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">6</td>
+<td class="forumPostTd" align="center">107</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/9-98-0-17.html">Пн, 2008-09-22, 12:11</a>
+	<a href="forum/9-98-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/9-98-1.html">ДАВАЙТЕ ПОДЕЛИМСЯ ТАКТИКАМИ</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Enforcer', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Enforcer</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/10.html">Half-Life</a>
+	
+	
+	<div class="forumDescr">Обсуждение Half-Life, Counter-Strike и других модов</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">7</td>
+<td class="forumPostTd" align="center">124</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/10-23-0-17.html">Пт, 2017-07-21, 19:59</a>
+	<a href="forum/10-23-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/10-23-1.html">Counter-Strike 1.6</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-formen', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">formen</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/11.html">Quake III, IV</a>
+	
+	
+	<div class="forumDescr">О игре Quake</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">3</td>
+<td class="forumPostTd" align="center">80</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/11-498-0-17.html">Вс, 2010-08-08, 23:43</a>
+	<a href="forum/11-498-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/11-498-0-17-1.html">Quake Live</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-connect', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">connect</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/16.html">StarCraft</a>
+	
+	
+	<div class="forumDescr">Обсуждение игры StarCraft и StarCraft2</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">3</td>
+<td class="forumPostTd" align="center">76</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/16-10-0-17.html">Вт, 2012-03-06, 17:26</a>
+	<a href="forum/16-10-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/16-10-1.html">StarCraft2</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-swirly', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">swirly</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/17-0-1.html">Другие игры</a>
+	
+	
+	<div class="forumDescr">Обсуждение других игр</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">28</td>
+<td class="forumPostTd" align="center">319</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/17-606-0-17.html">Пн, 2014-11-10, 08:21</a>
+	<a href="forum/17-606-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/17-606-0-17-1.html">Doom 2D: Forever 0.666</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%94%D1%83%D0%BC%D0%B5%D1%80', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Черный_Думер</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/18.html">MMORPG</a>
+	
+	
+	<div class="forumDescr">Massively Multiplayer Online Games</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">6</td>
+<td class="forumPostTd" align="center">128</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/18-517-0-17.html">Пн, 2010-10-11, 22:58</a>
+	<a href="forum/18-517-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/18-517-0-17-1.html">Перевод riBot&#39;а</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Makc', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Makc</a></span>
+
+</td>
+</tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div><br />
+<div class="gDivLeft"><div class="gDivRight"><table border="0" width="100%" bgcolor="#FFFFFF" cellspacing="1" cellpadding="0" class="gTable"><tr><td class="gTableTop" colspan="5"><div style="float:right" class="gTopCornerRight"></div><a class="catLink" href="forum/12.html">Другие темы</a></td></tr><tr><td width="5%" class="gTableSubTop">&nbsp;</td><td class="gTableSubTop">Форум</td><td width="8%" class="gTableSubTop" align="center">Темы</td><td width="8%" class="gTableSubTop" align="center">Ответы</td><td width="30%" class="gTableSubTop">Обновления</td></tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/13.html">Музыка</a>
+	
+	
+	<div class="forumDescr">Обсуждение музыки, музыки в играх и т.д.</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">11</td>
+<td class="forumPostTd" align="center">130</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="http://needforkill.ru/forum/13-553-0-17">Ср, 2011-09-28, 20:02</a>
+	<a href="http://needforkill.ru/forum/13-553-0-17-1"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="http://needforkill.ru/forum/13-553-1">Алкоголь с завода - низкие ц...</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-easyeas', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">easyeas</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/14.html">Кино</a>
+	
+	
+	<div class="forumDescr">Обсуждение фильмов</div>
+	
+	
+</td>
+<td class="forumThreadTd" align="center">2</td>
+<td class="forumPostTd" align="center">41</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/14-191-0-17.html">Сб, 2010-02-27, 23:13</a>
+	<a href="forum/14-191-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/14-191-1.html">(О Филмах)</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Law', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Law</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/15.html">Юмор</a>
+	
+	
+	<div class="forumDescr">Смешные случаи из игр или жизни, анекдоты</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Makc', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Makc</a></div>
+</td>
+<td class="forumThreadTd" align="center">13</td>
+<td class="forumPostTd" align="center">214</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/15-25-0-17.html">Пт, 2011-08-05, 21:51</a>
+	<a href="forum/15-25-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/15-25-1.html">Цитатник смешных разговоров ...</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-BFG16k', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">BFG16k</a></span>
+
+</td>
+</tr><tr>
+<td class="forumIcoTd" align="center">
+	<img alt="" src=".s/img/fr/ic/1/br_nonew.gif" title="Нет новых сообщений">
+</td>
+<td class="forumNameTd">
+	<a class="forum" href="forum/19.html">Жизнь</a>
+	
+	
+	<div class="forumDescr">Беседа о жизни, и жизненных ситуациях.</div>
+	
+	<div class="forumModer">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Makc', 'up36', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Makc</a></div>
+</td>
+<td class="forumThreadTd" align="center">19</td>
+<td class="forumPostTd" align="center">370</td>
+<td class="forumLastPostTd">
+	<a title="К последнему сообщению" class="forumLastPostLink" href="forum/19-366-0-17.html">Вт, 2018-01-02, 10:19</a>
+	<a href="forum/19-366-0-17-1.html"><img alt="" title="К первому непрочитанному сообщению" src=".s/img/fr/ic/1/lastpost.gif" /></a>
+	<br>Тема: <a class="forumLastPostLink" href="forum/19-366-1.html">Привет люди)</a>
+	<br>Сообщение от: <span class="lastPostUser"><a class="lastPostUserLink" href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Lawhit', 'up67', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;">Lawhit</a></span>
+
+</td>
+</tr></table></div></div>
+	<div class="gDivBottomLeft"></div>
+	<div class="gDivBottomCenter"></div>
+	<div class="gDivBottomRight"></div><div align="right" style="padding-top:5px;" class="funcBlock">[ <a class="funcLink" href="javascript://" rel="nofollow" onclick="window.location.href='/forum/0-0-0-30';return false;">Отметить все сообщения прочитанными</a> ]</div>
+<br /><br /><br /><div class="gDivLeft"><div class="gDivRight"><table border="0" width="100%" cellspacing="1" cellpadding="0" class="gTable">
+<tr><td colspan="2" class="gTableTop"><div style="float:right" class="gTopCornerRight"></div>Дополнительная информация</td></tr>
+<tr><td colspan="2" class="gTableSubTop">Посетители: <b>2</b> &nbsp;(участников - <b>0</b>, гостей - <b>2</b>)</td></tr>
+<tr><td width="7%" align="center" class="gTableRight" style="padding:7px;"><img alt="" style="margin:0;padding:0;border:0;" title="Посетители" src=".s/img/fr/ic/1/online.gif" /></td>
+<td class="gTableBody1" style="padding:10px;"><div class="statsRecord">Рекорд посещаемости форума <b>287</b> зафиксирован Пт, 20:43, 2016-12-30.</div> </td></tr>
+<tr><td colspan="2" class="gTableSubTop">Статистика форума</td></tr>
+<tr><td align="center" class="gTableRight" style="padding:7px;"><img alt="" style="margin:0;padding:0;border:0;" title="Статистика форума" src=".s/img/fr/ic/1/stats.gif" /></td>
+<td class="gTableBody1" style="padding:10px;">Всего создано <b>466</b> тем, в которые добавлено <b>8822</b> ответов.<br />Зарегистрировано <b>536</b> участников. Приветствуем нового участника <b><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-needforkillcom', 'up64', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="lastUserLink">needforkillcom</a></b>.</td>
+</tr>
+
+</table>
+</div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div>
+</div><br />
+ <div class="clr"></div>
+ </div>
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbIhfGI9">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src=".s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.06043 (s1) -->

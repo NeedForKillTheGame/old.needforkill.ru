@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>NFK Lobby - pff.clan.su - Форум</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../.s/src/base.css" />
+	<link rel="stylesheet" href="../.s/src/layer1.css" />
+
+	<script src="../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.505798278940325"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+	function Insert(qmid, user, text ) {
+		user = user.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+		if (!!text ) {
+			qmid = qmid.replace(/[^0-9]/g, "");
+			paste("[quote="+user+";"+qmid+"]"+text+"[/quote]\n", 0);
+		} else {
+			_uWnd.alert('Выделите текст для цитирования', '', {w:230, h:80, tm:3000});
+		}
+	}
+
+	function paste(text, flag ) {
+		if (document.selection && flag ) {
+			document.addform.message.focus();
+			document.addform.document.selection.createRange().text = text;
+		} else {
+			document.addform.message.value += text;
+		}
+	}
+
+	function get_selection() {
+		if (window.getSelection ) {
+			selection = window.getSelection().toString();
+		} else if (document.getSelection ) {
+			selection = document.getSelection();
+		} else {
+			selection = document.selection.createRange().text;
+		}
+	}
+
+	function pdel(id, n ) {
+		if (confirm('Вы подтверждаете удаление?') ) {
+			(window.pDelBut = document.getElementById('dbo' + id))
+				&& (pDelBut.width = pDelBut.height = 13) && (pDelBut.src = '/.s/img/ma/m/i2.gif');
+			_uPostForm('', {url:'/forum/25-595-' + id + '-8-0-072460557615047226743', 't_pid': n});
+		}
+	}
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../.s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="25-0-0-37" class="rss-lnk">RSS</a> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../index.html" ><span>Главная</span></a></li>
+<li><a  href="../news.html" ><span>Новости</span></a></li>
+<li><a  href="../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../photo.html" ><span>Фото альбом</span></a></li>
+<li><a class=" uMenuItemA" href="../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../video.html" ><span>Видео</span></a></li>
+<li><a  href="../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ <div class="forum-box">
+ <div class="forumContent"><table border="0" cellpadding="0" height="30" cellspacing="0" width="100%">
+<tr>
+<td align="right">[
+<a class="fNavLink" href="0-0-1-34.html" rel="nofollow"><!--<s5209>-->Новые сообщения<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-1-35.html" rel="nofollow"><!--<s5216>-->Участники<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-36.html" rel="nofollow"><!--<s5166>-->Правила форума<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-6.html" rel="nofollow"><!--<s3163>-->Поиск<!--</s>--></a> &middot; 
+<a class="fNavLink" href="25-0-0-37" rel="nofollow">RSS</a> ]</td>
+</tr>
+</table>
+
+
+
+<table class="ThrTopButtonsTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrTopButtonsRow1">
+		<td width="50%" class="ThrTopButtonsCl11"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">1</span></li>
+	 <li class="switchActive">1</li> 
+</ul></td>
+		<td align="right" class="frmBtns ThrTopButtonsCl12"><div id="frmButns83"><a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Ответить" src="../.s/img/fr/bt/36/t_reply.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новая тема" src="../.s/img/fr/bt/36/t_new.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новый опрос" src="../.s/img/fr/bt/36/t_poll.gif" /></a></div></td></tr>
+	<tr class="ThrTopButtonsRow2">
+	<td class="forumModerBlock ThrTopButtonsCl21"><span class="moders-wrapper">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-Enforcer', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">Enforcer</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-BFG16k', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">BFG16k</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-coolant', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">coolant</a>, <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-nurupo', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">nurupo</a></span></td>
+	<td class="ThrTopButtonsCl22">&nbsp;</td></tr>
+</table>
+<table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="25-0-1.html">Зона разработок</a> &raquo; <a class="forumBarA" href="25-595-0-17-1.html">NFK Lobby</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/25-595" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table>
+
+<div class="gDivLeft">
+	<div class="gDivRight">
+		<table class="gTable" border="0" width="100%" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="gTableTop">
+				<div style="float:right" class="gTopCornerRight"></div>
+				NFK Lobby
+				</td></tr><tr id="post11443"><td class="postFirst"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 12:45 | Сообщение # <a rel="nofollow" name="11443" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11443-16-1369212319'); return false;">1</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11443" edit-url="">Решил немного потренировать свое Qt-fu написанием лобби для NFK. <br /><br /> Лобби состоит из сканера планет, чата и игровых предпочтений. <br /><br /> <hr /> <br /><br /> <span style="font-size:16pt;">Сканер планет</span> <br /><br /> Сканер планет может: <br /> <ul><li>Работать с несколькими планетами одновременно <br /> <li>Фильтровать выдачу по типу игр и полноте сервера <br /> <li>Автоматически обновлять информацию <br /> <li>Заходить в игру для игры или наблюдения <br /> <li>Изменять адрес планеты NFK в течении игровой сессии на тот, на котором находится выбранная игра. <br /> </ul> <br /><br /> <a class="link" href="../_fr/5/4135328.png" rel="nofollow" target="_blank"><!--IMG1--><img alt="" style="margin:0;padding:0;border:0;" src="http://pff.clan.su/_fr/5/4135328.png" align="" /><!--IMG1--></a> <br /> (изображение кликабельно) <br /><br /> <hr /> <br /><br /> <span style="font-size:16pt;">Чат</span> <br /><br /> Чат может: <br /> <ul><li>Идентифицировать пользователя с NickServ <br /> <li>Автоматически заходить на каналы <br /> <li>Ждать какое-то время прежде чем автоматически заходить на каналы (полезно для пользователей с плащем) <br /> <li>Менять шрифты для списка чатов (слева), окна чата (по центру) и списка пользователей (справа) <br /> <li>Добавлять сервера с возможностью указать желанную кодировку текста. <br /> </ul> <br /><br /> Чат так же имеет Quassel-подобную раскраску сообщений. <br /><br /> <a class="link" href="../_fr/5/2907124.png" rel="nofollow" target="_blank"><!--IMG2--><img alt="" style="margin:0;padding:0;border:0;" src="http://pff.clan.su/_fr/5/2907124.png" align="" /><!--IMG2--></a> <br /> (изображение кликабельно) <br /><br /> <hr /> <br /><br /> <span style="font-size:16pt;">Игровые предпочтения</span> <br /><br /> Игровые предпочтения дают вам возможность: <br /> <ul><li>Указать свой игровой ник <br /> <li>Указать свои игровые предпочтения (двойной клик на ячейках первой строки позволяет выставить игровые предпочтения) <br /> </ul> <br /><br /> <a class="link" href="../_fr/5/7924107.png" rel="nofollow" target="_blank"><!--IMG3--><img alt="" style="margin:0;padding:0;border:0;" src="http://pff.clan.su/_fr/5/7924107.png" align="" /><!--IMG3--></a> <br /> (изображение кликабельно) <br /><br /> <hr /> <br /><br /> Все три вкладки на самом деле являются доками, что означает, что они могут открепляться и переноситься по всему приложению. Вот пример того как я настроил приложение под себя: <br /><br /> <a class="link" href="../_fr/5/7176137.png" rel="nofollow" target="_blank"><!--IMG4--><img alt="" style="margin:0;padding:0;border:0;" src="http://pff.clan.su/_fr/5/7176137.png" align="" /><!--IMG4--></a> <br /> (изображение кликабельно) <br /><br /> <hr /> <br /><br /> Это первая, тестовая, версия приложения, так что если что-то не работает, то пожалуйста опишите баг с помощью следующей формы: <br /><br /> <!--uzcode--><div class="bbCodeBlock"><div class="bbCodeName" style="padding-left:5px;font-weight:bold;font-size:7pt">Код</div><div class="codeMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzc-->Общее описание: <br /> ... <br /><br /> Как часто происходит: <br /> &#91;Всегда/иногда/редко/и тому подобное] <br /><br /> Как пошагово воспроизвести баг: <br /> 1. ... <br /> 2. ... <br /> 3. ... <br /> 4. ... <br /><br /> Что является результатом воспроизведения вышеуказанных шагов:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> ... <br /><br /> Какой ожидался результат при воспроизведении вышеуказанных шагов:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> ...<!--/uzc--></div></div><!--/uzcode--> <br /><br /> Так же оставляйте пожелания нового функционала. <br /><br /> Баги и функционал желательно писать <a class="link" href="http://u.to/PdGDAw" title="https://github.com/nurupo/nfk-lobby/issues" rel="nofollow" target="_blank">сюда</a>, но если кто-то не хочет регистрироваться, то можно и сюда — на форум. <br /><br /> NFK Lobby написан на C++ с использованием Qt5, что означает, что он может работать на Windows, Mac OS X и Linux (X11 и Wayland). <br /> NFK Lobby является приложением с <a class="link" href="http://u.to/PNGDAw" title="https://github.com/nurupo/nfk-lobby" rel="nofollow" target="_blank">открытым исходным кодом</a> и распространяется по лицензии <a class="link" href="http://u.to/9VOA" title="http://www.gnu.org/licenses/gpl.txt" rel="nofollow" target="_blank">GPLv3</a>, что означает, что любой знающий C++, Qt и git может внести вклад в приложение и что исходные коды не могут внезапно взять и потеряться, как в случае NFK : ) <br /><br /> Совсем забыл добавить <a class="link" href="http://goo.gl/r5614" rel="nofollow" target="_blank">ссылку</a> на скачивание : ) <br /> .</span>
+ <div align="left" class="eAttach">Прикрепления: <span dir="ltr"><a class="entryAttach" title="51.0 Kb" href="../_fr/5/4135328.png" target="_blank">4135328.png</a><span class="entryAttachSize" style="font-size:7pt;">(51.0 Kb)</span></span> &middot; <span dir="ltr"><a class="entryAttach" title="61.5 Kb" href="../_fr/5/2907124.png" target="_blank">2907124.png</a><span class="entryAttachSize" style="font-size:7pt;">(61.5 Kb)</span></span> &middot; <span dir="ltr"><a class="entryAttach" title="39.6 Kb" href="../_fr/5/7924107.png" target="_blank">7924107.png</a><span class="entryAttachSize" style="font-size:7pt;">(39.6 Kb)</span></span> &middot; <span dir="ltr"><a class="entryAttach" title="75.2 Kb" href="../_fr/5/7176137.png" target="_blank">7176137.png</a><span class="entryAttachSize" style="font-size:7pt;">(75.2 Kb)</span></span> </div>
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11444"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]serg0024[/b],');return false;">serg0024</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 13:30 | Сообщение # <a rel="nofollow" name="11444" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11444-16-1369215030'); return false;">2</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="serg0024" class="userAvatar" border="0" src="../avatar/29/7542-894857.gif"><div class="postRankName">Новичок</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank2.gif" title="Ранг 2" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">15</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-880'});return false;" title="Список наград"><span class="repNums"><b>1</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11444" edit-url="">Круто, уже юзаю</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-880', 'up880', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11445"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]coolant[/b],');return false;">coolant</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 14:44 | Сообщение # <a rel="nofollow" name="11445" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11445-16-1369219440'); return false;">3</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="coolant" class="userAvatar" border="0" src="../avatar/85/7881-099830.gif"><div class="postRankName">Админ</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Администраторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1109</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-2'});return false;" title="Список наград"><span class="repNums"><b>11</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11445" edit-url="">stderr нервно курит в сторонке. <br /> Думаю даже на эту версию можно заменить стандартный чат, только возможно ли собрать все эти dll в exe файл? <br /> по Game preferences - можно сделать какую-то кнопку, типа Хочу сыграть, и игроки с этим статусом подсвечивались, если запущен НФК то статус становится "в игре".</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-2', 'up2', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://coolant.no-ip.org')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 7686469" onclick="prompt('ICQ number','7686469');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11446"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 14:48 | Сообщение # <a rel="nofollow" name="11446" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11446-16-1369219701'); return false;">4</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11446" edit-url="">Гыггы малой утер нос варлоку ))) <br /> Макс слушай я думаю что значек и выборка тдм цтф и т д должно быть прямо в чате возле ника игрокаа не отдельным табом...</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11447"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]coolant[/b],');return false;">coolant</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 15:06 | Сообщение # <a rel="nofollow" name="11447" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11447-16-1369220772'); return false;">5</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="coolant" class="userAvatar" border="0" src="../avatar/85/7881-099830.gif"><div class="postRankName">Админ</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Администраторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1109</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-2'});return false;" title="Список наград"><span class="repNums"><b>11</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11447" edit-url="">Список игроков на сервере можно брать тут <a class="link" href="http://u.to/5f6DAw" title="http://nfk.pro2d.ru/api.php?action=gsl" rel="nofollow" target="_blank">http://nfk.pro2d.ru/api.php?action=gsl</a> <br /><br /> Game Prefereces забавно сделан, через irc =)</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-2', 'up2', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://coolant.no-ip.org')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 7686469" onclick="prompt('ICQ number','7686469');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11449"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Bozon[/b],');return false;">Bozon</a></td><td class="postTdTop">Дата: Ср, 2013-05-22, 21:00 | Сообщение # <a rel="nofollow" name="11449" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11449-16-1369242020'); return false;">6</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Bozon" class="userAvatar" border="0" src="../avatar/63/6485-686623.gif"><div class="postRankName">Постоялец</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank4.gif" title="Ранг 4" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">74</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1631'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11449" edit-url="">Скачал. Пытаюсь юзать. <br /> Первое впечатление. Все очень аккуратно, емко, четко и понятно. Это для меня очень важно. Шрифты и цвета не напрягают глаз. Все по минимуму без лишнего пафоса. Но в архивчик стоило запихнуть все-таки папку, а не файлы. Но это я уже придираюсь. <br /> хотелось бы: <br />  - чтобы приложение сохраняло размеры и положение окна. <br />  - чтобы изменялась длинна таба НЭЙМ во вкладке гейм преференц. Не нашел как это сделать. <br />  - Чтобы сохранялось состояние всех вкладок. <br />  - чтобы был автоконнект. <br />  - чтобы нфк-планет показывались игроки на серваке. Со спектаторами. <br />  - чтобы прога уходила в трей. <br />  - чтобы был звуковой сигнали или всплывашка при заходе на сервак. <br /><br /> Ну и хотелось бы поподробнее о самом лобби узнать. Зачем в целом нужна вкладка гейм-преференц <br /><br /> А так. Блин. Ну очень круто конечно. Мне лобби очень понравилось</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">День прошел, а ты все жив? <br /> pointsdos.jimdo.com</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1631', 'up1631', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://www.pointsdos.jimdo.com')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 270345870" onclick="prompt('ICQ number','270345870');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11451"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Пт, 2013-05-24, 03:24 | Сообщение # <a rel="nofollow" name="11451" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11451-16-1369351442'); return false;">7</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11451" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->возможно ли собрать все эти dll в exe файл?<!--/uzq--></div></div><!--/uzquote--> <br /> <a class="link" href="http://goo.gl/dXkMT" rel="nofollow" target="_blank">NFK-Lobby-0.0.1-static.rar</a> <br /><br /> Я еще кое-какие зависимости убрал, должно меньше весить. <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->по Game preferences - можно сделать какую-то кнопку, типа Хочу сыграть, и игроки с этим статусом подсвечивались<!--/uzq--></div></div><!--/uzquote--> <br /> Если ты хочешь сыграть, ты подключаешься к Game Preference серверу, не хочешь - отключаешься. Кнопки Connect и Disconnect как раз для этого. <br /><br /> <span style="font-size:8pt;">[Уже реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->если запущен НФК то статус становится "в игре".<!--/uzq--></div></div><!--/uzquote--> <br /> Отображение статуса в игре игрок или нет не вписывается в рамки функционала "игровых предпочтений". Гораздо логичнее просто посмотреть на сканер планет, есть ли там этот игрок (предполагается что сканер планет отображает игроков на сервере). <br /><br /> <span style="font-size:8pt;">[Не будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Enforcer<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Макс слушай я думаю что значек и выборка тдм цтф и т д должно быть прямо в чате возле ника игрокаа не отдельным табом...<!--/uzq--></div></div><!--/uzquote--> <br /> Согласен, это один из минусов игровых предпочтений — нельзя связать игрока с игровых предпочтений с игроком в чате. Например, если ты хочешь написать игроку из игровых предпочтений, надо чтобы этот игрок был в чате и ты знал его ник. <br /> У встраивания игровых предпочтений в чат есть свои технические трудности, но думаю это сделать стоит. <br /><br /> <span style="font-size:8pt;">[Будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Список игроков на сервере можно брать тут <a class="link" target="_blank" href="http://u.to/5f6DAw" title="http://nfk.pro2d.ru/api.php?action=gsl" rel="nofollow">http://nfk.pro2d.ru/api.php?action=gsl</a> <!--/uzq--></div></div><!--/uzquote--> <br /> Только беда в том, что pro2d частенько бывает не в сети, не показывает спектаторов и иногда выдает неправильные данные. Я помню как он показывал одного и того же игрока на двух серверах одновременно, варлок тогда еще у тебя спрашивал почему так происходит. <br /> Еще одна проблема в том, что Planet Scanner поддерживает показ нескольких планет одновременно (он писался еще когда были две отдельные планеты nfkplanet.pro2d.ru и planet.needforkill.ru), а nfk.pro2d.ru показывает данные только по одной планете. В общем-то, уже особого смысла в показе нескольких планет нет т.к. она у нас теперь одна, но все-таки хотелось бы оставить такую возможность : ) <br /> В связи с тем что boobl-kun выложил исходники планеты, можно было бы реализовать функционал получения списка игроков/спектаторов прямо с планеты, что решит проблему с несколькими планетами, аптаймом pro2d и, возможно, решит проблему с неправильными данными. <br /><br /> <span style="font-size:8pt;">[Требуется последующее обсуждение]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->coolant<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Game Prefereces забавно сделан, через irc =)<!--/uzq--></div></div><!--/uzquote--> <br /> : ) <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Первое впечатление. Все очень аккуратно, емко, четко и понятно. Это для меня очень важно. Шрифты и цвета не напрягают глаз. Все по минимуму без лишнего пафоса. Но в архивчик стоило запихнуть все-таки папку, а не файлы. Но это я уже придираюсь.<!--/uzq--></div></div><!--/uzquote--> <br /> Будем закидывать папку тогда, мне особо без разницы : ) <br /><br /> <span style="font-size:8pt;">[Уже реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы приложение сохраняло размеры и положение окна.<!--/uzq--></div></div><!--/uzquote--> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Чтобы сохранялось состояние всех вкладок.<!--/uzq--></div></div><!--/uzquote--> <br /> Будем делать. <br /><br /> <span style="font-size:8pt;">[Будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы изменялась длинна таба НЭЙМ во вкладке гейм преференц. Не нашел как это сделать.<!--/uzq--></div></div><!--/uzquote--> <br /> Name занимает все доступное ему место, так что чтобы его уменьшить - нужно или сам док уменьшить (смотри мой скриншот в персом сообщении), или одну из колонок увеличить. <br /> Я могу сделать чтобы можно было изменить ширину колонки Name т.к. встройка игровых предпочтений в чат займет довольно продолжительное время (смотри ответ Enforcer'у) и они все это время будут существовать в виде такого вот дока. <br /><br /> <span style="font-size:8pt;">[Будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы был автоконнект.<!--/uzq--></div></div><!--/uzquote--> <br /> Можно запросто добавить. <br /><br /> <span style="font-size:8pt;">[Будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы нфк-планет показывались игроки на серваке. Со спектаторами.<!--/uzq--></div></div><!--/uzquote--> <br /> Смотри ответ куланту про список игроков. <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы прога уходила в трей.<!--/uzq--></div></div><!--/uzquote--> <br /> Когда буду добавлять tray-area оповещения для чата - тогда и это заодно сделаю. <br /><br /> <span style="font-size:8pt;">[Будет реализовано]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->чтобы был звуковой сигнали или всплывашка при заходе на сервак.<!--/uzq--></div></div><!--/uzquote--> <br /> Можно поподробнее? Особенно насчет того о каком именно игровом сервере идет речь. <br /><br /> <span style="font-size:8pt;">[Требуется больше информации]</span> <br /> <br><br> <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->Bozon<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Зачем в целом нужна вкладка гейм-преференц<!--/uzq--></div></div><!--/uzquote--> <br /> Вкладка игровых предпочтений нужна для того чтобы можно было не спрашивая в чате узнать сколько игроков готовы прямо сейчас сыграть в <тип_игры>.<p><b>Добавлено</b> (2013-05-24, 03:24)<br />---------------------------------------------<br />Добавил сохранение размера и положения окна и его доков, автоматическое подключение в чате и сделал чтобы колонка Name в Game Preferences не занимала всю ширину автоматически. <br /> <a class="link" href="http://goo.gl/3TmKZ" rel="nofollow" target="_blank">NFK-Lobby-0.1.0.rar</a></span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11452"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]coolant[/b],');return false;">coolant</a></td><td class="postTdTop">Дата: Пт, 2013-05-24, 08:28 | Сообщение # <a rel="nofollow" name="11452" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11452-16-1369369725'); return false;">8</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="coolant" class="userAvatar" border="0" src="../avatar/85/7881-099830.gif"><div class="postRankName">Админ</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Администраторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1109</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-2'});return false;" title="Список наград"><span class="repNums"><b>11</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11452" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->nurupo<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Только беда в том, что pro2d частенько бывает не в сети<!--/uzq--></div></div><!--/uzquote-->Да, но сейчас что-то там опять исправили, после моего репорта, и сервер не патает уже 2 недели, хотя раньше падал каждый день.<!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->nurupo<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->не показывает спектаторов<!--/uzq--></div></div><!--/uzquote-->Это можно сделать, Бубл уже сделал поддержку этого в дедиках, осталось дописать длл. <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->nurupo<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->иногда выдает неправильные данные<!--/uzq--></div></div><!--/uzquote-->Выдавал лишних игроков, потому что падал сайт, запросы на удаление не доходили. + дедики перезагружаются каждую ночь, при перезагрузке вся инфа по игрокам удаляется, если она была. <br /> <!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b></div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->Еще одна проблема в том, что Planet Scanner поддерживает показ нескольких планет одновременно<!--/uzq--></div></div><!--/uzquote-->В api можно указать с какой плаеты пришли данные (planet[planet.nfk.ru]=>servers[]=>players[])<!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Цитата</b> (<span class="qName"><!--qn-->nurupo<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight<5?this.style.height:scrollHeight>200?'200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->В связи с тем что boobl-kun выложил исходники планеты, можно было бы реализовать функционал получения списка игроков/спектаторов прямо с планеты, что решит проблему с несколькими планетами, аптаймом pro2d и, возможно, решит проблему с неправильными данными.<!--/uzq--></div></div><!--/uzquote--> Да я уже говорил об этом с Бублом, тут проблема не в расширении кода планеты, а в отправке дополнительных данных сервером, дописать дедик на асме Бубл пока не берется, а кроме него некому.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-2', 'up2', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://coolant.no-ip.org')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 7686469" onclick="prompt('ICQ number','7686469');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post11453"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]grisly[/b],');return false;">grisly</a></td><td class="postTdTop">Дата: Чт, 2013-05-30, 23:39 | Сообщение # <a rel="nofollow" name="11453" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/25-595-11453-16-1369942765'); return false;">9</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="grisly" class="userAvatar" border="0" src="../avatar/27/3069-609468.jpg"><div class="postRankName">Молчун</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank1.gif" title="Ранг 1" /></div>
+<div class="postUserGroup">Группа: PFF Team</div>
+
+<div class="numposts">Сообщений: <span="unp">2</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-1629'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-11453" edit-url="">Красава. Надо попробовать в деле.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-1629', 'up1629', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div>
+<table class="ThrBotTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrBotRow1"><td colspan="2" class="bottomPathBar ThrBotCl11" style="padding-top:2px;"><table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="25-0-1.html">Зона разработок</a> &raquo; <a class="forumBarA" href="25-595-0-17-1.html">NFK Lobby</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/25-595" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table></td></tr>
+	<tr class="ThrBotRow2"><td class="ThrBotCl21" width="50%"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">1</span></li>
+	 <li class="switchActive">1</li> 
+</ul></td><td class="ThrBotCl22" align="right" nowrap="nowrap"><form name="navigation" style="margin:0px"><table class="navigationTbl" border="0" cellspacing="0" cellpadding="0"><tr class="navigationRow1"><td class="fFastNavTd navigationCl11" style="padding-top:5px;padding-bottom:5px;"><select class="fastNav" name="fastnav"><option class="fastNavMain" value="0">Главная страница форума</option><option class="fastNavCat"   value="1">Игра NFK</option><option class="fastNavForum" value="2">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение игры</option><option class="fastNavForum" value="3">&nbsp;&nbsp;&nbsp;&nbsp; Вступить в клан</option><option class="fastNavForum" value="7">&nbsp;&nbsp;&nbsp;&nbsp; Клан PFF</option><option class="fastNavForum" value="28">&nbsp;&nbsp;&nbsp;&nbsp; Клан RA</option><option class="fastNavForum" value="20">&nbsp;&nbsp;&nbsp;&nbsp; Tribes-X</option><option class="fastNavForumA" value="25" selected>&nbsp;&nbsp;&nbsp;&nbsp; Зона разработок</option><option class="fastNavForum" value="26">&nbsp;&nbsp;&nbsp;&nbsp; NFK [R2]</option><option class="fastNavCat"   value="4">Сайт</option><option class="fastNavForum" value="5">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение сайта</option><option class="fastNavForum" value="6">&nbsp;&nbsp;&nbsp;&nbsp; Флуд</option><option class="fastNavCat"   value="8">Другие игры</option><option class="fastNavForum" value="9">&nbsp;&nbsp;&nbsp;&nbsp; WarCraft III</option><option class="fastNavForum" value="10">&nbsp;&nbsp;&nbsp;&nbsp; Half-Life</option><option class="fastNavForum" value="11">&nbsp;&nbsp;&nbsp;&nbsp; Quake III, IV</option><option class="fastNavForum" value="16">&nbsp;&nbsp;&nbsp;&nbsp; StarCraft</option><option class="fastNavForum" value="17">&nbsp;&nbsp;&nbsp;&nbsp; Другие игры</option><option class="fastNavForum" value="18">&nbsp;&nbsp;&nbsp;&nbsp; MMORPG</option><option class="fastNavCat"   value="12">Другие темы</option><option class="fastNavForum" value="13">&nbsp;&nbsp;&nbsp;&nbsp; Музыка</option><option class="fastNavForum" value="14">&nbsp;&nbsp;&nbsp;&nbsp; Кино</option><option class="fastNavForum" value="15">&nbsp;&nbsp;&nbsp;&nbsp; Юмор</option><option class="fastNavForum" value="19">&nbsp;&nbsp;&nbsp;&nbsp; Жизнь</option></select><input class="fastNav" type="button" value="Ok" onclick="top.location.href='/forum/'+(document.navigation.fastnav.value!='0'?document.navigation.fastnav.value:'');" /></td></tr></table></form></td></tr>
+	<tr class="ThrBotRow3"><td class="ThrBotCl31"><div class="fFastLogin" style="padding-top:5px;padding-bottom:5px;"><input class="fastLogBt" type="button" value="Быстрый вход" onclick="new _uWnd('LF',' ',-250,-110,{autosize:1,closeonesc:1,resize:1},{url:'/index/40'});" /></div></td><td class="ThrBotCl32" align="right" nowrap="nowrap"><form method="post" action="../forum.html" style="margin:0px"><table class="FastSearchTbl" border="0" cellspacing="0" cellpadding="0"><tr class="FastSearchRow1"><td class="fFastSearchTd FastSearchCl11" style="padding-top:5px;padding-bottom:5px;">Поиск: <input class="fastSearch" type="text" style="width:150px" name="kw" placeholder="keyword" size="20" maxlength="60" /><input class="fastSearch" type="submit" value="Ok" /></td></tr></table><input type="hidden" name="a" value="6" /></form></td></tr>
+</table>
+</div><br />
+ <div class="clr"></div>
+ </div>
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbU8Upie">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.06357 (s1) -->

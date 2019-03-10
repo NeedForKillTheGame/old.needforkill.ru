@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Вопросник - Need For Kill (Quake III in 2D)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../.s/src/base.css" />
+	<link rel="stylesheet" href="../.s/src/layer1.css" />
+
+	<script src="../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.428977008289245"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+	function openery() {
+		document.querySelector('.manFlSbm').disabled = true;
+		new _uWnd('addEnt', 'Добавление материала', -310, -100, {autosize:1, modal:1, closeonesc:1, resize:0, topclass:'wndMaterialAdded'}, {form:'addEntForm'});
+	}
+
+	function addImgF(button ) {
+		var num = document.querySelectorAll('input[id^="fln"][type="file"][name^="file"]').length;
+		if (num < 5 ) {
+			num += (num < 1 ) ? 2 : 1;
+			$(button).closest('li, td, .imagesBlock').append('<span>[' + num + ']</span>\
+<input type="file" id="fln' + num + '" name="file' + num + '" size="20" onchange="getimage(' + num + ');">\
+<span id="iCode' + num + '"></span>\
+<div id="imblock' + num + '"></div>');
+		}
+		if (num >= 5 ) {
+			$(button).parent().html('<span>[1]</span> ');
+		}
+	}
+
+	function getimage(n) {
+		var t = document.getElementById('fln' + n);
+		var iCodeX = document.getElementById('iCode' + n);
+		if (t.value ) {
+			var img = t.value.replace(/\\/g, '/');
+			var pic = img.toLowerCase().trim();
+			if (pic.match(/.(jpe?g?|gif|png)$/g) ) {
+				var code='$IMAGE'+n+'$';
+				var iurl='$IMG_URL'+n+'$';
+				var title='$IMG'+n+'_TITLE$';
+				var alt='$IMG'+n+'_ALT$';
+
+				// create live preview image
+				var reader = new FileReader();
+				reader.onload = function (event ) {
+					document.querySelector('#iCode' + n + ' .iPhotoPrev img').src
+						= document.querySelector('#iCode' + n + ' .iPhotoPrev > a').href = this.result;
+				};
+				reader.readAsDataURL(t.files[0] );
+
+				iCodeX.className = 'added';
+				iCodeX.innerHTML =
+	'<div class="iCode_block">\
+		<div class="iCode_el">\
+			<input class="iCode_main_inp" type="text" readonly onClick="select(this)" name="h1" value="'+code+'" size="'+(code.length)+'" style="direction:ltr; text-align:center; color:#00f;">\
+			<span class="iCode_el_tooltip">Используйте этот код в редакторе для вставки изображения превью увеличения по клику. Данный код содержит \'title\' и \'alt\'</span>\
+		</div>\
+		\
+		<span id="gbut'+n+'" onclick="g_open_iCode('+n+');"></span>\
+	</div>\
+	<div id="iCode_'+n+'">\
+		<div class="iCode_block">\
+			<div class="iCode_el">\
+				<input class="iCode_main_inp" type="text" readonly onClick="select(this)" name="t'+n+'" value="'+title+'" size="'+(title.length)+'" style="direction:ltr; text-align:center; color:#00F;">\
+				<span class="iCode_el_tooltip">Используйте этот код для тонкой настройки вывода изображения.<br/>Код выведет отдельно введенное вами значение в поле \"Title\"</span>\
+			</div>\
+			<div class="iCode_in"><input style="font-size:7pt;" type="text" name="img'+n+'_title" size="30" maxlength="70" title="Значение атрибута &quot;title&quot;"></div>\
+		</div>\
+		<div class="iCode_block">\
+			<div class="iCode_el">\
+				<input class="iCode_main_inp" type="text" readonly onClick="select(this)" name="a'+n+'" value="'+alt+'" size="'+(alt.length)+'" style="direction:ltr; text-align:center; color:#00F;">\
+				<span class="iCode_el_tooltip">Используйте этот код для тонкой настройки вывода изображения.<br/>Код выведет отдельно введенное вами значение в поле \"Alt\"</span>\
+			</div>\
+			<div class="iCode_in"><input style="font-size:7pt;" type="text" name="img'+n+'_alt" size="30" maxlength="70" title="Значение атрибута &quot;alt&quot;"></div>\
+		</div>\
+		<div class="iPhotoPrev">\
+			<a href="0-0-0-1.html" class="ulightbox">\
+				<img src="0-0-0-1.html" style="max-width:100%" /></a>\
+		</div>\
+	</div>';
+				$('#gbut'+n).show();
+			} else {
+				iCodeX.innerHTML = '';
+				_uWnd.alert('Недопустимый формат изображения', '', {w:230, h:80, tm:3000});
+			}
+		} else {
+			iCodeX.innerHTML = '';
+		}
+	}
+	var _uw = window, _ud = _uw.document;
+	_uw.addEventListener('resize',iView);
+	_ud.addEventListener('DOMContentLoaded',iView);
+	function iView(){
+		var iCode1 = _ud.querySelector('#iCode1');
+		iCode1.dataset.viewport = iCode1.offsetWidth < 400 ? 'medium' : 'large';
+		_ud.removeEventListener('DOMContentLoaded',iView);
+	}
+
+	function g_open_iCode(num ) {
+		$('#iCode' + num + ', #gbut' + num).toggleClass('openednow');
+	};
+
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../.s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <span>Сб, 2019-03-09</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../index.html" ><span>Главная</span></a></li>
+<li><a  href="../news.html" ><span>Новости</span></a></li>
+<li><a  href="../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../photo.html" ><span>Фото альбом</span></a></li>
+<li><a  href="../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../video.html" ><span>Видео</span></a></li>
+<li><a class=" uMenuItemA" href="../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ 
+ <!-- <middle> -->
+ 
+ <div id="content">
+ <div class="part-i">
+ <section>
+ <!-- <body> --><table border="0" cellpadding="1" cellspacing="1" width="100%">
+<tr><td width="80%"><a href="../index.html"><!--<s5176>-->Главная<!--</s>--></a> &raquo; FAQ</td>
+<td align="right" style="white-space: nowrap;"></td></tr>
+</table>
+
+<hr />
+
+<form method="post" id="addEntForm" name="addform" class="mod-0" enctype="multipart/form-data" action="http://needforkill.ru/faq/" onsubmit="openery(); return false;">
+	<input type="hidden" name="jkd498" value="1">
+	<input type="hidden" name="jkd428" value="1">
+	<table border="0" width="100%" cellspacing="1" cellpadding="2" class="manTable" id="fqM20">
+		
+		<tr><td width="30%" class="manTd1">Тема вопроса <font color="red">*</font>:</td><td class="manTd2"><input type="text" style="width:100%;" class="manFl" name="subject" size="30" maxlength="230"></td></tr><tr><td height="10" class="manTdSep" colspan="2"><hr class="manHr" /></td></tr>
+		
+		
+		<tr id="iM38"><td class="manTd1" id="iM39">Изображения  [<a href="javascript:;" rel="nofollow" onclick="new _uWnd('HelpWd', 'Помощник', 360, 150, {align:'justify', closeonesc:1, }, {url:'/index/90-5'}); return false;" class="noun "><b>?</b></a>]:<div class="fHelp">Макс. размер - <b>500</b>Kb</div></td><td class="manTd2" id="iM40"><div style="display:inline;" id="iplus"><input class="button" style="width:24px;" type="button" value=" + " onclick="addImgF(this );" title="Добавить поле для файла"> </div><input type="file" id="fln1" name="file1" size="20" onchange="getimage(1);"><span id="iCode1"></span><div id="imblock1"></div></td></tr>
+		<tr><td class="manTd1">Полное имя:</td><td class="manTd2"><input type="text" class="manFl" name="name" style="width:100%;" size="20" maxlength="40"></td></tr>
+		<tr><td class="manTd1">E-mail:</td><td class="manTd2"><input type="text" class="manFl" name="email" style="width:100%;" size="20" maxlength="60"></td></tr>
+		<tr><td height="10" class="manTdSep" colspan="2"><hr class="manHr" /></td></tr>
+		
+		
+		
+		
+		<tr id="fqM15"><td class="manTd1" id="fqM16">Код <font color="red" class="manStar">*</font>:</td><td class="manTd2" id="fqM17">
+	<div class="recaptcha-wrapper normal">
+		<div id="recaptcha_faq-add_6LcuAwsUAA" class="g-recaptcha" data-sitekey="6LcuAwsUAAAAACZC54L4RPcngPvTZSGgjgd0zcDW" data-theme="light" data-size="normal" ></div>
+		<span data-reset onclick="reReset(this )"></span>
+	</div><script type="text/javascript">
+		if (window.grecaptcha ) {
+			$('.g-recaptcha').each(function (index, element ) {
+				
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+			});
+		}
+	</script></td></tr><tr id="fqM18"><td height="10" class="manTdSep" colspan="2" id="fqM19"><hr class="manHr" /></td></tr>
+		<tr id="fqM26">
+			<td align="center" colspan="2" class="manTdBut" id="fqM27">
+				<input type="submit" style="display:none;" id="doSmbBt" />
+				<input type="hidden" name="ssid" value="012223511732715177274" />
+				<input class="manFlSbm" id="fqF5" type="button" style="font-weight:bold;" value="Добавить"  onclick="document.getElementById('doSmbBt').click();" /> &nbsp;
+				<input class="manFlRst" id="fqF6" type="reset" value="Очистить" onclick="reReset(); " />
+			</td>
+		</tr>
+	</table>
+	<input type="hidden" name="a" value="2" />
+</form><!-- </body> -->
+ </section>
+ </div>
+ </div>
+ </div>
+ 
+ <!-- </middle> -->
+ <div class="clr"></div>
+ 
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pb2uMwbn">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.04984 (s1) -->

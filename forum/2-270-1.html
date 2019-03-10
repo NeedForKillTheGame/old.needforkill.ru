@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Рискнем получить исходники движка NFK ? - pff.clan.su - Форум</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <script type="text/javascript">
+ var browser = navigator.userAgent;
+ var browserRegex = /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+ var isMobile = false;
+ if(browser.match(browserRegex)) {
+ isMobile = true;
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+ function hideURLbar(){
+ window.scrollTo(0,1);
+ }
+ }
+ </script>
+ <link type="text/css" rel="StyleSheet" href="../_st/my.css" />
+ <script type="text/javascript">
+ var navTitle = "Navigation"
+ </script>
+
+	<link rel="stylesheet" href="../.s/src/base.css" />
+	<link rel="stylesheet" href="../.s/src/layer1.css" />
+
+	<script src="../.s/src/jquery-1.7.2.js"></script>
+	
+	<script src="../.s/src/uwnd.min.js"></script>
+	<script type="text/javascript" src="http://s1.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=1&amp;r=0.573375153742116"></script>
+<script type="text/javascript">//------------UCOZ-JS-INIT_CODE-----------
+	window.ulb = {photoPage:"Перейти на страницу с фотографией.", closeBtn:"Закрыть", error:"Запрошенный контент не может быть загружен. Пожалуйста, попробуйте позже.", next:"Следующий", prev:"Предыдущий", btnPlay:"Начать слайдшоу", btnToggle:"Изменить размер", };
+//------------UCOZ-JS-END-----------</script>
+
+	<link rel="stylesheet" href="../.s/src/ulightbox/ulightbox.min.css" />
+	<script src="../.s/src/ulightbox/ulightbox.min.js"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js?onload=reCallback&render=explicit&hl=ru"></script>
+	<script type="text/javascript">//------------UCOZ-JS-CODE-----------
+
+	function reCallback() {
+		$('.g-recaptcha').each(function(index, element ) {
+			element.setAttribute('rcid', index );
+			
+		if ($(element).is(':empty') && grecaptcha.render ) {
+			grecaptcha.render(element, {
+				sitekey:element.getAttribute('data-sitekey'), 
+				theme:element.getAttribute('data-theme'), 
+				size:element.getAttribute('data-size')
+			});	
+		}
+	
+		});
+	}
+	function reReset(reset ) {
+		reset && grecaptcha.reset(reset.previousElementSibling.getAttribute('rcid') );
+		if (!reset ) for (rel in ___grecaptcha_cfg.clients ) grecaptcha.reset(rel );
+	}
+	
+	function Insert(qmid, user, text ) {
+		user = user.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+		if (!!text ) {
+			qmid = qmid.replace(/[^0-9]/g, "");
+			paste("[quote="+user+";"+qmid+"]"+text+"[/quote]\n", 0);
+		} else {
+			_uWnd.alert('Выделите текст для цитирования', '', {w:230, h:80, tm:3000});
+		}
+	}
+
+	function paste(text, flag ) {
+		if (document.selection && flag ) {
+			document.addform.message.focus();
+			document.addform.document.selection.createRange().text = text;
+		} else {
+			document.addform.message.value += text;
+		}
+	}
+
+	function get_selection() {
+		if (window.getSelection ) {
+			selection = window.getSelection().toString();
+		} else if (document.getSelection ) {
+			selection = document.getSelection();
+		} else {
+			selection = document.selection.createRange().text;
+		}
+	}
+
+	function pdel(id, n ) {
+		if (confirm('Вы подтверждаете удаление?') ) {
+			(window.pDelBut = document.getElementById('dbo' + id))
+				&& (pDelBut.width = pDelBut.height = 13) && (pDelBut.src = '/.s/img/ma/m/i2.gif');
+			_uPostForm('', {url:'/forum/2-270-' + id + '-8-0-064370337432102501177', 't_pid': n});
+		}
+	}
+//------------UCOZ-JS-END-----------
+</script>
+
+	<style type="text/css">.UhideBlock{display:none; }
+</style>
+	<script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+<script type="text/javascript">//<!--
+	function uSocialLogin(t) {
+		var params = { 'vkontakte':{ 'width':790, 'height':400 }, 'ok':{ 'width':710, 'height':390 }, 'facebook':{ 'width':950, 'height':520 }, 'yandex':{ 'width':870, 'height':515 }, 'google':{ 'width':700, 'height':600 }, 'twitter':{ 'width':800, 'height':400 } };
+		var ref = escape(location.protocol + '//' + ('needforkill.ru' || location.hostname) + location.pathname + ((location.hash ? ( location.search ? location.search + '&' : '?' ) + 'rnd=' + Date.now() + location.hash : ( location.search || '' ))));
+		// var ref = escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return false;
+	}
+//--></script>
+
+<link type="text/css" rel="stylesheet" href="../.s/src/social.css" />
+</head>
+
+<body>
+<div id="utbr8214" rel="s1"></div>
+<header>
+ <div id="header">
+ <div id="head-top">
+ <div class="wrapper">
+ <div class="head-l"><span><!--<s5212>-->Приветствую Вас<!--</s>-->, <b>Гость</b></span> | <a href="2-0-0-37" class="rss-lnk">RSS</a> | <span>Вс, 2019-03-10</span></div>
+ <div class="head-r">
+ <a title="Регистрация" href="http://needforkill.ru/register"><!--<s3089>-->Регистрация<!--</s>--></a> <a title="Вход" href="javascript:;" rel="nofollow" onclick="new _uWnd('LF', ' ', -250, -110, {autosize:1, closeonesc:1, resize:1 }, {url:'/index/40' } ); return false;"><!--<s3087>-->Вход<!--</s>--></a>
+ </div>
+ <div class="clr"></div>
+ </div>
+ </div>
+ <div class="wrapper">
+ <!--U1AHEADER1Z-->
+ <div class="part-l">
+ <div id="site-logo">
+ <span class="site-l">
+ <span class="site-n"><a href="../index.html">Need For Kill (Quake III in 2D)</a></span>
+ </span>
+ </div>
+ </div>
+ <div class="part-r">
+ <div id="sch-box">
+ <div class="search-box">
+ <div class="searchForm"><form onsubmit="this.sfSbm.disabled=true" method="get" style="margin:0" action="http://needforkill.ru/search/"><div align="center" class="schQuery"><input type="text" name="q" maxlength="30" size="20" class="queryField" /></div><div align="center" class="schBtn"><input type="submit" class="searchSbmFl" name="sfSbm" value="Найти" /></div></form></div>
+ </div>
+ </div>
+ <div id="soc-box">
+ <a href="http://vk.com/needforkill2d" class="soc-vk" target="_blank"></a>
+ </div>
+ </div>
+ <div class="clr"></div>
+ <div id="catmenu">
+ <!-- <sblock_nmenu> -->
+<!-- <bc> --><div id="uNMenuDiv1" class="uMenuV"><ul class="uMenuRoot">
+<li><a  href="../index.html" ><span>Главная</span></a></li>
+<li><a  href="../news.html" ><span>Новости</span></a></li>
+<li><a  href="../load.html" ><span>Файлы</span></a></li>
+<li><a  href="../publ.html" ><span>Статьи</span></a></li>
+<li><a  href="../photo.html" ><span>Фото альбом</span></a></li>
+<li><a class=" uMenuItemA" href="../forum.html" ><span>Форум</span></a></li>
+<li><a  href="../video.html" ><span>Видео</span></a></li>
+<li><a  href="../faq.html" ><span>Вопрос/Ответ</span></a></li>
+<li><a  href="../blog.html" ><span>Блог</span></a></li></ul></div><!-- </bc> -->
+<!-- </sblock_nmenu> -->
+ <span class="nav-rib rib-l"></span>
+ <span class="nav-rib rib-r"></span>
+ <div class="clr"></div>
+ </div>
+ <!--/U1AHEADER1Z-->
+ <div class="clr"></div>
+ <!--U1PROMO1Z--><!--/U1PROMO1Z-->
+ </div>
+ </div>
+</header>
+<div id="casing">
+ <div class="wrapper">
+ <div class="forum-box">
+ <div class="forumContent"><table border="0" cellpadding="0" height="30" cellspacing="0" width="100%">
+<tr>
+<td align="right">[
+<a class="fNavLink" href="0-0-1-34.html" rel="nofollow"><!--<s5209>-->Новые сообщения<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-1-35.html" rel="nofollow"><!--<s5216>-->Участники<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-36.html" rel="nofollow"><!--<s5166>-->Правила форума<!--</s>--></a> &middot; 
+<a class="fNavLink" href="0-0-0-6.html" rel="nofollow"><!--<s3163>-->Поиск<!--</s>--></a> &middot; 
+<a class="fNavLink" href="2-0-0-37" rel="nofollow">RSS</a> ]</td>
+</tr>
+</table>
+
+
+
+<table class="ThrTopButtonsTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrTopButtonsRow1">
+		<td width="50%" class="ThrTopButtonsCl11"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">4</span></li>
+	 <li class="switchActive">1</li>
+	<li class="switch"><a class="switchDigit" href="2-270-2.html">2</a></li>
+	<li class="switch"><a class="switchDigit" href="2-270-3.html">3</a></li>
+	<li class="switch"><a class="switchDigit" href="2-270-0-17-1.html">4</a></li> <li class="switch switch-next"><a class="switchNext" href="2-270-2.html" title="Следующая">&raquo;</a></li>
+</ul></td>
+		<td align="right" class="frmBtns ThrTopButtonsCl12"><div id="frmButns83"><a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Ответить" src="../.s/img/fr/bt/36/t_reply.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новая тема" src="../.s/img/fr/bt/36/t_new.gif" /></a> <a href="javascript://" rel="nofollow" onclick="_uWnd.alert('Необходима авторизация для данного действия. Войдите или зарегистрируйтесь.','',{w:230,h:80,tm:3000});return false;"><img alt="" style="margin:0;padding:0;border:0;" title="Новый опрос" src="../.s/img/fr/bt/36/t_poll.gif" /></a></div></td></tr>
+	<tr class="ThrTopButtonsRow2">
+	<td class="forumModerBlock ThrTopButtonsCl21"><span class="moders-wrapper">Модератор форума: <a href="javascript://" rel="nofollow" onclick="window.open('/index/8-0-DeadHead', 'up48', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;" class="forumModer">DeadHead</a></span></td>
+	<td class="ThrTopButtonsCl22">&nbsp;</td></tr>
+</table>
+<table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="2-0-1.html">Обсуждение игры</a> &raquo; <a class="forumBarA" href="2-270-1.html">Рискнем получить исходники движка NFK ?</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/2-270" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table>
+
+<div class="gDivLeft">
+	<div class="gDivRight">
+		<table class="gTable" border="0" width="100%" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="gTableTop">
+				<div style="float:right" class="gTopCornerRight"></div>
+				Рискнем получить исходники движка NFK ?
+				</td></tr><tr id="post5446"><td class="postFirst"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Вс, 2007-11-04, 17:54 | Сообщение # <a rel="nofollow" name="5446" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5446-16-1194188075'); return false;">1</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5446" edit-url="">Постараюсь поговорить с 3d[power]&#39;oм и Needl&#39;ой по этому поводу, посмотрим что из этого выйдет... <br /> Опираясь на следующие аргументы: <br /> + Проект НФК помер достаточно давно и за всё это время никто ниразу и строчки новой незакодил, <br /> игруха наверника пылиться где-то в архивах, ждет удаления... <br /> + Умер сайт НФК.pqr.ru - как говорит сам ПКУР - это на долго и неизвестно будут ли его когда-то восстанавливать... <br /> + У НФК без обновлений нет будующего эт однозначно... <p> Что кокрнетно мы можем: <br /> + ну во первых у нас всё ещё остался кое-какой интузиазм и уж поверьте если будут исходники, со временем <br /> мы такое сумеем закодить, ужос просто <img src="http://src.ucoz.ru/sm/23/smile.gif" border="0" align="absmiddle" alt="smile"> <br /> (Первм делом хотелось-бы изменить полностью дизайн отображения меню, <br /> добавить несколько пунктов в Setup исправить баг с кол-вом игроков, добавить возможность использования и настройки моделей более емких размеров - для создания монстров и т д, добавить несколько новых типов оружия, увеличить мощьность поражения бфг, да и чтоб гранад ланчер стрелял дальше и резвее, добавить возможность добавления большего кол-ва бакграундов) <br /> + есть чуваки которые не плохо рисуют <img src="http://src.ucoz.ru/sm/23/smile.gif" border="0" align="absmiddle" alt="smile"> с графикой проблем не будет, да и идей - куча... <br /> + поднять проект и развить его... <p> Почему именно мы ? - ну эт единственный резвый и живой клан на сегодняшний день, который уже достаточно давно занимается этим... <p> <img src="http://src.ucoz.ru/sm/23/smile.gif" border="0" align="absmiddle" alt="smile"> P.S: а былоб не плохо повыризать монстров из DOOM и добавить в Tribes <img src="http://src.ucoz.ru/sm/23/biggrin.gif" border="0" align="absmiddle" alt="biggrin"> вот веселуха былаб ))<p><b>Добавлено</b> (04.11.07, 17:54:35)<br />---------------------------------------------<br />Лог разговора... <p> Enforcer: Привет Повер =) сори что тревожу с глупыми, яб сказал совсем глупыми вопросами, но можно получить исходный код самой NFK exe ? <img src="http://src.ucoz.ru/sm/23/smile.gif" border="0" align="absmiddle" alt="smile"> <br /> 3d[Power]: за 100к пода <br /> 3d[Power]: продам <br /> Enforcer: что такое к ? <br /> 3d[Power]: тыс руб <br /> Enforcer: шутник =&#92; <br /> 3d[Power]: это небольшая цифра, очень... <br /> Enforcer: ясно незнаеш у Нидлы исходники есть ? <br /> 3d[Power]: нету <br /> Enforcer: серьёзно ? <br /> Enforcer: знаешь я тут подумал... <br /> Enforcer: а зачем мне нужны исходники если есть акволанг ??? <br /> 3d[Power]: я х3 <br /> Enforcer: вобщем на досуге прочти тут <a class="link" target="_blank" href="http://pff.clan.su/forum/20-270-1">http://pff.clan.su/forum/20-270-1</a> про исходники <br /> Enforcer: ) <br /> 3d[Power]: не хочу <br /> Enforcer: ну ок... <br /> Enforcer: покеда <br /> 3d[Power]: чао</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post5447"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]CALGON[/b],');return false;">CALGON</a></td><td class="postTdTop">Дата: Вс, 2007-11-04, 17:59 | Сообщение # <a rel="nofollow" name="5447" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5447-16-1194188382'); return false;">2</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="CALGON" class="userAvatar" border="0" src="../avatar/13/9907-073961.gif"><div class="postRankName">CALGON</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank7.gif" title="Ранг 7" /></div>
+<div class="postUserGroup">Группа: Проверенные</div>
+
+<div class="numposts">Сообщений: <span="unp">308</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-30'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5447" edit-url="">Рискнул)))<p><b>Добавлено</b> (04.11.07, 17:59:42)<br />---------------------------------------------<br />Цена кстати уже подорожала, видимо инфляция дает о себе знать...</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-30', 'up30', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 419217590" onclick="prompt('ICQ number','419217590');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post5455"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Пн, 2007-11-05, 08:07 | Сообщение # <a rel="nofollow" name="5455" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5455-16-1194239234'); return false;">3</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5455" edit-url="">мдя...</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post5933"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]fireball-777[/b],');return false;">fireball-777</a></td><td class="postTdTop">Дата: Пт, 2007-12-28, 18:07 | Сообщение # <a rel="nofollow" name="5933" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5933-16-1198854425'); return false;">4</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="fireball-777" class="userAvatar" border="0" src="../avatar/37/5811-191067.jpg"><div class="postRankName">Новичок</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank2.gif" title="Ранг 2" /></div>
+<div class="postUserGroup">Группа: Пользователи</div>
+
+<div class="numposts">Сообщений: <span="unp">20</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-145'});return false;" title="Список наград"><span class="repNums"><b>0</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5933" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->Enforcer<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight>200 ? '200px':''+(this.scrollHeight+5)+'px');"><!--uzq-->3d[Power]: это небольшая цифра, очень... <!--/uzq--></div></div><!--/uzquote--> <br /> фигасе!</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="http://off.z1o.ru/soerownerkh3.png" border="0"> <br /> <img src="http://b-cat.z1o.ru/gomnc5.jpg" border="0"></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-145', 'up145', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://reanimation.pp.ru')" /> </td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post5936"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]coolant[/b],');return false;">coolant</a></td><td class="postTdTop">Дата: Пт, 2007-12-28, 19:04 | Сообщение # <a rel="nofollow" name="5936" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5936-16-1198857893'); return false;">5</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="coolant" class="userAvatar" border="0" src="../avatar/85/7881-099830.gif"><div class="postRankName">Админ</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Администраторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1109</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-2'});return false;" title="Список наград"><span class="repNums"><b>11</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5936" edit-url="">Может правда сказали: <p> Как вы считаете, может ли 3D[Power] доверить исходные коды программы кому-либо? Только фанатам игры, или всем, кто этого пожелает? Выскажите свою точку зрения на этот счет. <br /> [NFK]-PQR: Думаю, 3d[Power] этого не сделает, т.к. это не имеет смысла. Что значит разрабатывать игру на протяжении трёх лет, в процессе собственного бурного совершенствования в области программриования. Это обозначает сочетание нескольких стилей программирования в одном проекте, и полный бардак и неразбериха. Человек, которые в состоянии освоить исходный код NFK, в состоянии написать NFK сам, заново. Так что нет потенциальных потребителей кода.</span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-2', 'up2', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://coolant.no-ip.org')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 7686469" onclick="prompt('ICQ number','7686469');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post5937"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Пт, 2007-12-28, 19:37 | Сообщение # <a rel="nofollow" name="5937" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-5937-16-1198859835'); return false;">6</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-5937" edit-url=""><!--uzquote--><div class="bbQuoteBlock"><div class="bbQuoteName" style="padding-left:5px;font-size:7pt"><b>Quote</b> (<span class="qName"><!--qn-->CooLAnT<!--/qn--></span>)</div><div class="quoteMessage" style="border:1px inset;max-height:200px;overflow:auto;height:expression(this.scrollHeight>200 ? '200px':''+(this.scrollHeight+5)+'px');"><!--uzq--> полный бардак и неразбериха<!--/uzq--></div></div><!--/uzquote--> <br /> Представляю себе жту абру-катабру <img src="http://src.ucoz.ru/sm/23/biggrin.gif" border="0" align="absmiddle" alt="biggrin"></span>
+
+
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post6820"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Ср, 2008-04-16, 15:39 | Сообщение # <a rel="nofollow" name="6820" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-6820-16-1208345964'); return false;">7</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-6820" edit-url=""><span style="color:red">ИСХОДНИКОВ НАМ НИКТО НЕ ДАСТ, ПОЭТОМУ КОВЫРЯЕМ САМИ ;)</span> <p> ТЕМА ЗАКРЫТА</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post7307"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]Enforcer[/b],');return false;">Enforcer</a></td><td class="postTdTop">Дата: Ср, 2008-04-16, 15:39 | Сообщение # <a rel="nofollow" name="7307" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-7307-16-1208345974'); return false;">8</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="Enforcer" class="userAvatar" border="0" src="../avatar/92/8190-387875.png"><div class="postRankName">Инжинер</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модераторы</div>
+
+<div class="numposts">Сообщений: <span="unp">1161</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-54'});return false;" title="Список наград"><span class="repNums"><b>9</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-7307" edit-url="">Очередная попытко получить исходники !!! <p> [20:04] Freeman: Привет ты тут ? <br /> [20:04] 3d[Power]: прив. да <br /> [20:05] Freeman: как жизнь ? <br /> [20:05] Freeman: ты вобще щас чем занимаешся ? <br /> [20:05] Freeman: в плане работы <br /> [20:05] 3d[Power]: вы по какому вопросу? <br /> [20:05] Freeman: да не по какому я бывший знакомый <br /> [20:06] Freeman: а я отвлекаю ? <br /> [20:06] 3d[Power]: аська только для работы теперь <br /> [20:06] Freeman: аа а другой нет ? <br /> [20:06] Freeman: ) <br /> [20:06] 3d[Power]: для поболтать я использую реал <br /> [20:07] Freeman: ясно ну вобщем я вот по какому вопросу =) <br /> [20:07] Freeman: мне исходники нфк нужны, можно устроить ? <br /> [20:08] 3d[Power]: их давным давно нет у меня <br /> [20:08] Freeman: ? <br /> [20:08] Freeman: кому продал ? <br /> [20:08] Freeman: у кого их можно преобрести если это реально ? <br /> [20:08] 3d[Power]: не продавал, просто где-то валяются на каких-то старых винтах <br /> [20:08] 3d[Power]: на каком-то старом компе, которого у меня уже давным давно нет <br /> [20:09] Freeman: =( найти не как ? <br /> [20:09] Freeman: яб купил вместе с винтом <br /> [20:09] 3d[Power]: не.. я даже город сменил <br /> [20:09] Freeman: а ну ладно сори <br /> [20:09] Freeman: =( <br /> [20:10] Повар: <a class="link" target="_blank" href="http://tionline.ru/">http://tionline.ru/</a> <br /> [20:10] Повар: мой текущий проект <br /> [20:10] Freeman: а дада помню <br /> [20:10] Freeman: о вижу продвинулся <p> А в это время в чате... <p> [20:09] &lt;coolant> он щас какую-то тупую игру делает TIOnline, пару раз сыграл и надоедает <br /> [20:09] &lt;coolant> реклама TI даже в гугле есть ^^</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView"><img src="../_ph/3/2/246760595.png" border="0" alt=""/></span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-54', 'up54', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>   <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_www.gif" title="Домашняя страница" onclick="window.open('http://Under Construction')" /> <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 293237003" onclick="prompt('ICQ number','293237003');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post7308"><td class="postRest1"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]nurupo[/b],');return false;">nurupo</a></td><td class="postTdTop">Дата: Ср, 2008-04-16, 15:39 | Сообщение # <a rel="nofollow" name="7308" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-7308-16-1208345984'); return false;">9</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="nurupo" class="userAvatar" border="0" src="../avatar/86/037464.gif"><div class="postRankName">Форумозависим</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank9.gif" title="Ранг 9" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">1124</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-16'});return false;" title="Список наград"><span class="repNums"><b>5</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-7308" edit-url=""><b><span style="color:red">У нас есть шанс получить исходники NFK и восстановить игру!!!</span></b> <p> M@k$™ (10.09.2008 23:18): <br /> <a class="link" target="_blank" href="http://pff.clan.su/forum/15-25-7307-16-1221066871">http://pff.clan.su/forum/15-25-7307-16-1221066871</a> <p> M@k$™ (10.09.2008 23:19): <br /> жаль, что ты винт с исходниками потерял... <p> 3dPower (10.09.2008 23:31): <br /> 287344 <p> 3dPower (10.09.2008 23:31): <br /> ну что я скажу, проектом нфк не занимаюсь уже больше 3х лет <p> 3dPower (10.09.2008 23:32): <br /> все когда-то рождается и умирает <p> M@k$™ (10.09.2008 23:32): <br /> мда =( <p> M@k$™ (10.09.2008 23:33): <br /> если бы pqr держал бэкап сайта, щас всё было было бы нормально <p> 3dPower (10.09.2008 23:33): <br /> даже если б я зарелизил исходники, всеравноб не возродили проект. очень уж он любительских, а на проф основу не поставишь - лицензия ку3. <p> M@k$™ (10.09.2008 23:34): <br /> на сайте видно какой сервер он-лайн и сколько игроков там и т.д. но это уже бессмысленно <p> M@k$™ (10.09.2008 23:34): <br /> ку3 вообще обнаглели... =)) <p> M@k$™ (10.09.2008 23:35): <br /> ты надеюсь видел tribes-x ? <p> M@k$™ (10.09.2008 23:35): <br /> что смогли, то доделали и переделали <p> M@k$™ (10.09.2008 23:35): <br /> через библиотеку напбота <br /> 3dPower (10.09.2008 23:36): <br /> не.. <p> M@k$™ (10.09.2008 23:37): <br /> больше уже нечего сделать нем мжем, ещё думает сделать irc чат при входе на планету, консольный irc чат... только х3 сделаем ли, да и для кого делать? уже кроме нас никто не играет... <p> 3dPower (10.09.2008 23:37): <br /> угу, нет смысла <p> 3dPower (10.09.2008 23:37): <br /> я уже заниматься непопулярными и&#92;или любительскими проектами не могу себе позволить заниматься. <p> M@k$™ (10.09.2008 23:37): <br /> сайт pqr и то, что надо прописать адрес планеты в файле добили игру капитально... <p> M@k$™ (10.09.2008 23:38): <br /> понятно <p> M@k$™ (10.09.2008 23:38): <br /> ну все с чего-то начинали <p> M@k$™ (10.09.2008 23:38): <br /> вот я тоже думаю на программиста пойти <br /> 3dPower (10.09.2008 23:38): <br /> иди, будешь сыт и интересно, если попадешь в индустрию <img src="http://src.ucoz.net/sm/23/smile.gif" border="0" align="absmiddle" alt="smile"> <p> M@k$™ (10.09.2008 23:39): <br /> с 13 лет знаю паскаль, щас флешь чуть-чуть знаю, в делфи пробовал сворганить игру примитивную, С учу по выходным с одним известным в наших кругах человеком и т.д. <p> M@k$™ (10.09.2008 23:40): <br /> может с меня что-то и выйдет... <p> M@k$™ (10.09.2008 23:40): <br /> щас только в 10 классе =Ъ <p> M@k$™ (10.09.2008 23:40): <br /> ну ладно, не буду тебя отвлекать, работай ^^ <p> 3dPower (10.09.2008 23:40): <br /> реклама ТИ была даж на рамблере ) <p> M@k$™ (10.09.2008 23:40): <br /> juj <p> M@k$™ (10.09.2008 23:41): <br /> *ого <p> M@k$™ (10.09.2008 23:41): <br /> я как-то играл в самую первую версию <p> 3dPower (10.09.2008 23:41): <br /> сейчас все изменилось <p> M@k$™ (10.09.2008 23:41): <br /> ты просчитался там в начале и не исправлял этот глюк <p> M@k$™ (10.09.2008 23:42): <br /> тупо открываешь три игры под разными учётками, создаёшь сервер и главным мочишь второстипенных <p> M@k$™ (10.09.2008 23:42): <br /> такой вот накрутчик <p> M@k$™ (10.09.2008 23:42): <br /> щас вроде исправил <p> M@k$™ (10.09.2008 23:42): <br /> я один раз играл уже в боле-мение 3d версию <p> M@k$™ (10.09.2008 23:42): <br /> ладно, я спать <p> 3dPower (10.09.2008 23:42): <br /> я не агитирую аудиторию нфк играть в ТИ <p> M@k$™ (10.09.2008 23:43): <br /> да я и не буду <p> M@k$™ (10.09.2008 23:43): <br /> я вообще почти не играю, не нравится мне все эти игры <p> 3dPower (10.09.2008 23:43): <br /> это невозможно, поскольку у каждого проекта своя аудитория. спок ночи. и удачи тебе в твоих начинаниях <p> M@k$™ (10.09.2008 23:43): <br /> спасибо =) <p> M@k$™ (10.09.2008 23:44): <br /> скажи мне, что важнее знать, си или делфи ? <p> 3dPower (10.09.2008 23:44): <br /> всеравно <p> M@k$™ (10.09.2008 23:44): <br /> O_O <p> 3dPower (10.09.2008 23:44): <br /> сервер вообще на яве пишем <p> M@k$™ (10.09.2008 23:44): <br /> ну тебе виднее... <p> M@k$™ (10.09.2008 23:45): <br /> я джаваскрипт пока не знаю )) <p> M@k$™ (10.09.2008 23:45): <br /> спокойной ночи <p> 3dPower (10.09.2008 23:45): <br /> в больших проектах важно не это <p> 3dPower (10.09.2008 23:45): <br /> важно скорее и быстро, а как и чей это код - уже всеравно <p> M@k$™ (10.09.2008 23:46): <br /> вы коды пишите с примичаниями ? <p> M@k$™ (10.09.2008 23:46): <br /> что бы другие быстрее понимали или без ? <p> M@k$™ (10.09.2008 23:46): <br /> если в команде программируете <p> M@k$™ (10.09.2008 23:46): <br /> мало ли кто что-то не поймёт <p> 3dPower (10.09.2008 23:46): <br /> по возможности - обязательное описание перед названием процедуры&#92;функции ее назначение и комментарии. внутри самой функции не обязательно... <p> M@k$™ (10.09.2008 23:47): <br /> ну я с этим ещё столкнусь в будущем, если прорвусь) <p> 3dPower (10.09.2008 23:47): <br /> фриман эт твой клон? <p> M@k$™ (10.09.2008 23:47): <br /> клон? <p> M@k$™ (10.09.2008 23:47): <br /> нет, это был битник aka doom <p> M@k$™ (10.09.2008 23:47): <br /> ты его разве не знаешь ? <p> 3dPower (10.09.2008 23:48): <br /> знакомый ник <p> M@k$™ (10.09.2008 23:48): <br /> понятно... <p> M@k$™ (10.09.2008 23:48): <br /> его в nfk-chat когда-то давно забанили <p> 3dPower (10.09.2008 23:49): <br /> а что бы вы сделали с исходами нфк? <p> M@k$™ (10.09.2008 23:49): <br /> ну это не меня спрашивай =) это уже самого битника <p> M@k$™ (10.09.2008 23:49): <br /> мы бы улучшили и раскрутили игру <p> M@k$™ (10.09.2008 23:50): <br /> если в общем говорить <p> 3dPower (10.09.2008 23:50): <br /> я могу попробовать откопать исходы конечно <p> M@k$™ (10.09.2008 23:50): <br /> !!! <p> M@k$™ (10.09.2008 23:50): <br /> будем очень благодарны <p> 3dPower (10.09.2008 23:51): <br /> продавать не буду, могу отдать так, но в обмен на кое что <p> M@k$™ (10.09.2008 23:51): <br /> на что например <p> 3dPower (10.09.2008 23:52): <br /> вопервых сохранения изначального авторства проекта, а второе - расположение на ваших ресурсах рекламы ти, а также включение рекламы &#92; ссылок в проект нфк и или его наследника&#92;клона. <p> M@k$™ (10.09.2008 23:52): <br /> хм... мы модумаем, я за всех отвечать не могу <p> 3dPower (10.09.2008 23:52): <br /> обсуди это с битником и компанией. и стукни завтра. на сейчас у мя дела появились. всего доброго. <p> M@k$™ (10.09.2008 23:53): <br /> удачи</span>
+
+
+<br><br><div class="edited">Сообщение отредактировал <span class="editedBy">Makc</span> - <span class="editedTime">Ср, 2008-09-10, 21:59</span></div></td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-16', 'up16', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 271719682" onclick="prompt('ICQ number','271719682');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr><tr><td class="postSeparator"></td></tr><tr id="post7309"><td class="postRest2"><table border="0" width="100%" cellspacing="1" cellpadding="2" class="postTable">
+<tr><td width="23%" class="postTdTop" align="center"><a class="postUser" href="javascript://" rel="nofollow" onClick="emoticon('[b]ScorPION[/b],');return false;">ScorPION</a></td><td class="postTdTop">Дата: Ср, 2008-04-16, 15:39 | Сообщение # <a rel="nofollow" name="7309" class="postNumberLink" href="javascript:;" onclick="prompt('Прямая ссылка к сообщению', 'http://needforkill.ru/forum/2-270-7309-16-1208345994'); return false;">10</a></td></tr>
+<tr><td class="postTdInfo" valign="top">
+<img alt="" title="ScorPION" class="userAvatar" border="0" src="../avatar/03/5027-924863.gif"><div class="postRankName">Активист</div>
+
+<div class="postRankIco"><img alt="" border="0" align="absmiddle" name="rankimg" src="../.s/rnk/5/rank7.gif" title="Ранг 7" /></div>
+<div class="postUserGroup">Группа: Модератор Форума</div>
+
+<div class="numposts">Сообщений: <span="unp">274</span></div>
+<div class="reputation">Награды: <a href="javascript://" rel="nofollow" onclick="new _uWnd('AwL', 'Список наград', 380, 200, {autosize:1, closeonesc:1, maxh:300, minh:100},{url:'/index/54-116'});return false;" title="Список наград"><span class="repNums"><b>2</b></span></a> 
+
+
+<div class="statusBlock">Статус: <span class="statusOffline">Offline</span></div>
+ 
+</td><td class="posttdMessage" valign="top" style="word-wrap: break-word;"><span class="ucoz-forum-post" id="ucoz-forum-post-7309" edit-url="">А ТИ это что? Проект его новый? Что именно?</span>
+
+<br><hr size="1" width="150" align="left" class="signatureHr"><span class="signatureView">Бобрый день.</span>
+</td></tr>
+<tr><td class="postBottom" align="center">&nbsp;</td><td class="postBottom">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr><td><a href="javascript://" rel="nofollow" onclick="window.open('/index/8-116', 'up116', 'scrollbars=1,top=0,left=0,resizable=1,width=700,height=375'); return false;"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_profile.gif" title="Профиль пользователя" /></a>    <img alt="" style="cursor:pointer;margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_icq.gif" title="ICQ: 351894404" onclick="prompt('ICQ number','351894404');" /></td><td align="right" style="padding-right:15px;">   </td><td width="2%" nowrap align="right"><a class="goOnTop" href="javascript:scroll(0,0);"><img alt="" style="margin:0;padding:0;border:0;" src="../.s/img/fr/bt/36/p_up.gif" title="Вверх" /></a></td></tr>
+</table></td></tr></table></td></tr></table></div></div><div class="gDivBottomLeft"></div><div class="gDivBottomCenter"></div><div class="gDivBottomRight"></div>
+<table class="ThrBotTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrBotRow1"><td colspan="2" class="bottomPathBar ThrBotCl11" style="padding-top:2px;"><table class="ThrForumBarTbl" border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr class="ThrForumBarRow1">
+		<td class="forumNamesBar ThrForumBarCl11" style="padding-top:3px;padding-bottom:5px;">
+			<a class="forumBar" href="../forum.html">pff.clan.su - Форум</a>  &raquo; <a class="forumBar" href="1.html">Игра NFK</a> &raquo; <a class="forumBar" href="2-0-1.html">Обсуждение игры</a> &raquo; <a class="forumBarA" href="2-270-1.html">Рискнем получить исходники движка NFK ?</a></td><td class="ThrForumBarCl12" ><script>
+function check_search(s){
+	if ($(s).find('input[type="text"]').val().length< 3){
+		_uWnd.alert('Вы ввели слишком короткий поисковой запрос.','',{w:230,h:80,tm:3000})
+		return;
+	}
+	$(s).submit();
+}
+</script>
+	<form id="thread_search_form" onsubmit="check_search(this);return false;" action="http://needforkill.ru/forum/2-270" method="GET">
+		<input class="fastNav" type="submit" value="Ok" id="thread_search_button"><input type="text" name="s" value="" placeholder="Поиск по теме" id="thread_search_field"/>
+	</form>
+		</td></tr>
+</table></td></tr>
+	<tr class="ThrBotRow2"><td class="ThrBotCl21" width="50%"><ul class="switches switchesTbl forum-pages">
+	<li class="pagesInfo">Страница <span class="curPage">1</span> из <span class="numPages">4</span></li>
+	 <li class="switchActive">1</li>
+	<li class="switch"><a class="switchDigit" href="2-270-2.html">2</a></li>
+	<li class="switch"><a class="switchDigit" href="2-270-3.html">3</a></li>
+	<li class="switch"><a class="switchDigit" href="2-270-0-17-1.html">4</a></li> <li class="switch switch-next"><a class="switchNext" href="2-270-2.html" title="Следующая">&raquo;</a></li>
+</ul></td><td class="ThrBotCl22" align="right" nowrap="nowrap"><form name="navigation" style="margin:0px"><table class="navigationTbl" border="0" cellspacing="0" cellpadding="0"><tr class="navigationRow1"><td class="fFastNavTd navigationCl11" style="padding-top:5px;padding-bottom:5px;"><select class="fastNav" name="fastnav"><option class="fastNavMain" value="0">Главная страница форума</option><option class="fastNavCat"   value="1">Игра NFK</option><option class="fastNavForumA" value="2" selected>&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение игры</option><option class="fastNavForum" value="3">&nbsp;&nbsp;&nbsp;&nbsp; Вступить в клан</option><option class="fastNavForum" value="7">&nbsp;&nbsp;&nbsp;&nbsp; Клан PFF</option><option class="fastNavForum" value="28">&nbsp;&nbsp;&nbsp;&nbsp; Клан RA</option><option class="fastNavForum" value="20">&nbsp;&nbsp;&nbsp;&nbsp; Tribes-X</option><option class="fastNavForum" value="25">&nbsp;&nbsp;&nbsp;&nbsp; Зона разработок</option><option class="fastNavForum" value="26">&nbsp;&nbsp;&nbsp;&nbsp; NFK [R2]</option><option class="fastNavCat"   value="4">Сайт</option><option class="fastNavForum" value="5">&nbsp;&nbsp;&nbsp;&nbsp; Обсуждение сайта</option><option class="fastNavForum" value="6">&nbsp;&nbsp;&nbsp;&nbsp; Флуд</option><option class="fastNavCat"   value="8">Другие игры</option><option class="fastNavForum" value="9">&nbsp;&nbsp;&nbsp;&nbsp; WarCraft III</option><option class="fastNavForum" value="10">&nbsp;&nbsp;&nbsp;&nbsp; Half-Life</option><option class="fastNavForum" value="11">&nbsp;&nbsp;&nbsp;&nbsp; Quake III, IV</option><option class="fastNavForum" value="16">&nbsp;&nbsp;&nbsp;&nbsp; StarCraft</option><option class="fastNavForum" value="17">&nbsp;&nbsp;&nbsp;&nbsp; Другие игры</option><option class="fastNavForum" value="18">&nbsp;&nbsp;&nbsp;&nbsp; MMORPG</option><option class="fastNavCat"   value="12">Другие темы</option><option class="fastNavForum" value="13">&nbsp;&nbsp;&nbsp;&nbsp; Музыка</option><option class="fastNavForum" value="14">&nbsp;&nbsp;&nbsp;&nbsp; Кино</option><option class="fastNavForum" value="15">&nbsp;&nbsp;&nbsp;&nbsp; Юмор</option><option class="fastNavForum" value="19">&nbsp;&nbsp;&nbsp;&nbsp; Жизнь</option></select><input class="fastNav" type="button" value="Ok" onclick="top.location.href='/forum/'+(document.navigation.fastnav.value!='0'?document.navigation.fastnav.value:'');" /></td></tr></table></form></td></tr>
+	<tr class="ThrBotRow3"><td class="ThrBotCl31"><div class="fFastLogin" style="padding-top:5px;padding-bottom:5px;"><input class="fastLogBt" type="button" value="Быстрый вход" onclick="new _uWnd('LF',' ',-250,-110,{autosize:1,closeonesc:1,resize:1},{url:'/index/40'});" /></div></td><td class="ThrBotCl32" align="right" nowrap="nowrap"><form method="post" action="../forum.html" style="margin:0px"><table class="FastSearchTbl" border="0" cellspacing="0" cellpadding="0"><tr class="FastSearchRow1"><td class="fFastSearchTd FastSearchCl11" style="padding-top:5px;padding-bottom:5px;">Поиск: <input class="fastSearch" type="text" style="width:150px" name="kw" placeholder="keyword" size="20" maxlength="60" /><input class="fastSearch" type="submit" value="Ok" /></td></tr></table><input type="hidden" name="a" value="6" /></form></td></tr>
+</table>
+</div><br />
+ <div class="clr"></div>
+ </div>
+ </div>
+</div>
+<!--U1BOTTOM1Z-->
+<!--/U1BOTTOM1Z-->
+<!--U1BFOOTER1Z-->
+<footer>
+ <div id="footer">
+ <div class="wrapper">
+ <div class="foot-i">
+ <!-- <copy> -->Copyright NFK players &copy; 2006 - 2019<!-- </copy> --> | <!-- "' --><span class="pbPX399l">Используются технологии <a href="https://www.ucoz.ru/"><b>uCoz</b></a></span>
+ </div>
+ </div>
+ </div>
+</footer>
+<!--/U1BFOOTER1Z-->
+<script type="text/javascript" src="../.s/t/1101/template.min.js"></script>
+
+<div style="display:none">
+ 
+</div>
+</body>
+</html>
+<!-- 0.06695 (s1) -->
